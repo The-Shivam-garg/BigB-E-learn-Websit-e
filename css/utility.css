@@ -1,0 +1,123 @@
+a{
+    color: var(--black);
+    text-decoration: none;
+}
+img{
+    width: 100%;
+    display: block;
+}
+li{
+    list-style-type: none;
+}
+h1, h2, h3, h4, h5, h6{
+    padding: 0.6rem 0;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+button {
+    outline: 0;
+    cursor: pointer;
+}
+.btn{
+    display: inline-block;
+    padding: 0.55rem;
+    font-weight: 600;
+    border: none;
+    margin: 0.4rem 0;
+    letter-spacing: 1px;
+}
+.primary-btn{
+    background: var(--cyan);
+    color: #fff;
+    font-weight: 400;
+    border-radius: 2rem;
+    padding: 0.55rem 1rem;
+    transition: var(--transition);
+}
+.primary-btn:hover{
+    background: #0e80aa;
+}
+.text{
+    color: var(--lightBlack);
+    padding: 0.6rem 0;
+}
+.lg-text{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+section{
+    padding: 4rem 0;
+}
+.title{
+    text-transform: uppercase;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: var(--Roboto);
+}
+.title-md h3{
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-size: 2rem;
+    text-align: center;
+}
+.title-sm h3{
+    font-size: 1.5rem;
+    text-align: left;
+}
+.line{
+    background: var(--cyan);
+    height: 3px;
+    width: 120px;
+    margin: 0 auto 1.5rem auto;
+}
+
+
+input {
+    outline: 0;
+    width: 100%;
+}
+input[type = "text"], input[type = "email"], select{
+    width: 100%;
+    border: none;
+    color: var(--exLight);
+    font-size: 1rem;
+    padding: 0.6rem;
+    margin: 0.6rem 0;
+    background: transparent;
+    outline: 0;
+    border-bottom: 1.5px solid var(--exLight);
+}
+input::placeholder{
+    color: var(--exLight);
+}
+.submit-btn{
+    width: auto;
+    padding: 0.7rem 1rem;
+    background: var(--cyan);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    margin: 2rem auto 0 auto;
+    cursor: pointer;
+    transition: var(--transition);
+    font-family: var(--Roboto);
+    font-size: 1rem;
+}
+.submit-btn:hover{
+    background: #0e80aa;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* stopping transition during resizing */
+.resize-transition-stopper *{
+    transition: none!important;
+}
