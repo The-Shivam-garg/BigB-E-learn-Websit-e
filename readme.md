@@ -76,7 +76,7 @@ It is completely responsive website, to provide smooth experience...😎
 <a href="https://github.com/The-Shivam-garg/BigB-E-learn-Websit-e"><img src="https://sloc.xyz/github/The-Shivam-garg/BigB-E-learn-Websit-e"    alt="LOC" /></a>
 <a href="https://github.com/The-Shivam-garg/BigB-E-learn-Websit-e"><img src="https://img.shields.io/github/stars/The-Shivam-garg/BigB-E-learn-Websit-e" alt="Stars Badge" /></a>
 <a href="https://github.com/The-Shivam-garg/BigB-E-learn-Websit-e/network/members"><img src="https://img.shields.io/github/forks/The-Shivam-garg/BigB-E-learn-Websit-e" alt="Forks Badge" /></a>
-<a href="https://github.com/The-Shivam-garg/BigB-E-learn-Websit-e/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/The-Shivam-garg/BigB-E-learn-Websit-e/color=2b9348" ></a>
+<a href="https://github.com/The-Shivam-garg/BigB-E-learn-Websit-e/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/The-Shivam-garg/BigB-E-learn-Websit-e?color=2b9348" ></a>
 
 [![GitHub license](https://img.shields.io/github/license/The-Shivam-garg/BigB-E-learn-Websit-e?logo=github)](https://github.com/The-Shivam-garg/BigB-E-learn-Websit-e/blob/master/LICENSE)
 
