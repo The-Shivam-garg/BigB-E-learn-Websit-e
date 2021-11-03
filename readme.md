@@ -79,7 +79,6 @@ It is completely responsive website, to provide smooth experience...😎
 <a href="https://github.com/The-Shivam-garg/BIgB-eLearn-website/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/The-Shivam-garg/BIgB-eLearn-website?color=2b9348" ></a>
 
 [![GitHub license](https://img.shields.io/github/license/The-Shivam-garg/BIgB-eLearn-website?logo=github)](https://github.com/The-Shivam-garg/BIgB-eLearn-website/blob/master/LICENSE)
-</div>
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
-
+</div>
