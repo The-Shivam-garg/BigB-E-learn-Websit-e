@@ -27,7 +27,7 @@ It is completely responsive website, to provide smooth experience...😎
 
 ## 🚩 Front LOOk of Main Page:
 
-![Front View](https://github.com/The-Shivam-garg/BIgB-eLearn-website/blob/39b9dcc7ef2b4c1254bd49b94295b975e4c14d57/img/front.png)
+![Front View](https://github.com/The-Shivam-garg/BigB-E-learn-Websit-e/blob/4abe43cadf0905ac862b4d0bd28e7292b7f55857/img/front.png)
 
 
 
