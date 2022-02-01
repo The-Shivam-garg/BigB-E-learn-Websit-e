@@ -21,14 +21,13 @@ html{
     line-height: 1.5;
     font-size: 1.05rem;
     text-rendering: optimizeLegibility;
-    color: var(--black);
+    
 }
 
 
 /* welcome */
-.welcome{
-    background: var(--exLight);
-}
+
+
 .welcome .row > div:first-child{
     padding: 1.5rem 0;
     display: grid;
