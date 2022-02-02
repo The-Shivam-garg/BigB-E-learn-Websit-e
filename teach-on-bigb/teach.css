@@ -1,0 +1,454 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root{
+    --mainColor: #64bcf4;
+    --hoverColor: #5bacdf;
+    --backgroundColor: #f1f8fc;
+    --darkOne: #312f3a;
+    --darkTwo: #45424b;
+    --lightOne: #919191;
+    --lightTwo: #aaa;
+    --yellow: #e3d810;
+    --magenta: #d9138a;
+    --cyan: #12a4d9;
+    --black: #322e2f;
+    --lightBlack: #a29a9c;
+    --exLight: #f4f3f3;
+    --transition: all 0.4s ease-in-out;
+    --Heebo: 'Heebo', sans-serif;
+    --Roboto: 'Robot', sans-serif;
+}
+
+/* **************** Navbar starts ***************** */
+nav{
+    margin: 1rem;
+}
+
+nav .nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.overlay {
+  display: none;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.logo img {
+  width: 40px;
+  margin-right: 0.6rem;
+  margin-top: -0.6rem;
+}
+
+.logo h3 {
+  color: var(--darkTwo);
+  font-size: 1.55rem;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+.links ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.links  a {
+  text-decoration: none;
+  color: var(--lightTwo);
+  margin-left: 4.5rem;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.links a:hover {
+  color: var(--hoverColor);
+  transform: scale(1.05);
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.9rem 1.9rem;
+  color: #fff !important;
+  background-color: var(--mainColor);
+  border-radius: 16px;
+  text-transform: capitalize;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: var(--hoverColor);
+  transform: scale(1) !important;
+}
+
+.hamburger-menu {
+  position: relative;
+  z-index: 99;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  display: none;
+}
+
+.hamburger-menu .bar {
+  position: relative;
+  width: 100%;
+  height: 3px;
+  background-color: var(--darkTwo);
+  border-radius: 3px;
+  transition: 0.5s;
+}
+
+.bar::before,
+.bar::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--darkTwo);
+  border-radius: 3px;
+  transition: 0.5s;
+}
+
+.bar::before {
+  transform: translateY(-8px);
+}
+
+.bar::after {
+  transform: translateY(8px);
+}
+
+/* **************** Navbar ends ***************** */
+
+/* **************** Header starts ***************** */
+
+
+.teacher-bg{
+    width: 100%;
+    height: 90%;
+}
+
+.header-box{
+    position: absolute;
+    top: 40vh;
+    left: 10%;
+    width: 25%;
+}
+
+.header-text{
+    font-size: 20px;
+}
+
+.header-box h1{
+    font-size: 50px;
+}
+
+.header-cta-btn{
+    padding: 1rem 6rem;
+    font-size: 25px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    background-color: var(--mainColor);
+    color: white;
+}
+
+.header-cta-btn:hover{
+    background-color: var(--hoverColor);
+}
+/* **************** Header ends ***************** */
+
+/* ************** Why join us section starts ********** */
+
+.why-section{
+    margin-top: 5vh;
+    height: 70vh;
+}
+
+.why-section-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    font-size: 40px;
+    font-weight: 600;
+}
+.why-section-card-box{
+    height: 80%;
+    display: flex;
+}
+
+.why-section-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-header{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.card-text{
+    padding-top: 1rem;
+    width: 50%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.card-img{
+    width: 100px;
+    height: 100px;
+}
+/* ************** Why join us section ends ********** */
+
+/* ******************* Number tag starts ************ */
+.number-tag{
+    height: 25vh;
+    width: 100%;
+    background-color: var(--mainColor);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.number-tag-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.num-card-header{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.num-card-text{
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
+/* ******************* Number tag ends ************ */
+
+/* ******************* Teacher Feedback starts ************ */
+
+.teacher-feedback{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.feedback-box{
+    width: 100%;
+    height: 70%;
+    background-color: var(--backgroundColor);
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  .mySlides {
+    display: none;
+  }
+
+  .mySlides > img{
+    width: 30vw;
+    height: 70vh;
+    padding:2rem 0;
+    margin-left: 5rem;
+  }
+  
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px ;
+    color: var(--backgroundColor);
+    background-color: var(--lightOne);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  .prev{
+    left: -4rem;
+  }
+  .next {
+    right: -1rem;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  .text {
+    font-size: 15px;
+    padding: 1rem;
+    position: absolute;
+    top: 0;
+    left: 40vw;
+    width: 33.4vw;
+    height: 70vh;
+    text-align: center;
+  }
+
+  .feedback-text{
+    padding:1rem 2rem;
+    text-align: start;
+    font-size: 26px;
+
+  }
+
+  .feedback-text img {
+    position: absolute;
+    top: 2rem;
+    left: 0.5rem;
+  }
+
+  .teacher-name-field{
+    font-size: 20px;
+    font-weight: 600;
+    padding:1rem 2rem;
+    text-align: start;
+  }
+
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+/* ******************* Teacher Feedback ends ************ */
+
+/* ******************* Footer starts ************ */
+.row-container{
+  display: flex;
+  justify-content: space-evenly;
+}
+footer{
+  background: var(--black);
+  color: #fff;
+  padding: 4rem 0;
+  font-size: 1.2rem;
+}
+footer .row > div{
+  text-align: center;
+}
+
+.footer-social-links{
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+.footer-social-links li{
+  border: 2px solid #fff;
+  width: 40px;
+  height: 40px;
+  margin-right: 0.5rem;
+  border-radius: 50%;
+}
+.footer-social-links li:hover{
+  border-color: var(--cyan);
+}
+.footer-social-links a{
+  color: #fff;
+  transition: var(--transition);
+}
+.footer-social-links li:hover a{
+  color: var(--cyan);
+}
+.footer-links a{
+  color: var(--lightBlack);
+  display: block;
+  margin: 0.6rem 0;
+  transition: var(--transition);
+}
+.footer-links a:hover{
+  color: var(--exLight);
+}
+.footer-contact-info span{
+  color: var(--lightBlack);
+}
+.footer-contact-info div{
+  margin: 0.6rem 0;
+}
+.footer-logo{
+  width: 50px;
+  margin-left:8rem ;
+}
+.footer-text{
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 1rem;
+}
+.footer-text span{
+  color: var(--cyan);
+}
+.lg-text{
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.p-text {
+  color: var(--lightOne);
+  padding: 0.6rem;
+  font-size: 1.1rem;
+  width: 25vw;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+  color: var(--black);
+  text-decoration: none;
+}
+
+/* ******************* Footer ends ************ */
