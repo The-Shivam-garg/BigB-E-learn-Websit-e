@@ -55,20 +55,19 @@ h2{
     font-family: var(--Lexend);
 }
 
-h3{
+h3 {
     font-family: var(--Abel);
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 
-button.btn{
+button.btn {
     border: none;
     border-radius: 2rem;
     padding: 1rem 3rem;
-    font-size: 1rem;
+    font-size: 1.25rem;
     font-family: var(--Livvic);
     cursor: pointer;
 }
-
 span{
     font-family: var(--Abel);
 }
@@ -81,11 +80,10 @@ span{
     color: var(--text-gray);
 }
 
-p{
+p {
     font-family: var(--Lexend);
-    color: var(--text-light);
+    color: #37bd92;
 }
-
 /* ------x------- Global Classes -------x-------*/
 
 /* --------------- navbar ----------------- */
@@ -205,11 +203,10 @@ header {
   
   .logo h3 {
     color: var(--darkTwo);
-    font-size: 1.55rem;
-    line-height: 1.2;
-    font-weight: 700;
-  }
-  
+    font-size: 2rem;
+    line-height: 1;
+    font-weight: 600;
+}
   .links ul {
     display: flex;
     list-style: none;
@@ -231,12 +228,12 @@ header {
   .btn {
     display: inline-block;
     padding: 0.9rem 1.9rem;
-    color: #fff !important;
+    color: #08a215 !important;
     background-color: var(--mainColor);
     border-radius: 16px;
     text-transform: capitalize;
     transition: 0.3s;
-  }
+}
   
   .btn:hover {
     background-color: var(--hoverColor);
@@ -316,10 +313,10 @@ main .site-title{
     justify-content: center;
 }
 
-main .site-title .site-background{
+main .site-title .site-background {
     padding-top: 10rem;
     text-align: center;
-    color: var(--white);
+    color: #00ff14;
 }
 
 main .site-title h1, h3{
@@ -494,10 +491,10 @@ main .post-content .post-title a{
     justify-content: space-between;
 }
 
-.site-content > .sidebar .category-list .list-items a{
-    color:  black;
+.site-content > .sidebar .category-list .list-items a {
+    color: #240707;
+    font-weight: bold;
 }
-
 .site-content .sidebar .popular-post .post-content{
     padding: 1rem 0;
 }
@@ -577,10 +574,9 @@ footer.footer .container > div{
     padding: 3rem .9rem;
 }
 
-footer.footer .container h2{
-    color: var(--white);
+footer.footer .container h2 {
+    color: #fdff63;
 }
-
 footer.footer .newsletter .form-element{
     background: black;
     display: inline-block;
