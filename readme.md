@@ -11,7 +11,7 @@ This is an Open-Source Educational Website, which Cover all the Educational rela
  who are willing to solve problems on different topics. We have also added  
  Interview questions for students who are preparing for placements.  
   
-<h2>In development Phase  <BR>
+<h2>IN DEVELOPMENT PHASE  <BR>
 <a href="https://the-shivam-garg.github.io/BigB-E-learn-Websit-e/" target="_blank">Visit 🚀</a>
 </h2> 
 
@@ -23,7 +23,7 @@ It is completely responsive website, to provide smooth experience...😎
 ![Small Preview](https://github.com/The-Shivam-garg/BigB-E-learn-Websit-e/blob/57660e540ad8ee9940b16af080d8630e2c416f88/img/small%20view.png)  
 
 
-## 🚩 Front LOOk of Main Page:
+## 🚩 FRONT LOOK OF MAIN PAGE:
 
 ![Front View](https://github.com/The-Shivam-garg/BigB-E-learn-Websit-e/blob/4abe43cadf0905ac862b4d0bd28e7292b7f55857/img/front.png)
 
@@ -48,6 +48,7 @@ It is completely responsive website, to provide smooth experience...😎
 [![SAAS](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)]
 [![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)]
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)]
+
 
 <h2>📬 Contact</h2>
 
@@ -81,6 +82,12 @@ I have started a Community named Techbenchers Community [Community for ALL] Wher
    
  </div>
 
+<h1 align=center> OUR VALUABLE CONTRIBUTORS✨ </h1>
+ <p align="center">
+  <a href="https://github.com/The-Shivam-garg/BigB-E-learn-Websit-e.git/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=The-Shivam-garg/BigB-E-learn-Websit-e"/>
+</a>
+ 
  <h1> Contributing Guidelines </h1>
 
 ## Basics of Git and GitHub
