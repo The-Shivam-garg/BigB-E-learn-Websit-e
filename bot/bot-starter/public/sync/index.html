@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tic-Tac-Twilio - Sync Quickstart</title>
+    <link rel="shortcut icon" href="//www.twilio.com/marketing/bundles/marketing/img/favicons/favicon.ico">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header>
+    <a href="https://www.twilio.com/docs/api/sync/quickstart-js"
+       target="_blank">
+        Read the getting started guide
+        <i class="fa fa-fw fa-external-link"></i>
+    </a>
+  </header>
+
+  <section>
+    <h1>Tic-Tac-Twilio</h1>
+
+    <div id="board">
+      <div class="board-row">
+        <button type="button" data-row="0" data-col="0" disabled>&nbsp;</button>
+        <button type="button" data-row="0" data-col="1" disabled>&nbsp;</button>
+        <button type="button" data-row="0" data-col="2" disabled>&nbsp;</button>
+      </div>
+      <div class="board-row">
+        <button type="button" data-row="1" data-col="0" disabled>&nbsp;</button>
+        <button type="button" data-row="1" data-col="1" disabled>&nbsp;</button>
+        <button type="button" data-row="1" data-col="2" disabled>&nbsp;</button>
+      </div>
+      <div class="board-row">
+        <button type="button" data-row="2" data-col="0" disabled>&nbsp;</button>
+        <button type="button" data-row="2" data-col="1" disabled>&nbsp;</button>
+        <button type="button" data-row="2" data-col="2" disabled>&nbsp;</button>
+      </div>
+    </div>
+
+    <div id="message">
+      Welcome! Initializing Sync...
+    </div>
+
+    <p>Open this page in a few tabs to test!</p>
+  </section>
+
+  <script src="//media.twiliocdn.com/sdk/js/sync/releases/3.0.1/twilio-sync.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
