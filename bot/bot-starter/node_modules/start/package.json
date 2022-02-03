@@ -1,0 +1,35 @@
+{
+  "name": "start",
+  "version": "5.1.0",
+  "description": "Highly composable and modular Nodejs tasks runner for the new functional JS era",
+  "keywords": [
+    "tasks",
+    "runner",
+    "start"
+  ],
+  "homepage": "https://github.com/start-runner/start",
+  "repository": "start-runner/start",
+  "author": "Kir Belevich <kir@soulshine.in> (https://github.com/deepsweet)",
+  "files": [
+    "build/"
+  ],
+  "main": "build/index.js",
+  "devDependencies": {
+    "babel-preset-start": "^0.1.0",
+    "eslint-config-tough": "^0.3.2",
+    "husky": "^0.12.0",
+    "sinon": "^1.17.5",
+    "start-babel-cli": "^4.0.0",
+    "start-start-preset": "^3.0.0",
+    "tape": "^4.6.0"
+  },
+  "scripts": {
+    "start": "start-runner -p start-start-preset",
+    "prepush": "yarn start prepush",
+    "prepublish": "yarn start build"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "license": "MIT"
+}
