@@ -1,3 +1,30 @@
+@media screen and (max-width: 480px){
+    .newsletter h3{
+        font-size: 2.5rem;
+        width: auto;
+    }
+    .newsletter p{
+        font-size: 1.2rem;
+        width: auto;
+    } 
+    .newsletter form input[type="email"]{
+        font-size: 0.8rem;
+    }
+    .newsletter form input[type="submit"]{
+        font-size: 1.1rem;
+        width: 11.5rem;
+    }
+    .testimonial-heading span{
+        font-size: 2rem;
+    }
+    .testimonial-heading h1 {
+        font-size: 1.1rem;
+    }
+
+
+}
+
+
 @media screen and (min-width: 480px){
 
     .header-top-info .row div:first-child span{
@@ -37,6 +64,9 @@
 
 
 @media screen and (min-width: 768px){
+    header .links li a {
+        margin-left: 3rem;
+    } 
     .hero-slider{
         width: 80%;
         margin: 0 auto;
@@ -85,6 +115,7 @@
 }
 
 @media screen and (min-width: 992px){
+  
     .header-top-info .row{
         display: flex;
         justify-content: space-between!important;
@@ -176,6 +207,10 @@
 }
 
 @media screen and (min-width: 1200px){
+    header .links li a {
+        margin-left: 4.3rem;
+    } 
+ 
     .hero-title{
         font-size: 4rem;
     }
