@@ -367,6 +367,62 @@ nav .nav-container {
   }
 /* ******************* Teacher Feedback ends ************ */
 
+/* ******************* Course Starts ************ */
+.teacher-course{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.course-header{
+  font-size: 40px;
+  font-weight: 600;
+  height: 20vh;
+}
+
+.course-box{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.course-domain{
+  width: 60%;
+}
+
+.categories-box{
+  width: 30%;
+}
+
+.categories-box h3 {
+  font-size: 2.2rem;
+  padding: 1rem 0;
+  color: #302851;
+}
+
+.categories-box a {
+  display: block;
+  font-size: 1.4rem;
+  padding: 1rem 0;
+  color: #666;
+}
+
+.categories-box a:hover {
+  color: #fa1d86;
+}
+
+.categories-box a:hover i {
+  padding-right: 2rem;
+  transition: all ease-in-out 0.4s;
+}
+
+.categories-box a i {
+  color: #fa1d86;
+  padding-right: .5rem;
+}
+/* ******************* Course ends ************ */
+
 /* ******************* Footer starts ************ */
 .row-container{
   display: flex;
