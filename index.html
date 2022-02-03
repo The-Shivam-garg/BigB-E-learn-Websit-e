@@ -29,6 +29,7 @@
 </head>
 
 <body>
+    <div id="preloader"></div>
     <main>
         <div class="big-wrapper light">
             <img src="img/shape.png" alt="" class="shape" />
@@ -566,6 +567,14 @@
         //   Init All ------------------
         $(document).ready(function() {
             initParadoxWay();
-        }); <
-        /body> <
-        /html>
+        }); 
+        </script>
+        <script>
+            var preloader = document.getElementById("preloader");
+
+            window.addEventListener("load", function(){
+                preloader.style.display = "none";
+            })
+        </script>
+        </body>
+        </html>

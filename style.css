@@ -1,5 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
+
+/* preloader */
+#preloader{
+  background: #f1f8fc url("img/preloader.gif") no-repeat center center;
+  background-size: 35%;
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  z-index: 100;
+}
+
 .light {
   --mainColor: #64bcf4;
   --hoverColor: #5bacdf;
