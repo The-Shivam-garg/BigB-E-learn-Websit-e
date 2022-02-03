@@ -1,0 +1,41 @@
+{
+  "name": "sdk-starter-node",
+  "version": "1.0.0",
+  "description": "Starter Server Application for Node.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "NODE_ENV=test && jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TwilioDevEd/sdk-starter-node.git"
+  },
+  "author": "Twilio Developer Education",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TwilioDevEd/sdk-starter-node/issues"
+  },
+  "homepage": "https://github.com/TwilioDevEd/sdk-starter-node#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "camelcase": "^6.2.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "extend": "^3.0.2",
+    "pug": "^3.0.2",
+    "start": "^5.1.0",
+    "test": "^0.6.0",
+    "twilio": "^3.66.0"
+  },
+  "devDependencies": {
+    "jest": "^27.4.7",
+    "jest-extended": "^0.11.5",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "jest-extended"
+    ]
+  }
+}
