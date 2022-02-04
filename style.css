@@ -1,16 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-
-/* preloader */
-#preloader{
-  background: #f1f8fc url("img/preloader.gif") no-repeat center center;
-  background-size: 35%;
-  position: fixed;
-  height: 100vh;
-  width: 100%;
-  z-index: 100;
-}
-
 .light {
   --mainColor: #64bcf4;
   --hoverColor: #5bacdf;
@@ -38,7 +27,6 @@
   margin: 0;
   box-sizing: border-box;
 }
-
 
 body {
   font-family: "Poppins", sans-serif;
@@ -164,7 +152,6 @@ header .container {
   background-color: var(--darkTwo);
   border-radius: 3px;
   transition: 0.5s;
-  overflow-x: unset;
 }
 
 .bar::before,
@@ -198,6 +185,113 @@ header .container {
   transform: translateY(0) rotate(45deg);
 }
 
+
+
+
+
+.popup{
+  
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  
+  display: none;
+  
+}
+
+
+
+.contentbox{
+  position: relative;
+  width: 600px;
+  height: 400px;
+  background: rgb(255, 253, 253);
+  border-radius: 10%;
+  display: flex;
+  flex-direction: column;
+}
+.contentbox .imgbx {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contentbox .imgbx img{
+  position: relative;
+  max-width: 250px;
+
+
+}
+.contentbox .content{
+  position: relative;
+  left: 20%;
+  height: 400px;
+  width: 1000px;
+  display: flex;
+  /* justify-content: center; */
+  text-align: center;
+  align-items: center;
+}
+.contentbox .content h2{
+  position: relative;
+  top: 0px;
+color: #000000;
+line-height: 1em;
+font-weight: bold;
+font-size: 1.5em;
+
+text-align: center;
+}
+.contentbox .content p{
+  font-weight: 500;
+  font-size: 1em; ;
+}
+.contentbox .content a{
+  display: inline-block;
+  padding: 10px;
+  background: hsl(0, 54%, 51%);
+  color: white;
+  text-decoration: none;
+ margin: 10px;
+  border-radius: 10px;
+
+}
+.close{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  font-size: 1.5rem;
+  background-repeat: no-repeat;
+  background-size: 10px;
+  background-position: center;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.overlayser {
+  position: fixed;
+  opacity: 1;
+  display: none;
+  
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .5);
+  pointer-events: none;
+  z-index: 999;
+}
+
+
+
+
+
 .showcase-area .container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -223,7 +317,6 @@ header .container {
 .showcase-area .btn {
   box-shadow: 0 0 40px 2px rgba(0, 0, 0, 0.05);
 }
-
 
 .person {
   width: 123%;
@@ -298,7 +391,6 @@ header .container {
   .hamburger-menu {
     display: flex;
   }
-
 
   .links {
     position: fixed;

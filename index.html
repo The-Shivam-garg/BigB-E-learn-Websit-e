@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -18,20 +18,19 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/utility.css">
-    <!--Fav-icon------------------------------>
+    <!-- Fav-icon -->
     <link rel="shortcut icon" href="images/fav-icon.png" />
-    <!--poppins-font-family------------------->
+    <!-- poppins-font-family -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <!--using-Font-Awesome-------------------->
+    <!-- using-Font-Awesome -->
     <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
 
 </head>
 
 <body>
-    <div id="preloader"></div>
     <main>
-        <div class="big-wrapper light">
+        <div class="big-wrapper light" >
             <img src="img/shape.png" alt="" class="shape" />
 
             <header>
@@ -43,13 +42,13 @@
 
                     <div class="links">
                         <ul>
-                            <li><a href="/bigB/index.html">HOME</a></li>
-                            <li><a href="#welcome">About</a></li>
-                            <li><a href="./Course/Courses.html">Courses</a></li>
-                            <li><a href="#">Features</a></li>
-                            <li><a href="./Blog/blog.html">Blogs</a></li>
-                            <li><a href="./contact/contact.html">Contact US</a></li>
-                            <li><a href="./log in/Login.html" class="btn">Sign up</a></li>
+                            <li><a href="./index.html">HOME</a></li>
+                            <li><a href="#welcome">ABOUT</a></li>
+                            <li><a href="./Course/Courses.html">COURSES</a></li>
+                            <li><a href="#">FEATURES</a></li>
+                            <li><a href="./Blog/blog.html">BLOGS</a></li>
+                            <li><a href="./contact/contact.html">CONTACT US</a></li>
+                            <li><a href="./log in/Login.html" class="btn">SIGN UP</a></li>
                         </ul>
                     </div>
 
@@ -60,7 +59,24 @@
                     </div>
                 </div>
             </header>
-
+            <div class="popup"  >
+                <!-- <div style="background-image: url('celebration.webp');"> -->
+                <div class="contentbox">
+                    <div class="close">&times;</div>
+                    <div class="imgbx">
+                        <img src="/popup/newcourse.jpg" alt="NEW COURSE" class="src">
+                        <div class="content">
+                            <div>
+                                <h2>NEW COURSES AVAILABLE</h2>
+                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis expedita debitis placeat natus hic cupiditate! Exercitationem zdkjdchs djkj  </p>
+                             <a href="./Course/Courses.html">GO TO COURSES</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="overlayser"></div>
+            
             <div class="showcase-area">
                 <div class="container">
                     <div class="left">
@@ -122,11 +138,10 @@
 
                 <div>
                     <div class="title title-sm">
-                        <h3>Want to teach ?</h3>
+                        <h3>Feel Free To Ask</h3>
                     </div>
-                    <p class="lg-text">Discover Teach-on-BigB</p>
-                    <!-- ************** Changes are made after asking the mentor ********** -->
-                    <a href="/teach-on-bigb/teach.html">Find Out More <i class = "fas fa-arrow-right"></i></a>
+                    <p class="lg-text">Discover Edcademy</p>
+                    <a href="/bigB/Course/courses.html">Find Out More <i class = "fas fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>
@@ -517,8 +532,9 @@
 
     <script src="https://kit.fontawesome.com/a81368914c.js"></script>
     <script src="./app.js"></script>
+    <script src="/popup/popupjs.js"></script>
     <script>
-        //all ------------------
+        
         function initParadoxWay() {
             "use strict";
 
@@ -549,9 +565,6 @@
                 });
             }
 
-            // bubbles -----------------
-
-
             setInterval(function() {
                 var size = randomValue(sArray);
                 $('.bubbles').append('<div class="individual-bubble" style="left: ' + randomValue(bArray) + 'px; width: ' + size + 'px; height:' + size + 'px;"></div>');
@@ -564,18 +577,3 @@
             }, 350);
 
         }
-
-        //   Init All ------------------
-        $(document).ready(function() {
-            initParadoxWay();
-        }); 
-        </script>
-        <script>
-            var preloader = document.getElementById("preloader");
-
-            window.addEventListener("load", function(){
-                preloader.style.display = "none";
-            })
-        </script>
-        </body>
-        </html>
