@@ -65,7 +65,7 @@
                 <div class="contentbox">
                     <div class="close">&times;</div>
                     <div class="imgbx">
-                        <img src="/popup/newcourse.jpg" alt="NEW COURSE" class="src">
+                        <img src="newcourse.jpg" alt="NEW COURSE" class="src">
                         <div class="content">
                             <div>
                                 <h2>NEW COURSES AVAILABLE</h2>
@@ -533,6 +533,25 @@
 
     <script src="https://kit.fontawesome.com/a81368914c.js"></script>
     <script src="./app.js"></script>
+ <script>
+  const popup= document.querySelector('.popup');
+const close =document.querySelector('.close');
+const overlayser = document.querySelector('.overlayser')
+
+window.onload = function(){
+    setTimeout(function(){
+        popup.style.display="block";
+        overlayser.style.display="block";
+    },2000)
+}
+
+close.addEventListener('click', ()=>{
+    popup.style.display="none";
+    overlayser.style.display="none";
+    
+})
+
+ </script>
     <script>
         //all ------------------
         function initParadoxWay() {
