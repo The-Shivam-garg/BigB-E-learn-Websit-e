@@ -11,7 +11,7 @@ html, body{
 :root{
 
     /*      Theme colors        */
-    --text-gray: #3f4954;
+    
     --text-light : #686666da;
     --bg-color: #0f0f0f;
     --white: #ffffff;
@@ -33,7 +33,7 @@ html, body{
 
 a{
     text-decoration: none;
-    color: var(--text-gray);
+    color: var(--darkOne);
 }
 
 .flex-row{
@@ -71,8 +71,12 @@ button.btn{
 
 span{
     font-family: var(--Abel);
+    color: black;
 }
-
+.blog-title span{
+    font-family: var(--Abel);
+    color: var(--darkOne);
+}
 .container{
     margin: 0 5vw;
 }
@@ -83,7 +87,7 @@ span{
 
 p{
     font-family: var(--Lexend);
-    color: var(--text-light);
+    color: var(--darkTwo);
 }
 
 /* ------x------- Global Classes -------x-------*/
