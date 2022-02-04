@@ -28,9 +28,9 @@ body {
 
 /* ---------------- Global Classes ---------------*/
 
-a{
-    text-decoration: none;
-    color: var(--darkOne);
+a {
+  text-decoration: none;
+  color: var(--text-gray);
 }
 
 .flex-row {
@@ -65,30 +65,23 @@ button.btn {
     font-family: var(--Livvic);
     cursor: pointer;
 }
-
-
 span{
     font-family: var(--Abel);
-    color: black;
+
 }
 
-.blog-title span{
-    font-family: var(--Abel);
-    color: var(--darkOne);
-}
-.container{
-    margin: 0 5vw;
+.container {
+  margin: 0 5vw;
 }
 
 .text-gray {
   color: var(--text-gray);
 }
 
-
-p{
+p {
     font-family: var(--Lexend);
-    color: var(--darkTwo);
-
+    color: #37bd92;
+ 
 }
 /* ------x------- Global Classes -------x-------*/
 
