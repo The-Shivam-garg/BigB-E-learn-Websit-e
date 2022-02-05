@@ -60,7 +60,23 @@
                     </div>
                 </div>
             </header>
-
+ <div class="popup"  >
+                <!-- <div style="background-image: url('celebration.webp');"> -->
+                <div class="contentbox">
+                    <div class="close">&times;</div>
+                    <div class="imgbx">
+                        <img src="newcourse.jpg" alt="NEW COURSE" class="src">
+                        <div class="content">
+                            <div>
+                                <h2>NEW COURSES AVAILABLE</h2>
+                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis expedita debitis placeat natus hic cupiditate! Exercitationem zdkjdchs djkj  </p>
+                             <a href="./Course/Courses.html">GO TO COURSES</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="overlayser"></div>
             <div class="showcase-area">
                 <div class="container">
                     <div class="left">
@@ -517,6 +533,25 @@
 
     <script src="https://kit.fontawesome.com/a81368914c.js"></script>
     <script src="./app.js"></script>
+ <script>
+  const popup= document.querySelector('.popup');
+const close =document.querySelector('.close');
+const overlayser = document.querySelector('.overlayser')
+
+window.onload = function(){
+    setTimeout(function(){
+        popup.style.display="block";
+        overlayser.style.display="block";
+    },2000)
+}
+
+close.addEventListener('click', ()=>{
+    popup.style.display="none";
+    overlayser.style.display="none";
+    
+})
+
+ </script>
     <script>
         //all ------------------
         function initParadoxWay() {
