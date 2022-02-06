@@ -243,7 +243,7 @@
                 <div class="title title-sm">
                     <h3>Students enrolled</h3>
                 </div>
-                <span class="num">2303</span>
+                <span class="num" id="counting">0</span>
             </div>
             <div class="item">
                 <div class="title title-sm">
@@ -273,12 +273,21 @@
         <p>TO get Newly Updates we would suggest to Subscribe Our Newsletter,As We Believe the fact that learning is a lifelong process of keeping abreast of change.</p>
         <form action="mailto:shivanshgarg2018@gmail.com" method="post" enctype="text/plain">
             <input type="email" placeholder="enter your email">
-            <input type="submit" value="Subscribe">
+            <input type="submit" value="Subscribe" onclick="viewcount()">
         </form>
 
     </div>
 
+    <script>
+        var count=(function(){
+            var counter=0;
+            return function() {return counter +=1;}
+        })();
 
+        function viewcount(){
+            document.getElementById('counting').innerHTML=count();
+        }
+    </script>
 
     <!-- review section ends -->
 
