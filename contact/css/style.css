@@ -343,7 +343,7 @@ section {
 
 .contact .row form h3 {
   font-size: 2.5rem;
-  color: #302851;
+  color: var(--darkTwo);
   margin-bottom: .5rem;
 }
 
@@ -386,7 +386,7 @@ section {
 .footer .box-container .box h3 {
   font-size: 2.2rem;
   padding: 1rem 0;
-  color: #302851;
+  color: var(--darkTwo);
 }
 
 .footer .box-container .box a {
