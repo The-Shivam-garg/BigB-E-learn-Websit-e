@@ -43,7 +43,7 @@
 
                     <div class="links">
                         <ul>
-                            <li><a href="/bigB/index.html">HOME</a></li>
+                            <li><a href="#">HOME</a></li>
                             <li><a href="#welcome">About</a></li>
                             <li><a href="./Course/Courses.html">Courses</a></li>
                             <li><a href="#">Features</a></li>
@@ -60,7 +60,25 @@
                     </div>
                 </div>
             </header>
+ <div class="popup"  >
+     
+                <!-- <div style="background-image: url('celebration.webp');"> -->
+                <div class="contentbox">
+                    <div class="close">&times;</div>
+                    <div class="imgbx">
+                        <img src="newcourse.jpg" alt="NEW COURSE" class="src">
+                        <div class="content">
+                            <div>
+                                <h2>NEW COURSES AVAILABLE</h2>
+                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis expedita debitis placeat natus hic cupiditate! Exercitationem zdkjdchs djkj  </p>
+                             <a href="./Course/Courses.html">GO TO COURSES</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
+            </div>
+            <div class="overlayser"></div>
             <div class="showcase-area">
                 <div class="container">
                     <div class="left">
@@ -227,7 +245,7 @@
                 <div class="title title-sm">
                     <h3>Students enrolled</h3>
                 </div>
-                <span class="num">2303</span>
+                <span class="num" id="counting">0</span>
             </div>
             <div class="item">
                 <div class="title title-sm">
@@ -257,12 +275,21 @@
         <p>TO get Newly Updates we would suggest to Subscribe Our Newsletter,As We Believe the fact that learning is a lifelong process of keeping abreast of change.</p>
         <form action="mailto:shivanshgarg2018@gmail.com" method="post" enctype="text/plain">
             <input type="email" placeholder="enter your email">
-            <input type="submit" value="Subscribe">
+            <input type="submit" value="Subscribe" onclick="viewcount()">
         </form>
 
     </div>
 
+    <script>
+        var count=(function(){
+            var counter=0;
+            return function() {return counter +=1;}
+        })();
 
+        function viewcount(){
+            document.getElementById('counting').innerHTML=count();
+        }
+    </script>
 
     <!-- review section ends -->
 
@@ -517,6 +544,25 @@
 
     <script src="https://kit.fontawesome.com/a81368914c.js"></script>
     <script src="./app.js"></script>
+ <script>
+  const popup= document.querySelector('.popup');
+const close =document.querySelector('.close');
+const overlayser = document.querySelector('.overlayser')
+
+window.onload = function(){
+    setTimeout(function(){
+        popup.style.display="block";
+        overlayser.style.display="block";
+    },2000)
+}
+
+close.addEventListener('click', ()=>{
+    popup.style.display="none";
+    overlayser.style.display="none";
+    
+})
+
+ </script>
     <script>
         //all ------------------
         function initParadoxWay() {

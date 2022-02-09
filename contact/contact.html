@@ -9,7 +9,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contact</title>
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    
+
     <style>
+        
+.big-wrapper {
+  position: relative;
+  padding: 1.7rem 0 2rem;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: var(--backgroundColor);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.light {
+  --mainColor: #64bcf4;
+  --hoverColor: #5bacdf;
+  --backgroundColor: #f1f8fc;
+  --darkOne: #312f3a;
+  --darkTwo: #45424b;
+  --lightOne: #919191;
+  --lightTwo: #aaa;
+}
+.dark {
+  --mainColor: #64bcf4;
+  --hoverColor: #5bacdf;
+  --backgroundColor: #192e3a;
+  --darkOne: #f3f3f3;
+  --darkTwo: #fff;
+  --lightOne: #ccc;
+  --lightTwo: #e7e3e3;
+}
+
         /* Google Font Link */
         
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
@@ -411,17 +445,26 @@
 
 
     <!--navbar section ends here-->
-
+    <main>
+         <div class="big-wrapper light"> 
     <section class="heading">
         <h3>contact us</h3>
         <p> <a href="home.html">home >></a> contact </p>
+        
     </section>
+    <div style="margin-left:10%; width:50%;"class="bottom-area">
+        <div class="container">
+            <button class="toggle-btn">
+      <i class="far fa-moon"></i>
+      <i class="far fa-sun"></i>
+    </button>
+        </div>
+    </div>
+    <section class="contact " >
 
-    <section class="contact">
+        <div class="icons-container " >
 
-        <div class="icons-container">
-
-            <div class="icons">
+            <div class="icons" >
                 <i class="fas fa-phone"></i>
                 <h3>our number</h3>
                 <p>+123-456-7890</p>
@@ -435,7 +478,7 @@
                 <p>emailme@gmail.com</p>
             </div>
 
-            <div class="icons">
+            <div class="icons" >
                 <i class="fas fa-map-marker-alt"></i>
                 <h3>our address</h3>
                 <p>UttarPradesh, india - 282007</p>
@@ -443,9 +486,9 @@
 
         </div>
 
-        <div class="row">
+        <div class="row" >
 
-            <form action="mailto:shivanshgarg2018@gmail.com" method="post" enctype="text/plain">
+            <form style="background-color:var(--whiteOne)" action="mailto:shivanshgarg2018@gmail.com" method="post" enctype="text/plain">
 
                 <h3>get in touch</h3>
                 <input type="text" placeholder="your name" class="box">
@@ -461,7 +504,8 @@
         </div>
 
     </section>
-
+    </div>
+</main>
 
 
 
@@ -553,7 +597,8 @@
     </script>
     <!-- custom js file link  -->
     <script src="js/script.js"></script>
-
+    <script src="./js/main.js"></script>
+    <script src="../app.js"></script>
 </body>
 
 </html>
