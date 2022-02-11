@@ -672,6 +672,16 @@ footer.footer .move-up span:hover {
     padding: 1rem;
     width: 90%;
   }
+  .container .post-content .post-image img {
+    width: 100%;
+  }
+  input {
+    padding: 1rem 2rem;
+    margin: 1rem;
+  }
+  .form-btn {
+    margin: 0.5rem 1rem;
+  }
 }
 
 /*      x       Viewport less then or equal to 1130px    x     */
@@ -757,6 +767,9 @@ footer.footer .move-up span:hover {
   .big-wrapper.active .overlay {
     pointer-events: all;
     opacity: 1;
+  }
+  .container .post-content .post-image img {
+    width: 100%;
   }
 }
 
