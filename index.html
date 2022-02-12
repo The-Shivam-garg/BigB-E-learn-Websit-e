@@ -61,7 +61,6 @@
                 </div>
             </header>
  <div class="popup"  >
-     
                 <!-- <div style="background-image: url('celebration.webp');"> -->
                 <div class="contentbox">
                     <div class="close">&times;</div>
@@ -76,7 +75,6 @@
                         </div>
                     </div>
                 </div>
-
             </div>
             <div class="overlayser"></div>
             <div class="showcase-area">
@@ -193,24 +191,63 @@
                 <h3>Join Free Online Courses</h3>
                 <div class="line"></div>
             </div>
-            <form class="online-course-form">
+            <form class="online-course-form" name="form-sheet" method="post">
                 <div>
-                    <input type="text" class="form-control" placeholder="Full Name">
-                    <input type="email" class="form-control" placeholder="E-mail">
-                    <select>
-                        <option value = "">Applied Science</option>
-                        <option value = "">Arts & Humanity</option>
-                        <option value = "">Programming</option>
-                        <option value = "">Mathematics</option>
-                        <option value = "">Arts and Humanities</option>
-                        <option value = "">Information Technology</option>
+                    <input type="text" class="form-control" placeholder="Full Name" name="Name" id="name">
+                    <input type="email" class="form-control" placeholder="E-mail" name="Email" id="email">
+                    <select name="Course" id="choose">
+                        <option value = "Applied Science">Applied Science</option>
+                        <option value = "Arts & Humanity">Arts & Humanity</option>
+                        <option value = "Programming">Programming</option>
+                        <option value = "Mathematics">Mathematics</option>
+                        <option value = "Arts and Humanities">Arts and Humanities</option>
+                        <option value = "Information Technology">Information Technology</option>
                     </select>
                 </div>
-                <input type="submit" class="submit-btn" value="Take A Course">
+                <input type="submit" name="submit" class="submit-btn" value="Take A Course" onclick="redirect()">
             </form>
         </div>
     </section>
     <!-- end of online course -->
+
+    <script>
+        function redirect()
+        {
+            var sel=document.getElementById("choose").value;
+          var eml=document.getElementById("email").value;
+          var nm=document.getElementById("name").value;
+
+            if(sel!="" && eml!="" && nm!="")
+            {
+
+                if (sel=="Programming")
+          window.location="Course/subjects/computer_courses.html";
+          else if (sel=="Applied Science")
+          window.location="Course/subjects/Applied Science.html";
+          else if (sel=="Arts & Humanity" || sel=="Arts and Humanities")
+          window.location="Course/subjects/Arts_Humanity.html";
+          else if (sel=="Mathematics")
+          window.location="Course/subjects/Maths.html";
+          else if (sel=="Information Technology")
+          window.location="Course/subjects/IT.html";
+          else
+          alert("Please enter all fields.");
+
+         const scriptURL = 'https://script.google.com/macros/s/AKfycbwXVEZHwLJxezUP-u9Am9jzADmLWZIELxoLYYBHDbxMfdvCPoj1RzyDOrxH86dXaCCLcA/exec'
+         const form = document.forms['form-sheet']
+      
+         form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => alert("Thanks for Joining us..!"))
+            .catch(error => console.error('Error!', error.message))
+          })
+            }
+            else{
+                alert("Please enter all fields.");
+            }
+        }
+    </script>
 
     <!-- skill section -->
     <section class="skill">
