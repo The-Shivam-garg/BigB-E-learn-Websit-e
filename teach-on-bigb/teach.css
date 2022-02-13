@@ -234,6 +234,17 @@ nav .nav-container {
     justify-content: center;
     align-items: center;
 }
+.num-box{
+  display: flex;
+  justify-content: space-around;
+}
+.num-box span {
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  margin-left: 0.4rem;
+  margin-top: 0.3rem;
+}
 
 .num-card-header{
     color: white;
