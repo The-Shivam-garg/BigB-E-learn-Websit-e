@@ -13,6 +13,41 @@
   transition: all 0.2s linear;
 }
 
+#scroll{
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  background-color: #49c9f8;
+  text-indent: -9999px;
+  display: none;
+  border-radius: 60px;
+  z-index: 20;
+  box-shadow: 0px 0px 13px rgba(0,0,0,0.1);
+}
+
+#scroll span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -8px;
+  margin-top: -12px;
+  height: 0;
+  width: 0;
+  border: 8px solid transparent;
+  border-bottom-color: #000000;
+}
+
+#scroll:hover{
+  background-color: #038cbe;
+  opacity: 1;
+  filter: "alpha(opacity=100)";
+  -ms-filter: "alpha(opacity=100)";
+}
+
+
 html {
   font-size: 62.5%;
   overflow-x: hidden;
