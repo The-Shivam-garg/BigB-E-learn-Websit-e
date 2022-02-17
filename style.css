@@ -94,7 +94,7 @@ a {
 }
 .contentbox .imgbx {
   position: relative;
-  width: 400px;
+  width: 600px;
   height: 400px;
   display: flex;
   justify-content: center;
@@ -108,9 +108,9 @@ a {
 }
 .contentbox .content{
   position: relative;
-  left: 20%;
   height: 400px;
-  width: 1000px;
+  width: 400px;
+  padding: 20px;
   display: flex;
   /* justify-content: center; */
   text-align: center;
