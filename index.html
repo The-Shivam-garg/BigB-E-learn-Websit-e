@@ -30,6 +30,10 @@
 
 <body>
     <div id="preloader"></div>
+
+    <!-- floating button to the top -->
+    <a href="#" id="scroll"><span></span></a>
+
     <main>
         <div class="big-wrapper light">
             <img src="img/shape.png" alt="" class="shape" />
@@ -46,7 +50,7 @@
                             <li><a href="#">HOME</a></li>
                             <li><a href="#welcome">About</a></li>
                             <li><a href="./Course/Courses.html">Courses</a></li>
-                            <li><a href="#">Features</a></li>
+                            <li><a href="./feature-pg/features.html">Features</a></li>
                             <li><a href="./Blog/blog.html">Blogs</a></li>
                             <li><a href="./contact/contact.html">Contact US</a></li>
                             <li><a href="./log in/Login.html" class="btn">Sign up</a></li>
@@ -64,7 +68,7 @@
                 <div class="contentbox">
                     <div class="close">&times;</div>
                     <div class="imgbx">
-                        <img src="newcourse.jpg" alt="NEW COURSE" class="src">
+                        <div class = "img-div"><img src="newcourse.jpg" alt="NEW COURSE" class="src"></div>
                         <div class="content">
                             <div>
                                 <h2>NEW COURSES AVAILABLE</h2>
@@ -658,6 +662,24 @@ close.addEventListener('click', ()=>{
             window.addEventListener("load", function(){
                 preloader.style.display = "none";
             })
+        </script>
+        
+        <script>
+            // floating button to the top 
+            $(document).ready(function() {
+                $(document).scroll(function(){
+                    if($(this).scrollTop() > 100){
+                        $("#scroll").fadeIn();
+                    } else{
+                        $("#scroll").fadeOut();
+                    }
+                });
+                $("#scroll").click(function () {
+                    $("html,body").animate({scrollTop:0},600);
+                    return false;
+                });
+            });
+
         </script>
         </body>
         </html>

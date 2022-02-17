@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./teach.css"> 
+    <link rel="stylesheet" href="./teach.css">
     <!-- font awesome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
@@ -85,23 +85,36 @@
     </section>
     <section class="number-tag">
         <div class="number-tag-card">
-            <div class="num-card-header">200+</div>
+            <div class="num-box">
+                <div class="num-card-header num-counter" data-target="200">0</div>
+                <span>+</span>
+            </div>
             <p class="num-card-text">Students</p>
         </div>
         <div class="number-tag-card">
-            <div class="num-card-header">10</div>
+            <div class="num-box">
+                <div class="num-card-header num-counter" data-target="10">0</div>
+            </div>
             <p class="num-card-text">Languages</p>
         </div>
         <div class="number-tag-card">
-            <div class="num-card-header">400+</div>
+            <div class="num-box">
+                <div class="num-card-header num-counter" data-target="400">0</div>
+                <span>+</span>
+            </div>
             <p class="num-card-text">Enrollments</p>
         </div>
         <div class="number-tag-card">
-            <div class="num-card-header">12</div>
+            <div class="num-box">
+                <div class="num-card-header num-counter" data-target="12">0</div>
+            </div>
             <p class="num-card-text">Countries</p>
         </div>
         <div class="number-tag-card">
-            <div class="num-card-header">80+</div>
+            <div class="num-box">
+                <div class="num-card-header num-counter" data-target="80">0</div>
+                <span>+</span>
+            </div>
             <p class="num-card-text">Teachers</p>
         </div>
     </section>
@@ -247,7 +260,7 @@
         <p class="footer-text">Copyright &copy; 2021. Designed by <span>BigB</span>. All Rights Reserved.</p>
     </footer>
 
-    <script>
+    <!-- <script>
         let slideIndex = 1;
         showSlides(slideIndex);
 
@@ -274,7 +287,36 @@
             slides[slideIndex - 1].style.display = "block";
             dots[slideIndex - 1].className += " active";
         }
-    </script>
+
+
+        // ********************************************************
+
+        let nums = document.querySelectorAll(".num-counter");
+        let numSection = document.querySelector(".number-tag");
+        let started = false;
+
+        window.onscroll = function () {
+            if (window.scrollY >= numSection.offsetTop) {
+                console.log("Yep")
+                if (!started) {
+                    nums.forEach((num) => startCount(num));
+                }
+                started = true;
+            }
+        };
+
+        function startCount(elem) {
+            console.log(elem)
+            let target = elem.dataset.target;
+            let count = setInterval(() => {
+                elem.textContent++;
+                if (elem.textContent == target) {
+                    clearInterval(count);
+                }
+            }, 3000 / target);
+        }
+    </script> -->
+    <script src="./teach.js"></script>
 </body>
 
 </html>

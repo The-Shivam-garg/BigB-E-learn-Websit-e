@@ -46,6 +46,10 @@
 </head>
 
 <body>
+
+    <!-- floating button to the top -->
+    <a href="#" id="scroll"><span></span></a>
+
     
     <div class="sidebar">
         <div class="logo-details">
@@ -279,6 +283,25 @@
             }
         }
     </script>
+
+<script>
+    // floating button to the top 
+    $(document).ready(function() {
+        $(document).scroll(function(){
+            if($(this).scrollTop() > 100){
+                $("#scroll").fadeIn();
+            } else{
+                $("#scroll").fadeOut();
+            }
+        });
+        $("#scroll").click(function () {
+            $("html,body").animate({scrollTop:0},600);
+            return false;
+        });
+    });
+
+</script>
+
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
     <!-- custom js file link  -->
     <script src="js/script.js"></script>
