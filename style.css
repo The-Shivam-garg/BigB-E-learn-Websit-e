@@ -186,6 +186,13 @@ header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 auto;
+  padding: 0 3rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--backgroundColor);
 }
 
 .overlay {
