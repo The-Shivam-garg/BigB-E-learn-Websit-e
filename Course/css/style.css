@@ -275,7 +275,6 @@ header .container {
 
 .links a {
   color: var(--lightTwo);
-  margin-left: 4.5rem;
   display: inline-block;
   transition: 0.3s;
 }
@@ -606,11 +605,10 @@ header .container {
 }
 
 .category {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (minmax(16rem, 1fr)) [auto-fit];
-  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
-  gap: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
 }
 
 .category .box {
@@ -618,6 +616,8 @@ header .container {
   background: #f5f5f5;
   padding: 4rem 3rem;
   text-align: center;
+  width: 16%;
+  margin: 10px;
 }
 
 .category .box img {
@@ -1137,11 +1137,15 @@ header .container {
 }
 
 .footer .box-container {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (minmax(25rem, 1fr)) [auto-fit];
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-  gap: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.footer .box{
+  margin: 20px;
+  padding: 10px;
 }
 
 .footer .box-container .box h3 {
@@ -1188,9 +1192,14 @@ header .container {
   html {
     font-size: 55%;
   }
-  section {
-    /* padding: auto; */
-    padding-right: 1rem;
+  .category .box{
+    width: 20%;
+  }
+}
+
+@media (max-width: 950px){
+  .category .box{
+    width: 28%;
   }
 }
 
@@ -1234,13 +1243,14 @@ header .container {
   .content > p {
     margin-left: 2rem;
   }
-  .category {
-    grid-template-columns: repeat(3, minmax(16rem, 1fr));
-    margin-left: 3rem;
+  .category .box{
+    width: 37%;
   }
-  .footer .box-container {
-    margin-left: 3rem;
-    grid-template-columns: repeat(2, minmax(25rem, 1fr));
+}
+
+@media (max-width: 550px){
+  .category .box{
+    width: 43%;
   }
 }
 
@@ -1249,28 +1259,13 @@ header .container {
     font-size: 50%;
   }
   .home {
-    margin-left: 58px;
     padding-bottom: 0;
   }
   .home .content h3 {
     font-size: 1.8rem;
   }
-
-  .category {
-    grid-template-columns: repeat(1, minmax(6rem, 1fr));
-    margin-left: 78px;
-  }
-  .footer .box-container {
-    margin-left: 3rem;
-    grid-template-columns: repeat(1, minmax(25rem, 1fr));
-  }
-  .footer {
-    width: 100%;
-    margin-left: 3.5rem;
-    text-align: center;
-  }
-  .footer .credit {
-    padding-left: 3rem;
+  .category .box{
+    width: 67%;
   }
 }
 /*# sourceMappingURL=style.css.map */
