@@ -44,6 +44,8 @@ body {
 
 :root {
   /*      Theme colors        */
+  --mainColor: #64bcf4;
+  --hoverColor: #5bacdf;
   --text-gray: #3f4954;
   --text-light: #686666da;
   --bg-color: #0f0f0f;
@@ -219,6 +221,8 @@ header .container {
   align-items: center;
   position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
   background-color: var(--white);
 }
 

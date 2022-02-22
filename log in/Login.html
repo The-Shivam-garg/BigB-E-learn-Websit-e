@@ -376,19 +376,23 @@
     <div class="container">
       <div class="forms-container">
         <div class="signin-signup">
-          <form action="#" class="sign-in-form">
-            <h2 class="title">Sign in</h2>
-            <div class="input-field">
+
+          <form id="login_form" class="sign-in-form">
+            <h2 class="title user_logged_in">Sign in</h2>
+            <h2 class="title" id="logged_user"></h2>
+            <div class="input-field user_logged_in">
               <i class="fas fa-user"></i>
-              <input type="text" placeholder="Username" />
+              <input type="email" validate id="email" placeholder="Email" />
             </div>
-            <div class="input-field">
+            <div class="input-field user_logged_in">
               <i class="fas fa-lock"></i>
-              <input type="password" placeholder="Password" />
+              <input type="password" id="password" placeholder="Password" />
             </div>
-            <input type="submit" value="Login" class="btn solid" />
-            <p class="social-text">Or Sign in with social platforms</p>
-            <div class="social-media">
+            <span id="err_msg"></span>
+            <input type="submit" value="Login" class="btn solid user_logged_in" />
+            <input type="submit" value="Logout" class="btn solid logout" style="display: none;"/>
+            <p class="social-text user_logged_in">Or Sign in with social platforms</p>
+            <div class="social-media user_logged_in">
               <a href="#" class="social-icon">
                 <i class="fab fa-facebook-f"></i>
               </a>
@@ -403,20 +407,29 @@
               </a>
             </div>
           </form>
-          <form action="#" class="sign-up-form">
+
+
+
+
+          <form id="signup_form" class="sign-up-form">
             <h2 class="title">Sign up</h2>
             <div class="input-field">
               <i class="fas fa-user"></i>
-              <input type="text" placeholder="Username" />
+              <input id="username" type="text" placeholder="Username" />
             </div>
             <div class="input-field">
               <i class="fas fa-envelope"></i>
-              <input type="email" placeholder="Email" />
+              <input id="signup_email" type="email" placeholder="Email" />
+            </div>
+            <div class="input-field">
+              <i class='bx bxs-phone-call'></i>
+              <input id="mobile_number" type="number" placeholder="Contact Number" />
             </div>
             <div class="input-field">
               <i class="fas fa-lock"></i>
-              <input type="password" placeholder="Password" />
+              <input id="signup_password" type="password" placeholder="Password" />
             </div>
+            <span id="err_msg_signup"></span>
             <input type="submit" class="btn" value="Sign up" />
             <p class="social-text">Or Sign up with social platforms</p>
             <div class="social-media">
@@ -434,18 +447,20 @@
               </a>
             </div>
           </form>
+
+
         </div>
       </div>
 
       <div class="panels-container">
         <div class="panel left-panel">
           <div class="content">
-            <h3>New here ?</h3>
+            <h3 id="signed_user_welcome">New here ?</h3>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
               ex ratione. Aliquid!
             </p>
-            <button class="btn transparent" id="sign-up-btn">
+            <button class="btn transparent user_logged_in" id="sign-up-btn">
               Sign up
             </button>
           </div>
@@ -507,5 +522,19 @@ sign_in_btn.addEventListener("click", () => {
   container.classList.remove("sign-up-mode");
 });
 </script>
+
+<script src="https://unpkg.com/@supabase/supabase-js"></script>
+<script type="text/javascript">
+  const { createClient } = supabase
+  const supabaseUrl = `https://lwjxpntafqybhoveorha.supabase.co`
+  const supabaseAnonKey = `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imx3anhwbnRhZnF5YmhvdmVvcmhhIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NDUxOTYxNjgsImV4cCI6MTk2MDc3MjE2OH0.GmWvqQxqV7M4sMoyfnVMJrXImJ-XBVyBzTgCn6vlEVM`
+
+  const _supabase = createClient(supabaseUrl, supabaseAnonKey)
+
+  //console.log(_supabase);
+</script>
+<script src = "login.js"></script>
+<script src ="signup.js"></script>
+<script src="user_state.js"></script>
   </body>
 </html>

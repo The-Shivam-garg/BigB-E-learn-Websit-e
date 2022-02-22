@@ -52,6 +52,7 @@ body {
   --darkOne: #312f3a;
   --darkTwo: #45424b;
   --mainColor: #64bcf4;
+  --hoverColor: #5bacdf;
 
   /* gradient color   */
   --sky: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
@@ -220,7 +221,9 @@ header .container {
   align-items: center;
   position: fixed;
   top: 0;
-  background-color: var(--white);
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.6)
 }
 
 /* -------x------- navbar ---------x------- */
