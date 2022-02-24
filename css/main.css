@@ -223,7 +223,12 @@ html{
 
 .newsletter form input[type="email"]::placeholder{
     color:#eee;
-    text-transform: capitalize;
+    text-transform: capitalize;  
+}
+
+.newsletter form input[type="email"]:focus::placeholder{
+    color:transparent;
+    transition:0.2s ease-in-out;
 }
 
 .newsletter form input[type="submit"]{
@@ -235,7 +240,10 @@ html{
 }
 
 .newsletter form input[type="submit"]:hover{
-    color:skyblue;
+    color:#d9138a;
+    border-color: #d9138a;
+    background-color: white;
+    transition: 0.5s ease-in-out;
 }
 
 .a{
