@@ -25,7 +25,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <!--using-Font-Awesome-------------------->
     <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
-
+    <!-- Pop-up msg -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </head>
 
 <body>
@@ -199,6 +200,7 @@
                     <input type="text" class="form-control" placeholder="Full Name" name="Name" id="name">
                     <input type="email" class="form-control" placeholder="E-mail" name="Email" id="email">
                     <select name="Course" id="choose">
+                        <option value = "">Select a course</option>
                         <option value = "Applied Science">Applied Science</option>
                         <option value = "Arts & Humanity">Arts & Humanity</option>
                         <option value = "Programming">Programming</option>
@@ -207,49 +209,42 @@
                         <option value = "Information Technology">Information Technology</option>
                     </select>
                 </div>
-                <input type="submit" name="submit" class="submit-btn" value="Take A Course" onclick="redirect()">
+                <input type="submit" name="submit" class="submit-btn" value="Take A Course" >
             </form>
         </div>
     </section>
     <!-- end of online course -->
 
     <script>
-        function redirect()
-        {
-            var sel=document.getElementById("choose").value;
-          var eml=document.getElementById("email").value;
-          var nm=document.getElementById("name").value;
+        const form = document.forms["form-sheet"];
+        const courses = document.getElementById("choose");
+        const email = document.getElementById("email");
+        const name = document.getElementById("name");
 
-            if(sel!="" && eml!="" && nm!="")
-            {
+        function isEmail(email) {
+            let regexp = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;                
+            return regexp.test(String(email).toLowerCase());
+        }
 
-                if (sel=="Programming")
-          window.location="Course/subjects/computer_courses.html";
-          else if (sel=="Applied Science")
-          window.location="Course/subjects/Applied Science.html";
-          else if (sel=="Arts & Humanity" || sel=="Arts and Humanities")
-          window.location="Course/subjects/Arts_Humanity.html";
-          else if (sel=="Mathematics")
-          window.location="Course/subjects/Maths.html";
-          else if (sel=="Information Technology")
-          window.location="Course/subjects/IT.html";
-          else
-          alert("Please enter all fields.");
 
-         const scriptURL = 'https://script.google.com/macros/s/AKfycbwXVEZHwLJxezUP-u9Am9jzADmLWZIELxoLYYBHDbxMfdvCPoj1RzyDOrxH86dXaCCLcA/exec'
-         const form = document.forms['form-sheet']
-      
-         form.addEventListener('submit', e => {
-          e.preventDefault()
-          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            .then(response => alert("Thanks for Joining us..!"))
-            .catch(error => console.error('Error!', error.message))
-          })
+        form.addEventListener("submit",(event)=>{
+            event.preventDefault();
+
+            if(name.value==""){
+              swal("Error !","Please enter a valid name","error");
+            }
+            else if(!isEmail(email.value)){
+              swal("Error !","Please enter a valid email","error");
+            }
+            else if(courses.value ==""){
+              swal("Error !","Please select a course","error");          
             }
             else{
-                alert("Please enter all fields.");
+              swal("Welcome to Bigb", "Thanks for joining us !", "success");
+              form.reset();
             }
-        }
+
+        })
     </script>
 
     <!-- skill section -->
