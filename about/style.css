@@ -8,7 +8,7 @@
   align-items: center;
   flex-direction: column;
   width:100%;
-  
+
 }
 .testimonial-heading{
   letter-spacing: 1px;
@@ -25,7 +25,7 @@
   background-color: #202020;
   color: #ffffff;
   font-family: sans-serif;
-  padding: 10px 20px;
+  padding: 10px 20px 0px 60px;
 }
 .testimonial-heading span{
   font-size: 4rem;
@@ -290,4 +290,3 @@
      width: 30px;
   }
 }
- 
