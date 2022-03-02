@@ -246,20 +246,20 @@ header .container {
 }
 
 .links ul {
+  font-family: var(--Lexend);
   display: flex;
   list-style: none;
   align-items: center;
 }
 
 .links a {
-  color: var(--lightTwo);
   margin-left: 4.5rem;
   display: inline-block;
   transition: 0.3s;
 }
 
 .links a:hover {
-  color: var(--hoverColor);
+ color: var(--mainColor);
   transform: scale(1.05);
 }
 
@@ -274,7 +274,7 @@ header .container {
 }
 
 .btn:hover {
-  background-color: var(--hoverColor);
+  background-color:#038cbe;
   transform: scale(1) !important;
 }
 
