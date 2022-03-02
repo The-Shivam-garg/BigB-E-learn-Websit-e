@@ -1,85 +1,107 @@
-a{
+a {
     color: var(--black);
     text-decoration: none;
 }
-img{
+
+img {
     width: 100%;
     display: block;
 }
-li{
+
+li {
     list-style-type: none;
 }
-h1, h2, h3, h4, h5, h6{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     padding: 0.6rem 0;
 }
-.container{
+
+.container {
     max-width: 1280px;
     margin: 0 auto;
     padding: 0 1rem;
 }
+
 button {
     outline: 0;
     cursor: pointer;
 }
-.btn{
+
+.btn {
     display: inline-block;
     padding: 0.55rem;
     font-weight: 600;
     border: none;
-    margin: 0.4rem 0;
+    margin: 3.4rem 0;
     letter-spacing: 1px;
 }
-.primary-btn{
+
+.primary-btn {
     background: var(--cyan);
     color: #fff;
     font-weight: 400;
     border-radius: 2rem;
-    padding: 0.55rem 1rem;
+    padding: 1rem;
     transition: var(--transition);
 }
-.primary-btn:hover{
+
+.primary-btn:hover {
     background: #0e80aa;
 }
-.text{
+
+.text {
     color: var(--lightBlack);
-    padding: 0.6rem 0;
+    /* padding: 0.6rem 0; */
 }
-.lg-text{
+
+.lg-text {
     font-weight: 600;
     font-size: 1.2rem;
 }
-section{
+
+section {
     padding: 4rem 0;
 }
-.title{
+
+.title {
     text-transform: uppercase;
     padding-top: 1rem;
     padding-bottom: 1rem;
     font-family: var(--Roboto);
 }
-.title-md h3{
+
+.title-md h3 {
     letter-spacing: 2px;
     word-spacing: 2px;
     font-size: 2rem;
     text-align: center;
 }
-.title-sm h3{
+
+.title-sm h3 {
     font-size: 1.5rem;
     text-align: left;
 }
-.line{
+
+.line {
     background: var(--cyan);
     height: 3px;
     width: 120px;
     margin: 0 auto 1.5rem auto;
 }
 
-
 input {
     outline: 0;
     width: 100%;
 }
-input[type = "text"], input[type = "email"], select{
+
+input[type="text"],
+input[type="email"],
+select {
     width: 100%;
     border: none;
     color: var(--exLight);
@@ -90,10 +112,12 @@ input[type = "text"], input[type = "email"], select{
     outline: 0;
     border-bottom: 1.5px solid var(--exLight);
 }
-input::placeholder{
+
+input::placeholder {
     color: var(--exLight);
 }
-.submit-btn{
+
+.submit-btn {
     width: auto;
     padding: 0.7rem 1rem;
     background: var(--cyan);
@@ -107,17 +131,20 @@ input::placeholder{
     font-family: var(--Roboto);
     font-size: 1rem;
 }
-.submit-btn:hover{
+
+.submit-btn:hover {
     background: #0e80aa;
 }
 
-.flex{
+.flex {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+
 /* stopping transition during resizing */
-.resize-transition-stopper *{
+
+.resize-transition-stopper * {
     transition: none!important;
 }
