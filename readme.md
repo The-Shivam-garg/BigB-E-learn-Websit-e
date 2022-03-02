@@ -11,7 +11,7 @@ This is an Open-Source Educational Website, which Cover all the Educational rela
  who are willing to solve problems on different topics. We have also added  
  Interview questions for students who are preparing for placements.
 
-For contacting us mail us on,
+For contacting us mail us on:-
 
 <a href="mailto:bigbeduwebsite@gmail.com"><img  alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   
