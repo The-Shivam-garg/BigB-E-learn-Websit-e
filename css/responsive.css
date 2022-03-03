@@ -1,4 +1,134 @@
+/*------To make the content popup responsive------*/
+@media screen and (min-width: 481px) and (max-width: 800px){
+    .contentbox{
+        width: 400px;
+        height: 200px;
+      }
+      .contentbox .imgbx {
+        display: grid;
+        grid-template-columns: 30% 70%;
+        text-align: center;
+        width: 100%;
+      }
+      .img-div{
+          width: 100%;
+          padding: 10px;
+      }
+      .contentbox .content{
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        padding-top: 20px;
+      }
+      .contentbox .content h2{
+        line-height: 0.5em;
+        font-weight: bold;
+        font-size: 0.9em;
+      }
+      .contentbox .content p{
+        font-weight: 500;
+        font-size: 0.7em; ;
+      }
+      .contentbox .content a{
+        padding: 5px;
+        margin: 5px;
+        border-radius: 5px;
+        font-size: 0.8rem;
+      }
+      .close{
+        top: 10px;
+        right: 10px;
+        width: 20px;
+        height: 20px;
+        font-size: 0.75rem;
+        background-size: 5px;
+      }
+}
+/*-----------------------*/
+
+@media screen and (max-width: 480px){
+    .newsletter h3{
+        font-size: 2.5rem;
+        width: auto;
+    }
+    .newsletter p{
+        font-size: 1.2rem;
+        width: auto;
+    } 
+    .newsletter form input[type="email"]{
+        font-size: 0.8rem;
+    }
+    .newsletter form input[type="submit"]{
+        font-size: 1.1rem;
+        width: 11.5rem;
+    }
+    .testimonial-heading span{
+        font-size: 2rem;
+    }
+    .testimonial-heading h1 {
+        font-size: 1.1rem;
+    }
+
+    /*------To make the content popup responsive-----*/
+    .contentbox{
+        width: 280px;
+        height: auto;
+        padding : 20px;
+      }
+      .contentbox .imgbx {
+        display: grid;
+        grid-template-rows: 40% 60%;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+      }
+      .contentbox .imgbx img{
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        max-height: 110px;
+        width: auto;
+      }
+      .img-div{
+          width: 100%;
+          height: 100%;
+      }
+      .contentbox .content{
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+      }
+      .contentbox .content h2{
+        line-height: 0.5em;
+        font-weight: bold;
+        font-size: 0.9em;
+      }
+      .contentbox .content p{
+        font-weight: 500;
+        font-size: 0.7em; ;
+      }
+      .contentbox .content a{
+        padding: 5px;
+        margin: 5px;
+        border-radius: 5px;
+        font-size: 0.8rem;
+      }
+      .close{
+        top: 10px;
+        right: 10px;
+        width: 20px;
+        height: 20px;
+        font-size: 0.75rem;
+        background-size: 5px;
+      }
+      /*---------------------*/
+}
+
+
 @media screen and (min-width: 480px){
+
     .header-top-info .row div:first-child span{
         display: inline-block!important;
         margin-right: 1.5rem;
@@ -17,10 +147,28 @@
         grid-template-columns: repeat(2, 1fr);
         column-gap: 1rem;
     }
+    /* responsive */
+    .newsletter p{
+       font-size: 1.1rem;
+       width: 90%;
+    }
+    .newsletter form input[type="email"]{
+        font-size: 1.2rem;
+    }
+    .testimonial-heading span {
+        font-size: 1.8rem;
+    }
+    .testimonial-heading h1 {
+        font-size: 1.2rem;
+    }
+    
 }
 
 
 @media screen and (min-width: 768px){
+    header .links li a {
+        margin-left: 3rem;
+    } 
     .hero-slider{
         width: 80%;
         margin: 0 auto;
@@ -55,9 +203,21 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
+    /* responsive */
+    .newsletter p{
+        font-size: 1.2rem;
+        width: 90%;
+    }
+    .newsletter form input[type="email"]{
+        font-size: 1.2rem;
+    }
+    .testimonial-heading span {
+        font-size: 3rem;
+    }
 }
 
 @media screen and (min-width: 992px){
+  
     .header-top-info .row{
         display: flex;
         justify-content: space-between!important;
@@ -145,9 +305,14 @@
     .skill .img-container img{
         margin-top: 2rem;
     }
+    
 }
 
 @media screen and (min-width: 1200px){
+    header .links li a {
+        margin-left: 4.3rem;
+    } 
+ 
     .hero-title{
         font-size: 4rem;
     }

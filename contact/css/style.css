@@ -22,6 +22,10 @@ section {
   padding: 3rem 9%;
 }
 
+main{
+  margin-left: 78px;
+}
+
 .btn {
   display: inline-block;
   margin-top: 1rem;
@@ -45,14 +49,16 @@ section {
 }
 
 .heading h3 {
-  font-size: 3.5rem;
+  font-size: 4rem;
   color: #302851;
+  text-align: left;
 }
 
 .heading p {
   font-size: 1.6rem;
   color: #666;
   padding-top: .5rem;
+  margin-left:25px;
 }
 
 .heading p a {
@@ -98,6 +104,7 @@ section {
 }
 
 .toggle-btn {
+  margin-top:2vw;
   display: inline-block;
   border: none;
   background: var(--darkTwo);
@@ -283,12 +290,41 @@ section {
 
 /*contact section starts here*/
 
+/*contact form starts*/
+h3{
+  text-align: center;
+}
+#contactForm{
+  border:#e9edfb 2px solid;
+  margin-right:5vw;
+}
+input:focus::placeholder{
+  color:transparent;
+  transition:0.2s ease-in-out;
+}
+#BOX{
+  margin-top:20px;
+  width:90%;
+  margin-left:20px;
+}
+#subBtn{
+  margin-top:15px;
+  margin-left:20px;
+}
+/*contact form ends*/
+
 .contact .icons-container {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 1.5rem;
+  transform: scale(1);
+  transition:0.3s ease-in-out;
+  margin-bottom:2vw;
+}
+.contact .icons-container:hover{
+  transform:scale(1.02);
 }
 
 .contact .icons-container .icons {
@@ -343,7 +379,7 @@ section {
 
 .contact .row form h3 {
   font-size: 2.5rem;
-  color: #302851;
+  color: var(--darkTwo);
   margin-bottom: .5rem;
 }
 
@@ -373,20 +409,25 @@ section {
 
 .footer {
   background: #f5f5f5;
+  margin-left: 78px;
 }
 
 .footer .box-container {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-  gap: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.footer .box{
+  margin: 20px;
+  padding: 10px;
 }
 
 .footer .box-container .box h3 {
   font-size: 2.2rem;
   padding: 1rem 0;
-  color: #302851;
+  color: var(--darkTwo);
 }
 
 .footer .box-container .box a {

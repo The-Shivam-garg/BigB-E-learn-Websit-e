@@ -2,7 +2,7 @@
     --yellow: #e3d810;
     --magenta: #d9138a;
     --cyan: #12a4d9;
-    --black: #322e2f;
+    --black: #0e0d0d;
     --lightBlack: #a29a9c;
     --exLight: #f4f3f3;
     --transition: all 0.4s ease-in-out;
@@ -22,6 +22,40 @@ html{
     font-size: 1.05rem;
     text-rendering: optimizeLegibility;
     color: var(--black);
+}
+
+#scroll{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    background-color: #49c9f8;
+    text-indent: -9999px;
+    display: none;
+    border-radius: 60px;
+    z-index: 20;
+    box-shadow: 0px 0px 13px rgba(0,0,0,0.1);
+}
+
+#scroll span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -8px;
+    margin-top: -12px;
+    height: 0;
+    width: 0;
+    border: 8px solid transparent;
+    border-bottom-color: #000000;
+}
+
+#scroll:hover{
+    background-color: #038cbe;
+    opacity: 1;
+    filter: "alpha(opacity=100)";
+    -ms-filter: "alpha(opacity=100)";
 }
 
 
@@ -189,7 +223,12 @@ html{
 
 .newsletter form input[type="email"]::placeholder{
     color:#eee;
-    text-transform: capitalize;
+    text-transform: capitalize;  
+}
+
+.newsletter form input[type="email"]:focus::placeholder{
+    color:transparent;
+    transition:0.2s ease-in-out;
 }
 
 .newsletter form input[type="submit"]{
@@ -201,7 +240,10 @@ html{
 }
 
 .newsletter form input[type="submit"]:hover{
-    color:skyblue;
+    color:#d9138a;
+    border-color: #d9138a;
+    background-color: white;
+    transition: 0.5s ease-in-out;
 }
 
 .a{
