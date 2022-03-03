@@ -18,7 +18,9 @@ This is an Open-Source Educational Website, which Cover all the Educational rela
 
    ##### Will be adding more content and Resources .TILL then show some 💖 by giving Star to this Repository.
    
-It is completely responsive website, to provide smooth experience...😎  
+It is completely responsive website, to provide smooth experience...😎 
+
+If you have any queries or any suggestions then reach out to us at <a href="bigbeduwebsite@gmail.com">Mail</a>.
 
 ![Small Preview](https://github.com/The-Shivam-garg/BigB-E-learn-Websit-e/blob/57660e540ad8ee9940b16af080d8630e2c416f88/img/small%20view.png)  
 
