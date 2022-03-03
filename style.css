@@ -82,9 +82,10 @@ a {
     width: 615px;
     height: 400px;
     background: rgb(255, 253, 253);
-    border-radius: 10%;
+    border-radius: 35px;
     display: flex;
     flex-direction: column;
+    padding: 0 10px;
 }
 
 .contentbox .imgbx {
@@ -94,6 +95,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding:10px;
 }
 
 .contentbox .imgbx img {
@@ -140,16 +142,17 @@ a {
 
 .close {
     position: absolute;
-    top: 20px;
-    right: 20px;
-    width: 40px;
-    height: 40px;
-    font-size: 1.5rem;
+    top: 5px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 2em;
     background-repeat: no-repeat;
     background-size: 10px;
     background-position: center;
     cursor: pointer;
     z-index: 10;
+    text-align: center;
 }
 
 .overlayser {
