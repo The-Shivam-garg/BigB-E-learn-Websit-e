@@ -65,21 +65,20 @@ It is completely responsive website, to provide smooth experience...😎
 
  <div align="center">
       
-   <h1 align="center">Techbenchers</h1>
-      <img width="10%" align="center"   src="https://github.com/The-Shivam-garg/BigB-E-learn-Websit-e/blob/989b1961810cc335ef51a4f2a56116df6d746ad4/img/pp.jfif" >
+   <h1 align="center">Sidehustlers</h1>
+      <img width="10%" align="center"   src="https://github.com/The-Shivam-garg/CollegeCommunity-Website/blob/main/images/LOGO.jpg" >
  
-I have started a Community named Techbenchers Community [Community for ALL] Where we share Resources, Roadmaps to learn different technologies and share opportunities related to different tech & non-tech programs. Also, We organize Events on different technologies and emerging domains to help people to get started with these technologies.
+I have started a Community named Sidehustlers Community [Community for ALL] Where we share Resources, Roadmaps to learn different technologies and share opportunities related to different tech & non-tech programs. Also, We organize Events on different technologies and emerging domains to help people to get started with these technologies.
 
   <span> <h2>Join the Community  ⚡</h2>
 <a  href="https://www.youtube.com/channel/UCRkYp3SkqvR5OD8YiTqVEbQ" target="_blank"><img alt="YouTube" src="https://img.shields.io/badge/Youtube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white" /></a>
-<a  href="https://www.linkedin.com/company/techbenchers/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="https://twitter.com/techbenchers_" target="_blank"><img src="https://img.shields.io/badge/twitter-%2300acee.svg?&style=for-the-badge&logo=twitter&logoColor=white&alt=twitter" /></a>
-<a href="mailto:techbencher.ece@gmail.com"><img  alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-<a  href="https://t.me/techbenchers"><img alt=" Telegram" src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"></a>
-<a  href="https://discord.com/invite/2GypbpQDYD"><img alt=" Discord" src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white">
-<a  href="https://www.instagram.com/techbenchers__/"><img alt="Instagram" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
-   </a> 
-   
+<a  href="https://www.linkedin.com/company/side-hustler" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="https://twitter.com/Sidehustlers" target="_blank"><img src="https://img.shields.io/badge/twitter-%2300acee.svg?&style=for-the-badge&logo=twitter&logoColor=white&alt=twitter" /></a>
+<a href="mailto:tosidehustlers@gmail.com"><img  alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+<a  href="https://t.me/beasidehustler"><img alt=" Telegram" src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"></a>
+<a  href="https://discord.gg/87kR8Ve9yk"><img alt=" Discord" src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"></a>
+<a  href="https://www.instagram.com/beasidehustler/"><img alt="Instagram" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
+<a href="https://linktr.ee/beasidehustler"><img alt="Linktree" src ="https://img.shields.io/badge/Linktree-39E09B.svg?style=for-the-badge&logo=Linktree&logoColor=white"></a>
  </div>
 
 <h1 align=center> OUR VALUABLE CONTRIBUTORS✨ </h1>
