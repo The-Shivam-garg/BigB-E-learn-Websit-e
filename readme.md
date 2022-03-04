@@ -9,7 +9,7 @@ This is an Open-Source Educational Website, which Cover all the Educational rela
  Interviews Of Both PRoduct and Service Based Companies. Students can clear their doubts  
  by sending their questions to our website. We have added Quizzes for Students  
  who are willing to solve problems on different topics. We have also added  
- Interview questions for students who are preparing for placements.  
+ Interview questions for students who are preparing for placements.
   
 <h2>IN DEVELOPMENT PHASE  <BR>
 <a href="https://the-shivam-garg.github.io/BigB-E-learn-Websit-e/" target="_blank">Visit 🚀</a>
