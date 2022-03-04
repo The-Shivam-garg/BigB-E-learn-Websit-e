@@ -197,16 +197,16 @@ html{
     padding-bottom: 1rem;
 }
 .counter .item:nth-child(1){
-    background: var(--cyan);
+    background-image: linear-gradient(blue, white);
 }
 .counter .item:nth-child(2){
-    background: var(--magenta);
+    background-image: linear-gradient(blue, white);
 }
 .counter .item:nth-child(3){
-    background: var(--yellow);
+   background-image: linear-gradient(blue, white);
 }
 .counter .item:nth-child(4){
-    background: var(--black);
+    background-image: linear-gradient(blue, white);
 }
 .counter .num{
     font-size: 2.6rem;
