@@ -412,58 +412,94 @@ html{
 
 
 /* footer  */
-footer{
-    background: var(--black);
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.footer{
+	background-color: #02091a;
+    padding: 70px 0;
+    padding-bottom: 40px;
+}
+.footer-col{
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 15px;
+	font-weight: 500;
+	position: relative;
+} 
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.foot-text{
+  color:#fff;
+  line-height: 26px;
+  font-size: 16px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+ul>li>span{
     color: #fff;
-    padding: 4rem 0;
-}
-footer .row > div{
-    text-align: center;
-}
-footer .row > div:nth-child(1) img{
-    width: 50px;
-    margin: 0 auto;
-}
-footer .row > div:nth-child(1) p{
-    width: 60%;
-    margin: 0 auto;
-}
-.footer-social-links{
     display: flex;
-    justify-content: center;
-    margin: 1rem 0;
+    justify-content: flex-start;
+    align-items: center;
+    
 }
-.footer-social-links li{
-    border: 2px solid #fff;
-    width: 40px;
-    height: 40px;
-    margin-right: 0.5rem;
-    border-radius: 50%;
+ul>li>span>i{
+margin-right: 12px;
 }
-.footer-social-links li:hover{
-    border-color: var(--cyan);
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
 }
-.footer-social-links a{
+.foot-line{
+    background: var(--cyan);
+    height: 3px;
+    width: calc(100%);
+    margin-top: 30px;
+
+}
+.footer-text{
     color: #fff;
-    transition: var(--transition);
 }
-.footer-social-links li:hover a{
-    color: var(--cyan);
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
 }
-.footer-links a{
-    color: var(--lightBlack);
-    display: block;
-    margin: 0.6rem 0;
-    transition: var(--transition);
 }
-.footer-links a:hover{
-    color: var(--exLight);
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
 }
-.footer-contact-info span{
-    color: var(--lightBlack);
-}
-.footer-contact-info div{
-    margin: 0.6rem 0;
 }
 .footer-text{
     text-align: center;
