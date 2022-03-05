@@ -192,21 +192,22 @@ html{
 }
 .counter .item{
     margin: 0.4rem 0;
-    color: #fff;
+    color:white;
     border-radius: 0.3rem;
     padding-bottom: 1rem;
 }
 .counter .item:nth-child(1){
-    background: var(--cyan);
+      background-image: linear-gradient(thistle,darkslategrey);
+  
 }
 .counter .item:nth-child(2){
-    background: var(--magenta);
+    background-image: linear-gradient(thistle,darkslategrey);
 }
 .counter .item:nth-child(3){
-    background: var(--yellow);
+   background-image: linear-gradient(thistle,darkslategrey);
 }
 .counter .item:nth-child(4){
-    background: var(--black);
+    background-image: linear-gradient(thistle,darkslategrey);
 }
 .counter .num{
     font-size: 2.6rem;
