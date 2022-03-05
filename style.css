@@ -314,9 +314,10 @@ header .container {
 .text {
     color: var(--lightOne);
     font-size: 1.1rem;
-    margin: 1.9rem 0 2.5rem;
+    margin: 5px;
     max-width: 600px;
     line-height: 2.3;
+    margin-left: 0;
 }
 
 .showcase-area .btn {
