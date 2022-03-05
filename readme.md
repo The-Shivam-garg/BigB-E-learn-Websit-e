@@ -9,7 +9,7 @@ This is an Open-Source Educational Website, which Cover all the Educational rela
  Interviews Of Both PRoduct and Service Based Companies. Students can clear their doubts  
  by sending their questions to our website. We have added Quizzes for Students  
  who are willing to solve problems on different topics. We have also added  
- Interview questions for students who are preparing for placements.  
+ Interview questions for students who are preparing for placements.
   
 <h2>IN DEVELOPMENT PHASE  <BR>
 <a href="https://the-shivam-garg.github.io/BigB-E-learn-Websit-e/" target="_blank">Visit 🚀</a>
@@ -18,7 +18,9 @@ This is an Open-Source Educational Website, which Cover all the Educational rela
 
    ##### Will be adding more content and Resources .TILL then show some 💖 by giving Star to this Repository.
    
-It is completely responsive website, to provide smooth experience...😎  
+It is completely responsive website, to provide smooth experience...😎 
+
+If you have any queries or any suggestions then reach out to us at <a href="bigbeduwebsite@gmail.com">Mail</a>.
 
 ![Small Preview](https://github.com/The-Shivam-garg/BigB-E-learn-Websit-e/blob/57660e540ad8ee9940b16af080d8630e2c416f88/img/small%20view.png)  
 
@@ -37,17 +39,17 @@ It is completely responsive website, to provide smooth experience...😎
 <div align="center">
 
 ## 👨‍💻 Tech Stack:
-[![HTML](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)]
-[![CSS](https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)]
-[![JS](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)]
-[![RUBY](https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white)]
+![HTML](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)
+![JS](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![RUBY](https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white)
 
 </div>
 
 #### Extras : Particle.js, Typed.js, Tilt.js, Font Awesome, JSON, etc.
-[![SAAS](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)]
-[![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)]
-[![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)]
+![SAAS](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 
 
 <h2>📬 Contact</h2>
@@ -65,21 +67,20 @@ It is completely responsive website, to provide smooth experience...😎
 
  <div align="center">
       
-   <h1 align="center">Techbenchers</h1>
-      <img width="10%" align="center"   src="https://github.com/The-Shivam-garg/BigB-E-learn-Websit-e/blob/989b1961810cc335ef51a4f2a56116df6d746ad4/img/pp.jfif" >
+   <h1 align="center">Sidehustlers</h1>
+      <img width="10%" align="center"   src="https://github.com/The-Shivam-garg/CollegeCommunity-Website/blob/main/images/LOGO.jpg" >
  
-I have started a Community named Techbenchers Community [Community for ALL] Where we share Resources, Roadmaps to learn different technologies and share opportunities related to different tech & non-tech programs. Also, We organize Events on different technologies and emerging domains to help people to get started with these technologies.
+I have started a Community named Sidehustlers Community [Community for ALL] Where we share Resources, Roadmaps to learn different technologies and share opportunities related to different tech & non-tech programs. Also, We organize Events on different technologies and emerging domains to help people to get started with these technologies.
 
   <span> <h2>Join the Community  ⚡</h2>
 <a  href="https://www.youtube.com/channel/UCRkYp3SkqvR5OD8YiTqVEbQ" target="_blank"><img alt="YouTube" src="https://img.shields.io/badge/Youtube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white" /></a>
-<a  href="https://www.linkedin.com/company/techbenchers/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="https://twitter.com/techbenchers_" target="_blank"><img src="https://img.shields.io/badge/twitter-%2300acee.svg?&style=for-the-badge&logo=twitter&logoColor=white&alt=twitter" /></a>
-<a href="mailto:techbencher.ece@gmail.com"><img  alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-<a  href="https://t.me/techbenchers"><img alt=" Telegram" src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"></a>
-<a  href="https://discord.com/invite/2GypbpQDYD"><img alt=" Discord" src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white">
-<a  href="https://www.instagram.com/techbenchers__/"><img alt="Instagram" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
-   </a> 
-   
+<a  href="https://www.linkedin.com/company/side-hustler" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="https://twitter.com/Sidehustlers" target="_blank"><img src="https://img.shields.io/badge/twitter-%2300acee.svg?&style=for-the-badge&logo=twitter&logoColor=white&alt=twitter" /></a>
+<a href="mailto:tosidehustlers@gmail.com"><img  alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+<a  href="https://t.me/beasidehustler"><img alt=" Telegram" src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"></a>
+<a  href="https://discord.gg/87kR8Ve9yk"><img alt=" Discord" src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"></a>
+<a  href="https://www.instagram.com/beasidehustler/"><img alt="Instagram" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
+<a href="https://linktr.ee/beasidehustler"><img alt="Linktree" src ="https://img.shields.io/badge/Linktree-39E09B.svg?style=for-the-badge&logo=Linktree&logoColor=white"></a>
  </div>
 
 <h1 align=center> OUR VALUABLE CONTRIBUTORS✨ </h1>
@@ -100,8 +101,11 @@ We assume you have created an account on Github and installed Git on your System
 
 Now enter your name and E-mail (used on Github) address in Git, by using following command.
 
-`$ git config --global user.name "YOUR NAME"`
-` $ git config --global user.email "YOUR EMAIL ADDRESS"`
+```
+$ git config --global user.name "YOUR NAME"
+$ git config --global user.email "YOUR EMAIL ADDRESS"
+```
+
 This is an important step to mark your commits to your name and email.
 
 <br />
@@ -121,7 +125,10 @@ Click on fork to create a copy of project to your account. This creates a separa
 
 You have forked the project you want to contribute to your github account. To get this project on your development machine we use clone command of git.
 
-`$ git clone https://github.com/The-Shivam-garg/BigB-E-learn-Websit-e` <br/>
+```
+$ git clone https://github.com/The-Shivam-garg/BigB-E-learn-Websit-e
+```
+
 Now you have the project on your local machine.
 
 <br />
@@ -130,8 +137,11 @@ Now you have the project on your local machine.
 
 Remote means the remote location of project on Github. By cloning, we have a remote called origin which points to your forked repository. Now we will add a remote to the original repository from where we had forked.
 
-`$ cd <your-forked-project-folder>`
-`$ git remote add upstream https://github.com/The-Shivam-garg/BigB-E-learn-Websit-e` <br/>
+```
+$ cd <your-forked-project-folder>
+$ git remote add upstream https://github.com/The-Shivam-garg/BigB-E-learn-Websit-e
+```
+
 You will see the benefits of adding remote later.
 
 <br />
@@ -140,10 +150,13 @@ You will see the benefits of adding remote later.
 
 Open Source projects have a number of contributors who can push code anytime. So it is necessary to make your forked copy equal with the original repository. The remote added above called Upstream helps in this.
 
-`$ git checkout main`
-`$ git fetch upstream`
-`$ git merge upstream/main`
-`$ git push origin main` <br/>
+```
+$ git checkout main
+$ git fetch upstream
+$ git merge upstream/main
+$ git push origin main
+```
+
 The last command pushes the latest code to your forked repository on Github. The origin is the remote pointing to your forked repository on github.
 
 <br />
@@ -152,11 +165,17 @@ The last command pushes the latest code to your forked repository on Github. The
 
 Usually, all repositories have a main branch that is regarded to be stable, and any new features should be developed on a separate branch before being merged into the main branch. As a result, we should establish a new branch for our feature or bugfix and go to work on the issue. 
 
-`$ git checkout -b <feature-branch>`
+```
+$ git checkout -b <feature-branch>
+```
+
 This will create a new branch out of master branch. Now start working on the problem and commit your changes.
 
-`$ git add --all`
-`$ git commit -m "<commit message>"`
+```
+$ git add --all
+$ git commit -m "<commit message>"
+```
+
 The first command adds all the files or you can add specific files by removing -a and adding the file names. The second command gives a message to your changes so you can know in future what changes this commit makes. If you are solving an issue on original repository, you should add the issue number like #35 to your commit message. This will show the reference to commits in the issue.
 
 <br />
@@ -165,7 +184,9 @@ The first command adds all the files or you can add specific files by removing -
 
 You now have a new branch containing the modifications you want in the project you forked. Now, push your new branch to your remote github fork. 
 
-`$ git push origin <feature-branch>`
+```
+$ git push origin <feature-branch>
+```
 Now you are ready to help the project by opening a pull request means you now tell the project managers to add the feature or bug fix to original repository. You can open a pull request by clicking on green icon -
 
 <p align="center">  <img  src="https://i.imgur.com/aGaqAD5.png">  </p>

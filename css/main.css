@@ -69,13 +69,18 @@ html {
     padding: 1.5rem 0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    row-gap: 30px;
 }
 
 .welcome .item {
     text-align: center;
 }
 
-.welcome .item span {
+.welcome .item:hover{
+    box-shadow: 0 0 7px rgba(1,1,1,0.23);
+}
+.welcome .item span{
+
     font-size: 2.6rem;
 }
 
@@ -108,22 +113,61 @@ html {
 
 /* why section */
 
-.why .container>p {
+.why > .container > .title {
+    padding-bottom: 0;
+  }
+  .why .container > p {
     text-align: center;
-}
-
-.why .item {
-    padding: 1rem;
-    margin: 1rem 0;
-    text-align: center;
-}
-
-.why .item img {
-    width: 240px;
-    height: 180px;
-    margin-left: auto;
-    margin-right: auto;
-}
+    line-height: 28px;
+    font-size: 1rem;
+  }
+  .why .item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.625rem;
+    margin: 1.2rem;
+    box-shadow: 0 10px 20px rgba(173, 173, 173, 0.19),
+      0 6px 6px rgba(172, 172, 172, 0.23);
+    transform: translateY(0);
+    transition: transform 400ms ease-out , box-shadow 400ms ease-out;
+  }
+  .why .item:hover
+  {
+      transform: translateY(-2%);
+      box-shadow: 0 15px 14px rgba(173, 173, 173, 0.514);
+  }
+  .why .item img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.625rem;
+  }
+  .item-img {
+    display: flex;
+    justify-content: center;
+  }
+  .item-body > p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 0.955rem;
+    line-height: 1.5rem;
+  }
+  .item-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+  }
+  .item-body > h3 {
+    display: block;
+    margin-top: 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding-bottom: 5px !important ;
+  }
 
 
 /* online course */
@@ -186,25 +230,24 @@ html {
 
 .counter .item {
     margin: 0.4rem 0;
-    color: #fff;
+    color:white;
     border-radius: 0.3rem;
     padding-bottom: 1rem;
 }
 
-.counter .item:nth-child(1) {
-    background: var(--cyan);
+.counter .item:nth-child(1){
+      background-image: linear-gradient(thistle,darkslategrey);
+  
 }
-
-.counter .item:nth-child(2) {
-    background: var(--magenta);
+.counter .item:nth-child(2){
+    background-image: linear-gradient(thistle,darkslategrey);
 }
-
-.counter .item:nth-child(3) {
-    background: var(--yellow);
+.counter .item:nth-child(3){
+   background-image: linear-gradient(thistle,darkslategrey);
 }
+.counter .item:nth-child(4){
+    background-image: linear-gradient(thistle,darkslategrey);
 
-.counter .item:nth-child(4) {
-    background: var(--black);
 }
 
 .counter .num {
@@ -429,6 +472,7 @@ html {
 
 /* footer  */
 
+
 footer {
     background: var(--black);
     color: #fff;
@@ -450,49 +494,41 @@ footer .row>div:nth-child(1) p {
 }
 
 .footer-social-links {
+
     display: flex;
-    justify-content: center;
-    margin: 1rem 0;
+    justify-content: flex-start;
+    align-items: center;
+    
 }
 
-.footer-social-links li {
-    border: 2px solid #fff;
-    width: 40px;
-    height: 40px;
-    margin-right: 0.5rem;
-    border-radius: 50%;
+ul>li>span>i{
+margin-right: 12px;
 }
-
-.footer-social-links li:hover {
-    border-color: var(--cyan);
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
 }
+.foot-line{
+    background: var(--cyan);
+    height: 3px;
+    width: calc(100%);
+    margin-top: 30px;
 
-.footer-social-links a {
+}
+.footer-text{
     color: #fff;
-    transition: var(--transition);
+}
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
 }
 
-.footer-social-links li:hover a {
-    color: var(--cyan);
-}
-
-.footer-links a {
-    color: var(--lightBlack);
-    display: block;
-    margin: 0.6rem 0;
-    transition: var(--transition);
-}
-
-.footer-links a:hover {
-    color: var(--exLight);
-}
-
-.footer-contact-info span {
-    color: var(--lightBlack);
-}
-
-.footer-contact-info div {
-    margin: 0.6rem 0;
 }
 
 .footer-text {
@@ -503,4 +539,8 @@ footer .row>div:nth-child(1) p {
 
 .footer-text span {
     color: var(--cyan);
+
 }
+
+
+
