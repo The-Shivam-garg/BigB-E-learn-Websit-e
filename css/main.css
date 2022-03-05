@@ -67,9 +67,13 @@ html{
     padding: 1.5rem 0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    row-gap: 30px;
 }
 .welcome .item{
     text-align: center;
+}
+.welcome .item:hover{
+    box-shadow: 0 0 7px rgba(1,1,1,0.23);
 }
 .welcome .item span{
     font-size: 2.6rem;
@@ -117,6 +121,13 @@ html{
     margin: 1.2rem;
     box-shadow: 0 10px 20px rgba(173, 173, 173, 0.19),
       0 6px 6px rgba(172, 172, 172, 0.23);
+    transform: translateY(0);
+    transition: transform 400ms ease-out , box-shadow 400ms ease-out;
+  }
+  .why .item:hover
+  {
+      transform: translateY(-2%);
+      box-shadow: 0 15px 14px rgba(173, 173, 173, 0.514);
   }
   .why .item img {
     width: 100%;
