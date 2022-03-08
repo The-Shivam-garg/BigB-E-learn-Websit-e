@@ -57,6 +57,7 @@ If you have any queries or any suggestions then reach out to us at <a href="bigb
 ##### If you want to contact me, you can reach me through below Social handles.
 
 <div align="center">
+ 
 
 
 <a  href="https://www.linkedin.com/in/shivam-garg-15675720a/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
@@ -73,6 +74,16 @@ If you have any queries or any suggestions then reach out to us at <a href="bigb
 I have started a Community named Sidehustlers Community [Community for ALL] Where we share Resources, Roadmaps to learn different technologies and share opportunities related to different tech & non-tech programs. Also, We organize Events on different technologies and emerging domains to help people to get started with these technologies.
 
   <span> <h2>Join the Community  ⚡</h2>
+   
+   
+   
+   <a href="https://github.com/The-Shivam-garg/BigB-E-learn-Websit-e"><img src="https://sloc.xyz/github/The-Shivam-garg/BigB-E-learn-Websit-e"    alt="LOC" /></a>
+<a href="https://github.com/The-Shivam-garg/BigB-E-learn-Websit-e"><img src="https://img.shields.io/github/stars/The-Shivam-garg/BigB-E-learn-Websit-e" alt="Stars Badge" /></a>
+<a href="https://github.com/The-Shivam-garg/BigB-E-learn-Websit-e/network/members"><img src="https://img.shields.io/github/forks/The-Shivam-garg/BigB-E-learn-Websit-e" alt="Forks Badge" /></a>
+<a href="https://github.com/The-Shivam-garg/BigB-E-learn-Websit-e/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/The-Shivam-garg/BigB-E-learn-Websit-e?color=2b9348" ></a>
+   
+   
+   
 <a  href="https://www.youtube.com/channel/UCRkYp3SkqvR5OD8YiTqVEbQ" target="_blank"><img alt="YouTube" src="https://img.shields.io/badge/Youtube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white" /></a>
 <a  href="https://www.linkedin.com/company/side-hustler" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="https://twitter.com/Sidehustlers" target="_blank"><img src="https://img.shields.io/badge/twitter-%2300acee.svg?&style=for-the-badge&logo=twitter&logoColor=white&alt=twitter" /></a>
@@ -211,10 +222,7 @@ This project is licensed under the [**MIT license**](https://github.com/The-Shiv
 
 <div align="center">
 
-<a href="https://github.com/The-Shivam-garg/BigB-E-learn-Websit-e"><img src="https://sloc.xyz/github/The-Shivam-garg/BigB-E-learn-Websit-e"    alt="LOC" /></a>
-<a href="https://github.com/The-Shivam-garg/BigB-E-learn-Websit-e"><img src="https://img.shields.io/github/stars/The-Shivam-garg/BigB-E-learn-Websit-e" alt="Stars Badge" /></a>
-<a href="https://github.com/The-Shivam-garg/BigB-E-learn-Websit-e/network/members"><img src="https://img.shields.io/github/forks/The-Shivam-garg/BigB-E-learn-Websit-e" alt="Forks Badge" /></a>
-<a href="https://github.com/The-Shivam-garg/BigB-E-learn-Websit-e/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/The-Shivam-garg/BigB-E-learn-Websit-e?color=2b9348" ></a>
+
 
 [![GitHub license](https://img.shields.io/github/license/The-Shivam-garg/BigB-E-learn-Websit-e?logo=github)](https://github.com/The-Shivam-garg/BigB-E-learn-Websit-e/blob/master/LICENSE)
 
