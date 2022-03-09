@@ -493,7 +493,7 @@ footer .row>div:nth-child(1) p {
     margin: 0 auto;
 }
 
-.footer .social-links {
+.footer-social-links {
     display: flex;
     justify-content: flex-start;
     align-items: center;
