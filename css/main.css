@@ -494,7 +494,7 @@ footer .row>div:nth-child(1) p {
 }
 
 .footer-social-links {
-
+    margin: 1px auto;
     display: flex;
     justify-content: flex-start;
     align-items: center;
