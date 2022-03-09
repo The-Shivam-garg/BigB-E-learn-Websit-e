@@ -508,6 +508,10 @@ margin-right: 12px;
 	color: #24262b;
 	background-color: #ffffff;
 }
+.footer-col .infor a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
 .foot-line{
     background: var(--cyan);
     height: 3px;
