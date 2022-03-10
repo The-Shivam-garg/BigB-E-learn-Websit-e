@@ -290,3 +290,30 @@
      width: 30px;
   }
 }
+
+
+@media (max-width:1051px) {
+  .testimonial-heading{
+    margin-left: 75px;
+  }
+  .team{
+     flex-wrap: wrap;  
+  }  
+  
+}
+@media (max-width:1028px) {
+  .testimonial-heading{
+    margin-left: 95px !important;
+  }
+}
+
+@media (max-width:930px){
+.blog-slider {
+    margin-left:173px;
+}
+}
+@media (max-width: 764px){
+.blog-slider {
+    margin-left: 47px;
+}
+}
