@@ -199,7 +199,7 @@ Good Luck for your journey
 
 
 
-© 2021 Shivam Garg and contributors\
+© 2022 Shivam Garg and contributors\
 This project is licensed under the [**MIT license**](https://github.com/The-Shivam-garg/BigB-E-learn-Websit-ee/blob/main/LICENSE).
 
 <div align="center">
