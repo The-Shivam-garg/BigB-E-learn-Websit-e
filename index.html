@@ -323,14 +323,18 @@
 
         <h3>Subscribe For Latest Updates</h3>
         <p>Subscribe to our newsletter, join us in believing that learning is a lifelong process of keeping abreast of change.</p>
-        <form action="mailto:shivanshgarg2018@gmail.com" method="post" enctype="text/plain">
-            <input type="email" required placeholder="enter your email">
-            <input type="submit" value="Subscribe" onclick="viewcount()">
+        <form action="mailto:shivanshgarg2018@gmail.com" method="post" enctype="text/plain" name="newsletter-form">
+            <input type="email"  placeholder="Enter your email" id="newsletterEmail">
+            <input type="submit" value="Subscribe">
         </form>
 
     </div>
 
     <script>
+
+        const newsletterEmail = document.getElementById("newsletterEmail");
+        const newsletterForm = document.forms["newsletter-form"];
+
         var count = (function() {
             var counter = 0;
             return function() {
@@ -338,9 +342,27 @@
             }
         })();
 
+        function validateEmail(email) {
+            const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+            return re.test(String(email).toLowerCase());
+        }
+
         function viewcount() {
             document.getElementById('counting').innerHTML = count();
         }
+
+        newsletterForm.addEventListener("submit",(event)=>{
+            event.preventDefault();
+            if(!validateEmail(newsletterEmail.value)){
+                swal("Error !","Please enter a valid email ","error");
+            }
+            else{
+                swal("Thank You !","We will connect with you soon ! ","success");
+                viewcount();
+                newsletterForm.reset();
+            }
+        })
+        
     </script>
 
     <!-- review section ends -->
