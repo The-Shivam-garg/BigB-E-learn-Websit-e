@@ -487,9 +487,12 @@ footer .row > div:nth-child(1) p {
 }
 
 .footer-social-links {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 ul > li > span > i {
@@ -499,12 +502,19 @@ ul > li > span > i {
   color: #24262b;
   background-color: #ffffff;
 }
-.foot-line {
-  background: var(--cyan);
-  height: 3px;
-  width: calc(100%);
-  margin-top: 30px;
+
+.footer-col .infor ul>li>span:hover{
+	color: #24262b;
+	background-color: #ffffff;
 }
+
+.foot-line{
+    background: var(--cyan);
+    height: 3px;
+    width: calc(100%);
+    margin-top: 30px;
+}
+
 .footer-text {
   color: #fff;
 }
