@@ -54,7 +54,7 @@
                             <li><a href="./feature-pg/features.html">Features</a></li>
                             <li><a href="./Blog/blog.html">Blogs</a></li>
                             <li><a href="./contact/contact.html">Contact Us</a></li>
-                            <li><a href="./log in/Login.html" class="btn">Sign Up</a></li>
+                            <li><a href="./log in/Login.html" class="btn">Sign In</a></li>
                         </ul>
                     </div>
 
@@ -233,34 +233,7 @@
     </section>
     <!-- end of online course -->
 
-    <script>
-        const form = document.forms["form-sheet"];
-        const courses = document.getElementById("choose");
-        const email = document.getElementById("email");
-        const name = document.getElementById("name");
-
-        function isEmail(email) {
-            let regexp = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-            return regexp.test(String(email).toLowerCase());
-        }
-
-
-        form.addEventListener("submit", (event) => {
-            event.preventDefault();
-
-            if (name.value == "") {
-                swal("Error !", "Please enter a valid name", "error");
-            } else if (!isEmail(email.value)) {
-                swal("Error !", "Please enter a valid email", "error");
-            } else if (courses.value == "") {
-                swal("Error !", "Please select a course", "error");
-            } else {
-                swal("Welcome to Bigb", "Thanks for joining us !", "success");
-                form.reset();
-            }
-
-        })
-    </script>
+    <script src="./js/script1.js"></script>
 
     <!-- skill section -->
     <section class="skill">
@@ -330,40 +303,7 @@
 
     </div>
 
-    <script>
-
-        const newsletterEmail = document.getElementById("newsletterEmail");
-        const newsletterForm = document.forms["newsletter-form"];
-
-        var count = (function() {
-            var counter = 0;
-            return function() {
-                return counter += 1;
-            }
-        })();
-
-        function validateEmail(email) {
-            const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-            return re.test(String(email).toLowerCase());
-        }
-
-        function viewcount() {
-            document.getElementById('counting').innerHTML = count();
-        }
-
-        newsletterForm.addEventListener("submit",(event)=>{
-            event.preventDefault();
-            if(!validateEmail(newsletterEmail.value)){
-                swal("Error !","Please enter a valid email ","error");
-            }
-            else{
-                swal("Thank You !","We will connect with you soon ! ","success");
-                viewcount();
-                newsletterForm.reset();
-            }
-        })
-        
-    </script>
+    <script src="./js/script2.js"></script>
 
     <!-- review section ends -->
 
@@ -685,103 +625,11 @@
 
     <script src="https://kit.fontawesome.com/a81368914c.js"></script>
     <script src="./app.js"></script>
-    <script>
-        const popup = document.querySelector('.popup');
-        const close = document.querySelector('.close');
-        const overlayser = document.querySelector('.overlayser')
+    <script src="./js/script3.js"></script>
+    <script src="./js/script4.js"></script>
+    <script src="./js/preloader.js"></script>
 
-        window.onload = function() {
-            setTimeout(function() {
-                popup.style.display = "block";
-                overlayser.style.display = "block";
-            }, 2000)
-        }
-
-        close.addEventListener('click', () => {
-            popup.style.display = "none";
-            overlayser.style.display = "none";
-
-        })
-    </script>
-    <script>
-        //all ------------------
-        function initParadoxWay() {
-            "use strict";
-
-            if ($(".testimonials-carousel").length > 0) {
-                var j2 = new Swiper(".testimonials-carousel .swiper-container", {
-                    preloadImages: false,
-                    slidesPerView: 1,
-                    spaceBetween: 20,
-                    loop: true,
-                    grabCursor: true,
-                    mousewheel: false,
-                    centeredSlides: true,
-                    pagination: {
-                        el: '.tc-pagination',
-                        clickable: true,
-                        dynamicBullets: true,
-                    },
-                    navigation: {
-                        nextEl: '.listing-carousel-button-next',
-                        prevEl: '.listing-carousel-button-prev',
-                    },
-                    breakpoints: {
-                        1024: {
-                            slidesPerView: 3,
-                        },
-
-                    }
-                });
-            }
-
-            // bubbles -----------------
-
-
-            setInterval(function() {
-                var size = Math.floor(Math.random() *10);
-                $('.bubbles').append('<div class="individual-bubble" style="left: ' + Math.floor(Math.random() *10 ) + 'px; width: ' + size + 'px; height:' + size + 'px;"></div>');
-                $('.individual-bubble').animate({
-                    'bottom': '100%',
-                    'opacity': '-=0.7'
-                }, 4000, function() {
-                    $(this).remove()
-                });
-            }, 350);
-
-        }
-
-        //   Init All ------------------
-        $(document).ready(function() {
-            initParadoxWay();
-        });
-    </script>
-    <script>
-        var preloader = document.getElementById("preloader");
-
-        window.addEventListener("load", function() {
-            preloader.style.display = "none";
-        })
-    </script>
-
-    <script>
-        // floating button to the top 
-        $(document).ready(function() {
-            $(document).scroll(function() {
-                if ($(this).scrollTop() > 100) {
-                    $("#scroll").fadeIn();
-                } else {
-                    $("#scroll").fadeOut();
-                }
-            });
-            $("#scroll").click(function() {
-                $("html,body").animate({
-                    scrollTop: 0
-                }, 600);
-                return false;
-            });
-        });
-    </script>
+    <script src="./js/FloatingButton.js"></script>
 </body>
 
 </html>
