@@ -58,7 +58,7 @@ a {
 
 .big-wrapper {
     position: relative;
-    padding: 1.7rem 0 2rem;
+    /* padding: 1.7rem 0 2rem; */
     width: 100%;
     min-height: 100vh;
     overflow: hidden;
@@ -85,7 +85,7 @@ a {
     border-radius: 35px;
     display: flex;
     flex-direction: column;
-    padding: 0 10px;
+    /* padding: 0 10px; */
 }
 
 .contentbox .imgbx {
@@ -177,6 +177,10 @@ a {
     z-index: 10;
 }
 
+
+
+
+
 header {
     position: relative;
     z-index: 70;
@@ -186,6 +190,8 @@ header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 5rem;
+
 }
 
 .overlay {
@@ -215,7 +221,8 @@ header .container {
     display: flex;
     list-style: none;
     align-items: center;
-    /* padding:0 1.5rem 0 1.5rem; */
+    padding:0 1.5rem 0 1.5rem;
+    font-size: large;
 }
 
 .links ul li {
@@ -227,7 +234,7 @@ header .container {
     margin-left: 4.5rem;
     display: inline-block;
     transition: 0.3s;
-    margin-left: 30px;
+    /* margin:; */
 }
 
 
