@@ -172,9 +172,11 @@ html {
 /* online course */
 
 .online-course {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(../images/online-course-bg.jpg) top no-repeat fixed;
+  /* JOIN FREE ONLINE COURSES */  
+  background: url(../img/subscribe-bg.png) no-repeat;
   color: #fff;
+  background-size: cover;
+  background-position: center;
 }
 
 .online-course-form div * {
