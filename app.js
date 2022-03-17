@@ -11,6 +11,9 @@ function declare() {
 
 const main = document.querySelector("main");
 
+
+
+
 declare();
 
 function toggleAnimation() {

@@ -114,11 +114,11 @@
                 <span class="tooltip">Saved</span>
             </li>
             <li>
-                <a href="/bigB/log%20in/Login.html">
+                <a href="../log in/Login.html">
                     <i class="fas fa-user-plus"></i>
-                    <span class="links_name">Sign Up</span>
+                    <span class="links_name">Sign In</span>
                 </a>
-                <span class="tooltip">Sign Up</span>
+                <span class="tooltip">Sign In</span>
             </li>
             <li class="profile">
                 <div class="profile-details">
@@ -260,48 +260,9 @@
 </main>
     <!-- footer section ends -->
     <script src="../app.js"></script>
-    <script>
-        let sidebar = document.querySelector(".sidebar");
-        let closeBtn = document.querySelector("#btn");
-        let searchBtn = document.querySelector(".bx-search");
+    <script src="./script1.js"></script>   <!-- Code optimization -->
 
-        closeBtn.addEventListener("click", () => {
-            sidebar.classList.toggle("open");
-            menuBtnChange(); //calling the function(optional)
-        });
-
-        searchBtn.addEventListener("click", () => { // Sidebar open when you click on the search iocn
-            sidebar.classList.toggle("open");
-            menuBtnChange(); //calling the function(optional)
-        });
-
-        // following are the code to change sidebar button(optional)
-        function menuBtnChange() {
-            if (sidebar.classList.contains("open")) {
-                closeBtn.classList.replace("bx-menu", "bx-menu-alt-right"); //replacing the iocns class
-            } else {
-                closeBtn.classList.replace("bx-menu-alt-right", "bx-menu"); //replacing the iocns class
-            }
-        }
-    </script>
-
-<script>
-    // floating button to the top 
-    $(document).ready(function() {
-        $(document).scroll(function(){
-            if($(this).scrollTop() > 100){
-                $("#scroll").fadeIn();
-            } else{
-                $("#scroll").fadeOut();
-            }
-        });
-        $("#scroll").click(function () {
-            $("html,body").animate({scrollTop:0},600);
-            return false;
-        });
-    });
-
-</script>
+    <script src="./script2.js"></script>   <!-- Code optimization -->
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
     <!-- custom js file link  -->
