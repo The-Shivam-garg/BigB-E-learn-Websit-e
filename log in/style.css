@@ -58,6 +58,7 @@ form.sign-up-form {
 
 form.sign-in-form {
   z-index: 2;
+  margin-left: 66px;
 }
 
 .title {
