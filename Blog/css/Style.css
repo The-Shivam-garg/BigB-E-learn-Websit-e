@@ -54,8 +54,7 @@ body {
   --mainColor: #64bcf4;
 
   /* gradient color   */
-  --sky: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
-
+  --sky: linear-gradient(120deg, #0057e4 0%, #33ace4 100%);
   /*      theme font-family   */
   --Abel: "Abel", cursive;
   --Anton: "Anton", cursive;
