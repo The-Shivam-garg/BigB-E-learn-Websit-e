@@ -323,6 +323,7 @@ html {
 
 .a {
   text-decoration: none;
+  border-radius: 30px;
 }
 
 #testimonials {
@@ -350,6 +351,7 @@ html {
   color: #ffffff;
   font-family: sans-serif;
   padding: 10px 20px;
+  border-radius: 55px;
 }
 
 .testimonial-heading span {
