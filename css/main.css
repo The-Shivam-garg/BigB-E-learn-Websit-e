@@ -78,6 +78,7 @@ html {
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
+  transition-duration: 1s;
 }
 
 .welcome .item:last-child {
