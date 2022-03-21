@@ -413,6 +413,7 @@ main .blog-content .btn-blog {
   padding: 0.7rem 2rem;
   background: var(--sky);
   margin: 0.5rem;
+  border-radius: 30px;
 }
 
 main .blog-content span {
@@ -502,6 +503,7 @@ main .post-title .post-btn a {
   border-radius: 0;
   padding: 0.7rem 1.5rem;
   background: var(--sky);
+  border-radius: 30px;
 }
 
 .site-content .pagination {
@@ -553,11 +555,13 @@ main .post-title .post-btn a {
 }
 
 .site-content .sidebar .popular-post .post-info {
-  padding: 0.4rem 0.1rem !important;
+  padding: 1rem !important;
   bottom: 0rem !important;
   left: 1.5rem !important;
-  border-radius: 0rem !important;
-  background: white !important;
+  border-radius: 3rem !important;
+  background: var(--sky) !important;
+  position: absolute;
+  bottom: 0%;
 }
 
 .site-content .sidebar .popular-post .post-title a {
@@ -578,6 +582,7 @@ main .post-title .post-btn a {
   padding: 0.3rem 0.5rem;
   font-family: var(--Lexend);
   font-size: 1rem;
+  border-radius: 30px;
 }
 
 .site-content .sidebar .newsletter .form-btn {
@@ -585,6 +590,7 @@ main .post-title .post-btn a {
   padding: 0.8rem 32%;
   margin: 1rem 0;
   background: var(--sky);
+  border-radius: 30px;
 }
 
 .site-content .sidebar .popular-tags {
