@@ -73,6 +73,12 @@ html {
 
 .welcome .item {
   text-align: center;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  transition-duration: 1s;
 }
 
 .welcome .item:last-child {
