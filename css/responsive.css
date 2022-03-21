@@ -162,6 +162,7 @@
         font-size: 1.2rem;
     }
     
+    
 }
 
 
@@ -327,4 +328,13 @@
     footer .row > div:nth-child(1) p{
         width: 100%;
     }
+    .newsletterText{
+        margin: 6rem;
+      }
 }
+@media screen and (orientation:portrait) {
+    .newsletter{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+ }
