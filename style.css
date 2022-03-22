@@ -505,3 +505,41 @@ header .container {
         font-size: 0.8rem;
     }
 }
+
+
+
+/*Added Animated Hover Link*/
+
+
+.expanded-animated-link {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  max-width: 450px;
+}
+
+h1 a, h3.expanded-animated-link a {
+  text-decoration: none;
+  font-weight: 400;
+  color: #000000;
+  background-repeat: no-repeat;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+h1 a {
+  font-size: 48px;
+  background-size: 100%;
+  background-position: 0 50px;
+  background-image: linear-gradient(270deg, fuchsia, yellow);
+
+}
+
+h1 a:hover {
+  background-position: 0 30px;
+}
+
+h3.animated-link a:hover {
+  background-size: 100% 100%;
+}
+
+/*Added Animated Hover Link*/
