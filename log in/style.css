@@ -27,6 +27,16 @@ input {
   left: 0;
 }
 
+.forgot{
+  font-size: smaller;
+}
+form a{
+  text-decoration: none;
+  color: #006e92;
+  font-weight: bold;
+  
+}
+
 .signin-signup {
   position: absolute;
   top: 50%;

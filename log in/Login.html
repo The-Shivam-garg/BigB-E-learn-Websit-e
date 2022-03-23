@@ -385,12 +385,16 @@
               <input type="email" validate id="email" placeholder="Email" />
             </div>
             <div class="input-field user_logged_in">
-              <i class="fas fa-lock"></i>
+              <i class="fas fa-lock" onclick="show()"></i>
               <input type="password" id="password" placeholder="Password" />
             </div>
             <span id="err_msg"></span>
+            <a href="forget-pass.html">Forgot Password</a>
             <input type="submit" value="Login" class="btn solid user_logged_in" />
             <input type="submit" value="Logout" class="btn solid logout" style="display: none;"/>
+          
+            
+            
             <p class="social-text user_logged_in">Or Sign in with social platforms</p>
             <div class="social-media user_logged_in">
               <a href="#" class="social-icon">
@@ -485,6 +489,21 @@
   </section>
   <!--navbar script starts here-->  
 <script>
+
+  function show() {
+    let pass=document.getElementById('password');
+    let icon = document.querySelector('.fas');
+    if(pass.type === "password")
+    {
+      pass.type='text';
+      pass.style.marginTop="20px";
+      icon.style.color = "#7f2092";
+    }
+    else{
+      pass.type="password";
+      icon.style.color ="grey";
+    }
+  }
   let sidebar = document.querySelector(".sidebar");
   let closeBtn = document.querySelector("#btn");
   let searchBtn = document.querySelector(".bx-search");
