@@ -68,6 +68,12 @@ a {
     justify-content: space-between;
 }
 
+/* changing font awesome color */
+
+.fa .fas {
+    color: black;
+}
+
 .popup {
     position: fixed;
     top: 50%;
