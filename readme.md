@@ -5,8 +5,8 @@
 
 
 This is an Open-Source Educational Website, which Cover all the Educational related things whether it's in-syllabus or out-of-syllabus:  
-Notes, Sample Papers, Online Video Lectures and courses to crack competitive Interviews Of Both Product and Service Based Companies. <br>
-Students can clear their doubts by sending their questions to our website. We have added Quizzes for Students who are willing to solve <br>
+Notes, Sample Papers, Online Video Lectures and courses to crack competitive Interviews Of Both Product and Service Based Companies.
+Students can clear their doubts by sending their questions to our website. We have added Quizzes for Students who are willing to solve
 problems on different topics. We have also added Interview questions for students who are preparing for placements.
   
 <h2>IN DEVELOPMENT PHASE  
@@ -23,7 +23,7 @@ If you have any queries or any suggestions then reach out to us at <a href="bigb
 ![Small Preview](https://github.com/The-Shivam-garg/BigB-E-learn-Websit-e/blob/57660e540ad8ee9940b16af080d8630e2c416f88/img/small%20view.png)  
 
 
-### 🚩 FRONT LOOK OF MAIN PAGE:
+## 🚩 FRONT LOOK OF MAIN PAGE:
 
 ![Front View](https://github.com/The-Shivam-garg/BigB-E-learn-Websit-e/blob/4abe43cadf0905ac862b4d0bd28e7292b7f55857/img/front.png)
 
