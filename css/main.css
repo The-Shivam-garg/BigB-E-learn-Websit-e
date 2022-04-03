@@ -264,6 +264,8 @@ html {
 
 .newsletter {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     /* gap:2rem; */
     text-align: center;
     padding: 3rem 3rem;
