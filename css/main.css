@@ -533,6 +533,10 @@ ul > li > span > i {
 	color: #24262b;
 	background-color: #ffffff;
 }
+.footer-col .infor a:hover{
+	color: #24262b;
+	background-color: white;
+}
 
 .foot-line{
     background: var(--cyan);
