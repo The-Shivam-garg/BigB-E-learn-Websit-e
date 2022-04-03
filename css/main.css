@@ -525,13 +525,14 @@ ul > li > span > i {
   margin-right: 12px;
 }
 .footer-col .social-links a:hover {
-  color: #24262b;
-  background-color: #ffffff;
+  color: #49c9f8;
+ 
 }
 
 .footer-col .infor ul>li>span:hover{
-	color: #24262b;
-	background-color: #ffffff;
+	color: #49c9f8;
+  background-color: #192E3A;
+	
 }
 
 .foot-line{
