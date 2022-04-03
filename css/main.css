@@ -20,6 +20,7 @@ html {
   font-family: var(--Heebo);
   line-height: 1.5;
   font-size: 1.05rem;
+  scroll-behavior: smooth;
   text-rendering: optimizeLegibility;
   color: var(--black);
 }

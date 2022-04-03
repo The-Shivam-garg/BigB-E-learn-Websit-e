@@ -1,7 +1,9 @@
 * {
    box-sizing: border-box;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 #testimonials{
   display: flex;
   justify-content: center;
