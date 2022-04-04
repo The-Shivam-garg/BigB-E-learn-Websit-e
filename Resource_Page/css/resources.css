@@ -1,7 +1,9 @@
 .section_our_solution .row {
   align-items: center;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 .our_solution_category {
   display: flex;
   flex-direction: row;
