@@ -20,6 +20,7 @@ html {
   font-family: var(--Heebo);
   line-height: 1.5;
   font-size: 1.05rem;
+  scroll-behavior: smooth;
   text-rendering: optimizeLegibility;
   color: var(--black);
 }
@@ -263,6 +264,8 @@ html {
 
 .newsletter {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     /* gap:2rem; */
     text-align: center;
     padding: 3rem 3rem;
@@ -525,13 +528,19 @@ ul > li > span > i {
   margin-right: 12px;
 }
 .footer-col .social-links a:hover {
-  color: #24262b;
-  background-color: #ffffff;
+  color: #49c9f8;
+ 
 }
 
 .footer-col .infor ul>li>span:hover{
+	color: #49c9f8;
+  background-color: #192E3A;
+	
+}
+
+.footer-col .infor a:hover{
 	color: #24262b;
-	background-color: #ffffff;
+	background-color: white;
 }
 
 .foot-line{

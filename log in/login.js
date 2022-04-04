@@ -8,11 +8,9 @@ eye.addEventListener("click", (e) => {
   eyeView = !eyeView;
   if (eyeView) {
     eye.setAttribute("class", "fas fa-eye eye");
-    document.getElementById("signup_password").setAttribute("type", "text");
     document.getElementById("password").setAttribute("type", "text");
   } else {
     eye.setAttribute("class", "fas fa-eye-slash eye");
-    document.getElementById("signup_password").setAttribute("type", "password");
     document.getElementById("password").setAttribute("type", "password");
   }
 });

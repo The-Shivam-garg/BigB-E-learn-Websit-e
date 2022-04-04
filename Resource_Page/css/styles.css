@@ -10,6 +10,7 @@
 html
 {
     font-family: 'Nunitio';
+    scroll-behavior: smooth;
 }
 
 h1{

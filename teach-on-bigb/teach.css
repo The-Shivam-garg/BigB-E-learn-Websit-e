@@ -5,7 +5,9 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 :root{
     --mainColor: #64bcf4;
     --hoverColor: #5bacdf;

@@ -1,9 +1,25 @@
 @import url("../css/fonts.css");
 html,
 body {
+
     margin: 0%;
     box-sizing: border-box;
     overflow-x: hidden;
+}
+#scroll{
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  background-color: #49c9f8;
+  text-indent: -9999px;
+  display: none;
+  border-radius: 60px;
+  z-index: 20;
+  box-shadow: 0px 0px 13px rgba(0,0,0,0.1);
+
 }
 
 #scroll {
