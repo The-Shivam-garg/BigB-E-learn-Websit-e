@@ -6,6 +6,9 @@
   box-sizing: border-box;
   font-family: "Poppins" , sans-serif;
 }
+html{
+  scroll-behavior: smooth;
+}
 .sidebar{
   position: fixed;
   left: 0;
@@ -247,4 +250,18 @@
   .sidebar li .tooltip{
     display: none;
   }
+}
+.password{
+  display: flex;
+
+}
+.lock{
+  display: inline-block;
+  margin-left: 1rem;
+  margin-right: 1.2rem;
+}
+.eye{
+  margin-right: 1rem;
+  align-items: flex-end;
+  margin-left: 5rem;
 }

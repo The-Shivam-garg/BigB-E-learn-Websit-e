@@ -20,6 +20,7 @@ html {
   font-family: var(--Heebo);
   line-height: 1.5;
   font-size: 1.05rem;
+  scroll-behavior: smooth;
   text-rendering: optimizeLegibility;
   color: var(--black);
 }
@@ -73,6 +74,12 @@ html {
 
 .welcome .item {
   text-align: center;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  transition-duration: 1s;
 }
 
 .welcome .item:last-child {
@@ -172,9 +179,11 @@ html {
 /* online course */
 
 .online-course {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(../images/online-course-bg.jpg) top no-repeat fixed;
+  /* JOIN FREE ONLINE COURSES */  
+  background: url(../img/subscribe-bg.png) no-repeat;
   color: #fff;
+  background-size: cover;
+  background-position: center;
 }
 
 .online-course-form div * {
@@ -254,13 +263,28 @@ html {
 /* end of counter section */
 
 .newsletter {
-  text-align: center;
-  padding: 3rem 1rem;
-  background: url(../img/subscribe-bg.png) no-repeat;
-  background-size: cover;
-  background-position: center;
+    display: flex;
+    /* gap:2rem; */
+    text-align: center;
+    padding: 3rem 3rem;
+    /* background: url(../img/subscribe-bg.png) no-repeat; */
+    background-color: #192E3A;
+    background-size: cover;
+    background-position: center;
+    /* justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap; */
 }
-
+.newsletter img {
+  /* width: 50%;
+  height: 50%; */
+}
+.newsletterText{
+  display: flex;
+  /* margin: 6rem; */
+  align-items: center;
+  flex-direction: column;
+}
 .newsletter h3 {
   color: #fff;
   font-size: 3rem;
@@ -276,12 +300,13 @@ html {
 
 .newsletter form {
   display: flex;
-  max-width: 70rem;
-  border: 0.2rem solid #fff;
-  padding: 0.5rem;
+  gap:1rem;
+  max-width: 30rem;
+  border:.2rem solid #fff;
+  padding:.5rem;
   border-radius: 5rem;
-  margin: 2rem auto;
-  height: 4.5rem;
+  /* margin:2rem auto 2rem -2rem; */
+  height:4.5rem;
 }
 
 .newsletter form input[type="email"] {
@@ -313,14 +338,15 @@ html {
 }
 
 .newsletter form input[type="submit"]:hover {
-  color: #d9138a;
-  border-color: #d9138a;
-  background-color: white;
+  color:#f0f0f0;
+  border-color: #ffffff;
+  background-color: #192E3A;
   transition: 0.5s ease-in-out;
 }
 
 .a {
   text-decoration: none;
+  border-radius: 30px;
 }
 
 #testimonials {
@@ -348,6 +374,7 @@ html {
   color: #ffffff;
   font-family: sans-serif;
   padding: 10px 20px;
+  border-radius: 55px;
 }
 
 .testimonial-heading span {
@@ -499,13 +526,19 @@ ul > li > span > i {
   margin-right: 12px;
 }
 .footer-col .social-links a:hover {
-  color: #24262b;
-  background-color: #ffffff;
+  color: #49c9f8;
+ 
 }
 
 .footer-col .infor ul>li>span:hover{
+	color: #49c9f8;
+  background-color: #192E3A;
+	
+}
+
+.footer-col .infor a:hover{
 	color: #24262b;
-	background-color: #ffffff;
+	background-color: white;
 }
 
 .foot-line{

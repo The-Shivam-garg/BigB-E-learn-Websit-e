@@ -10,7 +10,9 @@ body,
 input {
   font-family: "Poppins", sans-serif;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 .container {
   position: relative;
   width: 100%;
@@ -58,6 +60,7 @@ form.sign-up-form {
 
 form.sign-in-form {
   z-index: 2;
+  margin-left: 66px;
 }
 
 .title {
