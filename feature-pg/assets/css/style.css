@@ -1001,7 +1001,7 @@ html {
 
 .blog-banner-box img {
   width:  100%;
-  height: 100%;
+  height: 250px;
   object-fit: cover;
   transition: var(--default-transition);
 }
