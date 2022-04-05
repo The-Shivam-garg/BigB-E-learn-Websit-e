@@ -62,6 +62,11 @@ button {
     /* padding: 0.6rem 0; */
 }
 
+.text1
+{
+    color: #000000;
+}
+
 .lg-text {
     font-weight: 600;
     font-size: 1.2rem;
