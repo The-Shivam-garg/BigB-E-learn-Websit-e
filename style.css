@@ -225,6 +225,14 @@ header .container {
     font-weight: 700;
 }
 
+
+.dark-mode{
+
+    margin-top: 0.3rem;
+    margin-left: 0.3rem;
+}
+
+
 .links ul {
     display: flex;
     list-style: none;
@@ -374,7 +382,9 @@ header .container {
 }
 
 .toggle-btn:hover {
-    background: var(--mainColor);
+    /* background: var(--mainColor); */
+    background: var(--backgroundColor);
+
 }
 
 .big-wrapper.light .toggle-btn i:last-child {
@@ -385,8 +395,17 @@ header .container {
     display: block;
 }
 
+.big-wrapper.light .toggle-btn i:first-child:hover{
+    color:#000;
+}
+
 .big-wrapper.dark .toggle-btn i:last-child {
     display: block;
+}
+
+.big-wrapper.dark .toggle-btn i:last-child:hover{
+    color: #fff;
+    
 }
 
 .big-wrapper.dark .toggle-btn i:first-child {
