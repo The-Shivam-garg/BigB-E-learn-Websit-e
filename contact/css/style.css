@@ -309,7 +309,7 @@ input:focus::placeholder {
 .contact .icons-container {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
+    -ms-grid-columns: (minmax(30rem, 1fr));
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 1.5rem;
     transform: scale(1);
@@ -570,7 +570,7 @@ footer .row>div:nth-child(1) p {
         top: 99%;
         left: 0;
         right: 0;
-        background: #224bcf;
+        background: #15f4ee;
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     }
