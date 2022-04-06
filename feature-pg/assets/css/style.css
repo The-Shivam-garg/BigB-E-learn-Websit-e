@@ -1232,3 +1232,18 @@ footer { background: var(--oxford-blue); }
 }
 
 .copyright a:hover { color: var(--ultramarine-blue); }
+
+.topbtn{
+  position:fixed;
+  right: 4rem;
+  bottom: 3rem;
+  background-color: rgb(241, 51, 156);
+  padding:0.7rem;
+  border-radius:50%;
+  color:white;
+}
+.topbtn:hover{
+  cursor: pointer;
+  color:black;
+
+}
