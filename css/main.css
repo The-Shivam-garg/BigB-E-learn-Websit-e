@@ -146,8 +146,13 @@ html {
   transition: transform 400ms ease-out, box-shadow 400ms ease-out;
 }
 .why .item:hover {
-  transform: translateY(-2%);
+  transform: scale(1.05);
+  z-index: 10;
   box-shadow: 0 15px 14px rgba(173, 173, 173, 0.514);
+  border-color: #038cbe;
+  background-color: rgb(213, 227, 248);
+  
+  
 }
 .why .item img {
   width: 100%;
@@ -164,6 +169,7 @@ html {
   font-size: 0.955rem;
   line-height: 1.5rem;
 }
+
 .item-body {
   flex: 1 1 auto;
   padding: 1rem 1rem;
