@@ -595,13 +595,13 @@ header .logo h3{
 
 header .nav li a{
     text-transform: none;
-   
+    padding: 4px 20px;
+   margin-left: 0px;
+   margin-right: 0px;
     font-family: serif;
 }
 header .nav li a:hover{
-    transition: all 0.5s ease-in-out;
+    transition: all 0.4s ease-in-out;
    background-color:#192e3a ;
-   padding: 4px 20px;
-   transform: scale(1.5);
-   border-radius: 50px 0px 50px 0px;
+   border-radius: 50px 50px 50px 50px;
 }
