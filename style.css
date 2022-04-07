@@ -56,6 +56,8 @@ a {
     text-decoration: none;
 }
 
+
+
 .big-wrapper {
     position: relative;
     /* padding: 1.7rem 0 2rem; */
@@ -407,6 +409,17 @@ header .container {
     z-index: 100;
     animation: appear 1s 1 both;
 }
+
+/* Scrollbar */
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(transparent,#64bcf4, #192e3a);
+    border-radius: 6px;
+}
+
+/* Scrollbar */
 
 @keyframes appear {
     0% {
