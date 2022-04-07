@@ -161,6 +161,18 @@ main {
     animation: appear 1s 1 both;
 }
 
+/* Scrollbar */
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(transparent,#64bcf4, #192e3a);
+    border-radius: 6px;
+}
+
+/* Scrollbar */
+
 @keyframes appear {
     0% {
         clip-path: circle(30% at -25% -25%);
