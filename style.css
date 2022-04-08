@@ -549,9 +549,9 @@ body{
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: #15f4ee;
+    background-color: var(--mainColor);
     width: 100%;
-    height: 46px;
+    height: 50px;
     z-index: 1;
 }
 .nav{
@@ -576,17 +576,13 @@ img{
     width: 20%;
 }
 a{
-    margin: 20px;
+    margin: 15px;
     color: #000;
     text-decoration: none;
-    text-transform: capitalize;
-    font-weight:500;
-    display: inline block;
+    text-transform: uppercase;
 }
 a:hover{
     color: #fff;
-    
-   
 }
 
 /*.banner-area{
