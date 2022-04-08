@@ -552,9 +552,8 @@ body{
     flex-wrap: wrap;
     background-color: var(--mainColor);
     width: 100%;
-
-    height: 50px;
-
+    height: 65px;
+    padding: 12px 0px;
     z-index: 1;
 }
 .nav{
