@@ -47,6 +47,17 @@
   -ms-filter: "alpha(opacity=100)";
 }
 
+/* Scrollbar */
+
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(transparent,#64bcf4, #8A2BE2);
+  border-radius: 6px;
+}
+
+/* Scrollbar */
 
 html {
   font-size: 62.5%;
