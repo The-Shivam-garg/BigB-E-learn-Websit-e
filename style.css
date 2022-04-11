@@ -222,7 +222,7 @@ header .container {
     color: var(--darkTwo);
     font-size: 1.55rem;
     line-height: 1.2;
-    font-weight: 700;
+
 }
 
 
@@ -237,6 +237,7 @@ header .container {
 
 
 .links ul {
+    
     display: flex;
     list-style: none;
     align-items: center;
@@ -576,7 +577,8 @@ body{
     flex-wrap: wrap;
     background-color: var(--mainColor);
     width: 100%;
-    height: 50px;
+    height: 65px;
+    padding: 12px 0px;
     z-index: 1;
 }
 .nav{
@@ -610,15 +612,21 @@ a:hover{
     color: #fff;
 }
 
-/*.banner-area{
-    position: relative;
-    background-image: url();
-    width: 100%;
-    height: 100vh;
-    background-color: #333;
-    background-repeat: no-repeat;
-    background-size: cover;
+header .logo h3{
+    text-transform: none;
+    color: black;
+    font-family: serif;
 }
-*/
 
-/*header section*/
+header .nav li a{
+    text-transform: none;
+    padding: 4px 20px;
+   margin-left: 0px;
+   margin-right: 0px;
+    font-family: serif;
+}
+header .nav li a:hover{
+    transition: all 0.4s ease-in-out;
+   background-color:#192e3a ;
+   border-radius: 50px 50px 50px 50px;
+}
