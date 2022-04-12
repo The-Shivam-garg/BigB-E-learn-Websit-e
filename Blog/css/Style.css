@@ -266,7 +266,7 @@ header .container {
 .btn {
   display: inline-block;
   padding: 0.9rem 1.9rem;
-  color: #fff !important;
+  color: white !important;
   background-color: var(--mainColor);
   border-radius: 16px;
   text-transform: capitalize;
@@ -276,6 +276,7 @@ header .container {
 .btn:hover {
   background-color:#038cbe;
   transform: scale(1) !important;
+  color: white!important;
 }
 
 .hamburger-menu {
@@ -350,12 +351,14 @@ main .site-title {
   height: 110vh;
   display: flex;
   justify-content: center;
+  text-shadow: green 2px 5px;
+
 }
 
 main .site-title .site-background {
   padding-top: 10rem;
   text-align: center;
-  color: #00ff14;
+  color: #fbfbfb;
 }
 
 main .site-title h1,
@@ -365,7 +368,7 @@ h3 {
 
 main .site-title .btn {
   margin: 1.8rem;
-  background: var(--sky);
+  background: rgb(9, 174, 0);
 }
 
 main .site-title .btn:hover {
