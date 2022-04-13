@@ -74,6 +74,7 @@ html {
 }
 
 .welcome .item {
+
     text-align: center;
     border-radius: 20px;
     -webkit-border-radius: 20px;
@@ -81,6 +82,15 @@ html {
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
     transition-duration: 1s;
+
+  text-align: center;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  transition-duration: 0.3s;
+
 }
 
 .welcome .item:last-child {
@@ -289,10 +299,22 @@ html {
 }
 
 .counter .item {
+
     margin: 0.4rem 0;
     color: white;
     border-radius: 0.3rem;
     padding-bottom: 1rem;
+=======
+  margin: 0.4rem 0;
+  color: white;
+  border-radius: 0.3rem;
+  padding-bottom: 1rem;
+  transition: 0.3s;
+}
+.counter .item:hover{
+  transform: scale(1.05);
+  transition: 0.3s;
+
 }
 
 .counter .item:nth-child(1) {
