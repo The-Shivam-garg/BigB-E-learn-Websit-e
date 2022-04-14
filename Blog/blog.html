@@ -40,10 +40,10 @@
             <li><a href="../index.html">Home</a></li>
             <li><a href="../index.html#welcome">About</a></li>
             <li><a href="../Course/Courses.html">Courses</a></li>
-            <li><a href="../feature-pg/features.html">Features</a></li>
+            <li><a href="../feature-pg/feature.html">Features</a></li>
             <li><a href="./blog.html">Blogs</a></li>
             <li><a href="../contact/contact.html">Contact Us</a></li>
-            <li><a href="../log in/Login.html" class="btn">Sign Up</a></li>
+            <li><a href="../log in/Login.html" class="btn">Sign In</a></li>
           </ul>
         </div>
 
@@ -495,29 +495,9 @@
 
     <!-- Custom Javascript file -->
     <script src="./js/main.js"></script>
-    <script>
-      let big_wrapper = document.querySelector(".big-wrapper");
-      let hamburger_menu = document.querySelector(".hamburger-menu");
-      hamburger_menu.addEventListener("click", () => {
-        big_wrapper.classList.toggle("active");
-      });
-    </script>
-    <script>
-      // floating button to the top 
-      $(document).ready(function() {
-          $(document).scroll(function(){
-              if($(this).scrollTop() > 100){
-                  $("#scroll").fadeIn();
-              } else{
-                  $("#scroll").fadeOut();
-              }
-          });
-          $("#scroll").click(function () {
-              $("html,body").animate({scrollTop:0},600);
-              return false;
-          });
-      });
     
-    </script>
+    <script src="./js/BigWrapper.js"></script>       <!-- Code optimization -->
+    
+    <script src="./js/FloatingButton.js"></script>    <!-- Code optimization -->
   </body>
 </html>

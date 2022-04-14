@@ -122,7 +122,7 @@ header {
   padding: 0.9rem 1.9rem;
   color: #fff !important;
   background-color: var(--mainColor);
-  border-radius: 16px;
+  border-radius: 20px;
   text-transform: capitalize;
   transition: 0.3s;
 }
@@ -596,6 +596,8 @@ main .blog-content .blog-title {
   padding: 2rem 0;
 }
 
+
+
 main .blog-content .btn-blog {
   padding: 0.7rem 2rem;
   background: var(--sky);
@@ -686,7 +688,7 @@ main .post-title .post-btn a {
   color: #fff;
 }
 .site-content .post-content .post-title .post-btn {
-  border-radius: 0;
+  border-radius: 3rem;
   padding: 0.7rem 1.5rem;
   background: var(--sky);
 }
@@ -756,7 +758,7 @@ main .post-title .post-btn a {
 }
 
 .site-content .sidebar .newsletter .form-element {
-  padding: 0.5rem 2rem;
+  padding: 0.6rem 2rem;
 }
 
 .site-content .sidebar .newsletter .input-element {
@@ -765,10 +767,11 @@ main .post-title .post-btn a {
   padding: 0.3rem 0.5rem;
   font-family: var(--Lexend);
   font-size: 1rem;
+  border-radius: 3rem;
 }
 
 .site-content .sidebar .newsletter .form-btn {
-  border-radius: 0;
+  border-radius: 3rem;
   padding: 0.8rem 32%;
   margin: 1rem 0;
   background: var(--sky);

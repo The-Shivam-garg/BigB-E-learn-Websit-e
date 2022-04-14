@@ -7,7 +7,9 @@ img {
     width: 100%;
     display: block;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 li {
     list-style-type: none;
 }
@@ -39,6 +41,7 @@ button {
     border: none;
     margin: 3.4rem 0;
     letter-spacing: 1px;
+    border-radius : 30px;
 }
 
 .primary-btn {
@@ -123,7 +126,7 @@ input::placeholder {
     background: var(--cyan);
     color: #fff;
     border: none;
-    border-radius: 5px;
+    border-radius: 20px;
     display: block;
     margin: 2rem auto 0 auto;
     cursor: pointer;
