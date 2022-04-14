@@ -147,7 +147,6 @@ html {
 \*-----------------------------------*/
 
 .container {
-  background: var(--white);
   max-width: 1440px;
   margin: auto;
   overflow: hidden;
@@ -1106,10 +1105,6 @@ html {
 
 .contact .btn-primary { justify-self: center; }
 
-
-
-
-
 /*-----------------------------------*\
   #FOOTER
 \*-----------------------------------*/
@@ -1247,3 +1242,7 @@ footer { background: var(--oxford-blue); }
   color:black;
 
 }
+
+
+
+
