@@ -285,6 +285,7 @@ html {
 
 main {
   margin-top: 0px;
+  padding:2px;
 }
 
 @media (max-width: 420px) {
@@ -1607,4 +1608,8 @@ header .nav li a:hover {
   color: var(--darkTwo);
   font-size: 1.55rem;
   line-height: 1.2;
+}
+.toggle-btn{
+  margin-top:10px;
+  margin-left:1010px;
 }
