@@ -79,7 +79,7 @@ html {
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
-  transition-duration: 1s;
+  transition-duration: 0.3s;
 }
 
 .welcome .item:last-child {
@@ -246,6 +246,11 @@ html {
   color: white;
   border-radius: 0.3rem;
   padding-bottom: 1rem;
+  transition: 0.3s;
+}
+.counter .item:hover{
+  transform: scale(1.05);
+  transition: 0.3s;
 }
 
 .counter .item:nth-child(1) {
