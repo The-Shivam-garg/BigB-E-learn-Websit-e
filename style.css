@@ -569,12 +569,7 @@ a{
     text-decoration: none;
     text-transform: uppercase;
 }
-.lg-text a{
-    text-transform: capitalize;
-}
-.lg-text > a:hover{
-    color: var(--hoverColor);
-}
+
 a:hover{
     color: #fff;
 }
