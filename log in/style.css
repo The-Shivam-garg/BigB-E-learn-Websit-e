@@ -411,3 +411,9 @@ form.sign-in-form {
     left: 50%;
   }
 }
+.logo h3 {
+  color: var(--darkTwo);
+  font-size: 1.55rem;
+  line-height: 1.2;
+
+}
