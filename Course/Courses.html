@@ -42,16 +42,35 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <!--using-Font-Awesome-------------------->
     <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./style.css" />
 </head>
 
 <body>
 
-    <!-- floating button to the top -->
-    <a href="#" id="scroll"><span></span></a>
+    <header>
+        <div class="container-navbar">
+            <!--Without js created-->
+            <div class="logo">
+                <div class="logo">
+                    <a href="index.html"> <img src="../img/v.png" alt="Logo" /> </a>
+
+                </div>
 
 
-    <div class="sidebar">
+
+                <ul class="nav">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#welcome">About</a></li>
+                    <li><a href="../Course/Courses.html">Courses</a></li>
+                    <li><a href="../feature-pg/feature.html">Features</a></li>
+                    <li><a href="../Blog/blog.html">Blogs</a></li>
+                    <li><a href="../contact/contact.html">Contact</a></li>
+                    <li><a href="../log in/Login.html">Sign In</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- <div class="sidebar">
         <div class="logo-details">
 
             <i class="fab fa-blogger"></i>
@@ -131,13 +150,20 @@
                 <i class='bx bx-log-out' id="log_out"></i>
             </li>
         </ul>
-    </div>
+    </div> -->
     <!--navbar end here-->
 
 
     <main>
         <div class="big-wrapper light">
-
+            <div class="bottom-area">
+                <div class="container">
+                    <button class="toggle-btn">
+                        <i class="far fa-moon"></i>
+                        <i class="far fa-sun"></i>
+                    </button>
+                </div>
+            </div>
 
         <div class="image">
             <img src="images/home-img.png" alt="">
@@ -146,19 +172,19 @@
         <div class="content">
             
             <h3 style="color:var(--darkOne)">
-                <b>Your Course To Success</b>
+                <h1 style="margin-left: 50px;font-size: 30px;">Your Course To Success</h1>
             </h3>
              <p>
-    <B><I>"Wisdom is not a product of schooling but of the lifelong attempt to acquire it."<br />
-          As Earl Nightingale once said: One hour per day of study will put you at the top of your field within three years.
-          Within five years you’ll be a national authority.
+    <B style="margin-left:50px;font-size:14px"><I>"Wisdom is not a product of schooling but of the lifelong attempt to acquire it."<br />
+          <B style="margin-left:50px;font-size:14px">As Earl Nightingale once said: One hour per day of study will put you at the top of your field within three years.
+          Within five years you’ll be a national authority.</B><br/>
 
-          In seven years, you can be one of the best people in the world at what you do.
+          <B style="margin-left:50px;font-size:14px">In seven years, you can be one of the best people in the world at what you do.</B>
   </B>
                         </I>
                     </p>
 
-                    <a href="#" class="btn">get started</a>
+                    <a href="#" class="btn" style="margin-left: 20px;">get started</a>
                 </div>
 
             </section>
@@ -166,15 +192,7 @@
             <!-- home section ends -->
 
             <!-- categories section starts  -->
-            <div class="bottom-area">
-                <div class="container">
-                    <button class="toggle-btn">
-      <i class="far fa-moon"></i>
-      <i class="far fa-sun"></i>
-    </button>
-
-     </div>
-    </div>
+            
     <section class="category" >
       <!--a style="background-color:var(--whiteOne)"  -->
         <a  href="subjects/computer_courses.html" class="box">
