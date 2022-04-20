@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Raleway&display=swap');
 
 /* preloader */
 
@@ -110,6 +111,18 @@ a {
     position: relative;
     max-width: 250px;
 }
+.img-container{
+    width: 100%;
+    height: auto;
+}
+.skill-row{
+    display: flex;
+    /* border: 2px solid black; */
+    flex-direction: column;
+    margin: 0 1rem;
+    align-items: center;
+    justify-content: center;
+}
 
 .contentbox .content {
     position: relative;
@@ -176,16 +189,24 @@ a {
     z-index: 999;
 }
 
-.container {
+/* .container {
     position: relative;
     max-width: 81rem;
     width: 100%;
     margin: 0 auto;
     padding: 0 3rem;
     z-index: 10;
+} */
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
-
-
+@media (max-width: 600px) {
+    .grid-container {
+        display: block;
+        width: 100%;
+    }
+}
 
 
 
@@ -352,6 +373,7 @@ header {
 .showcase-area .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    padding: 4rem 0;
     align-items: center;
     justify-content: center;
 }
@@ -360,16 +382,15 @@ header {
     font-size: 1.4rem;
     color: var(--darkOne);
     text-transform: capitalize;
-    line-height: 1.4;
+    line-height: 1;
 }
 
 .text {
     color: var(--lightOne);
     font-size: 1.1rem;
-    margin: 5px;
+    margin-bottom: 0.8rem;
     max-width: 600px;
-    line-height: 2.3;
-    margin-left: 0;
+    line-height: 2;
 }
 
 .showcase-area .btn {

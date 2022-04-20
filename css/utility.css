@@ -39,8 +39,8 @@ button {
     padding: 0.55rem;
     font-weight: 600;
     border: none;
-    margin: 3.4rem 0;
-    letter-spacing: 1px;
+    /* margin: 3.4rem 0; */
+    letter-spacing: 2px;
     border-radius : 30px;
 }
 
@@ -48,7 +48,8 @@ button {
     background: var(--cyan);
     color: #fff;
     font-weight: 400;
-    border-radius: 2rem;
+    border-radius: 1rem;
+    text-transform: uppercase;
     padding: 1rem;
     transition: var(--transition);
 }
@@ -74,13 +75,13 @@ button {
 }
 
 section {
-    padding: 4rem 0;
+    padding: 2.5rem 0;
 }
 
 .title {
     text-transform: uppercase;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    /* padding-top: 1rem;
+    padding-bottom: 1rem; */
     font-family: var(--Roboto);
 }
 
@@ -89,6 +90,10 @@ section {
     word-spacing: 2px;
     font-size: 2rem;
     text-align: center;
+}
+.subtext{
+    text-align: center;
+    color: var(--lightOne);
 }
 
 .title-sm h3 {
