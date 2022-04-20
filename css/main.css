@@ -185,13 +185,47 @@ html {
 /* online course */
 
 .online-course {
-  /* JOIN FREE ONLINE COURSES */  
-  background: url(../img/subscribe-bg.png) no-repeat;
+  background-color: #264a5f;
   color: #fff;
+  padding: 2rem;
   background-size: cover;
   background-position: center;
 }
-
+.online-course .container{
+  display: flex;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color:#192E3A;
+  padding: 2rem;
+  border-radius: 1.5rem;
+  gap: 10vmin;
+  height: 25rem;
+}
+.online-course .container .onlineImg{
+  height: 100% !important;
+  width: 40% !important;
+}
+.online-course .container .onlineTxt{
+ 
+  border-top-left-radius: 36%;
+  padding: 1rem;
+}
+.online-course .container .onlineTxt input{
+  border:2px solid #3e799b;
+  border-radius: 25px;
+  background: transparent;
+}
+.online-course .container .onlineTxt #choose{
+  border:2px solid #3e799b;
+  border-radius: 25px;
+}
+.online-course .container .onlineTxt .submit-btn{
+  width: 15rem;
+}
+.online-course .container .onlineTxt .submit-btn:hover{
+color: #192E3A !important;
+background-color: #3e799b !important;
+}
 .online-course-form div * {
   display: block;
 }
@@ -199,7 +233,6 @@ html {
 .online-course-form select option {
   color: var(--black);
 }
-
 /* skill section */
 
 .skill .row > div {
@@ -451,11 +484,9 @@ html {
   color: #979797;
   font-size: 0.8rem;
 }
-
 .reviews {
   color: #f9d71c;
 }
-
 .box-top {
   display: flex;
   justify-content: space-between;
@@ -467,13 +498,11 @@ html {
   font-size: 0.9rem;
   color: #4b4b4b;
 }
-
 .testimonial-box:hover {
   transform: translateY(-10px);
   transition: all ease 0.3s;
 }
-
-@media (max-width: 1060px) {
+@media (max-width: 1060px) and(min-width:795px) {
   .testimonial-box {
     width: 45%;
     padding: 10px;
@@ -487,9 +516,38 @@ html {
   .testimonial-heading h1 {
     font-size: 1.4rem;
   }
+  .online-course .container .onlineTxt{
+    padding-top: 0;
+  }
+  .online-course .container .onlineTxt .title{
+    padding: 0;
+  }
+  .online-course .container .onlineImg{
+    height: 80% !important;
+    width: 45% !important;
+  }
 }
 
-@media (max-width: 340px) {
+@media (max-width: 767px){
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 570px) {
+  .online-course{
+    height: 140vh;
+  }
+  .online-course .container{
+      flex-direction: column;
+      height: 130vh;
+      width: 16rem;
+  }
+  .online-course .container .onlineImg {
+    height: 30% !important;
+    width: 100% !important;
+}
   .box-top {
     flex-wrap: wrap;
     margin-bottom: 10px;
@@ -497,6 +555,10 @@ html {
   .reviews {
     margin-top: 10px;
   }
+  .footer-col {
+    width: 100%;
+  }
+
 }
 
 ::selection {
@@ -593,17 +655,8 @@ color: grey;
   font-family:cursive;
   color: #fff;
 }
-@media (max-width: 767px) {
-  .footer-col {
-    width: 50%;
-    margin-bottom: 30px;
-  }
-}
-@media (max-width: 574px) {
-  .footer-col {
-    width: 100%;
-  }
-}
+
+
 
 .footer-text {
   text-align: center;
