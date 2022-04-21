@@ -66,6 +66,12 @@ button {
     font-weight: 600;
     font-size: 1.2rem;
 }
+.lg-text a{
+    text-transform: capitalize;
+}
+.lg-text a:hover{
+    color: #0e80aa;
+}
 
 section {
     padding: 4rem 0;

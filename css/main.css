@@ -536,30 +536,31 @@ footer .social-links {
 footer .social-links i {
   margin : 0px  10px;
   font-size: 20px;
+  transition: 0.3s;
 }
 ul > li > span > i {
   margin-right: 6px;
 }
 .footer-col .social-links .ggl i:hover {
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
   transform: scale(1.5);
   color: red;
  
 }
 .footer-col .social-links .fac i:hover {
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
   transform: scale(1.5);
   color: rgb(0, 170, 255);
  
 }
 .footer-col .social-links .ins i:hover {
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
   transform: scale(1.5);
   color: rgb(221, 13, 155);
  
 }
 .footer-col .social-links .twi i:hover {
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
   transform: scale(1.5);
   color:  rgb(0, 170, 255);
  
