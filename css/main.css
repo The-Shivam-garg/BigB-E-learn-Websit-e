@@ -83,13 +83,7 @@ html {
     -o-border-radius: 20px;
     transition-duration: 1s;
 
-  text-align: center;
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
-  transition-duration: 0.3s;
+ 
 
 }
 
@@ -210,13 +204,15 @@ html {
     background-size: cover;
     background-position: center;
 
-  background-color: #264a5f;
-  color: #fff;
-  padding: 2rem;
-  background-size: cover;
-  background-position: center;
-
 }
+.online-course-form div * {
+    display: block;
+}
+
+.online-course-form select option {
+    color: var(--black);
+}
+
 .online-course .container{
   display: flex;
   align-items: center;
@@ -345,12 +341,7 @@ background-color: #3e799b !important;
     color: white;
     border-radius: 0.3rem;
     padding-bottom: 1rem;
-=======
-  margin: 0.4rem 0;
-  color: white;
-  border-radius: 0.3rem;
-  padding-bottom: 1rem;
-  transition: 0.3s;
+
 }
 .counter .item:hover{
   transform: scale(1.05);
@@ -725,11 +716,6 @@ ul>li>span>i {
     transform: scale(1.5);
     color: red;
 
-  transition: all 0.3s ease-in-out;
-  transform: scale(1.5);
-  color: red;
- 
-
 }
 
 .footer-col .social-links .fac i:hover {
@@ -737,12 +723,6 @@ ul>li>span>i {
     transition: all 0.5s ease-in-out;
     transform: scale(1.5);
     color: rgb(0, 170, 255);
-
-  transition: all 0.3s ease-in-out;
-  transform: scale(1.5);
-  color: rgb(0, 170, 255);
- 
-
 }
 
 .footer-col .social-links .ins i:hover {
@@ -751,19 +731,12 @@ ul>li>span>i {
     transform: scale(1.5);
     color: rgb(221, 13, 155);
 
-  transition: all 0.3s ease-in-out;
-  transform: scale(1.5);
-  color: rgb(221, 13, 155);
- 
 
 }
 
 .footer-col .social-links .twi i:hover {
 
-    transition: all 0.5s ease-in-out;
-    transform: scale(1.5);
-    color: rgb(0, 170, 255);
-
+  
   transition: all 0.3s ease-in-out;
   transform: scale(1.5);
   color:  rgb(0, 170, 255);
