@@ -1,7 +1,18 @@
 <h1 align="center">Open-Source E-learning Website </h1>
 
+### This project is part of the [GirlScript Summer of Code 2022](https://gssoc.girlscript.tech/) Open Source Program
+<br/>
 
-## BigB is a E-learning website , covers all the Knowledgeable material from UNIVERSITY to UNIVERSE.😍😍
+<a href="https://gssoc.girlscript.tech/">
+<img src="https://raw.githubusercontent.com/GirlScriptSummerOfCode/MentorshipProgram/master/GSsoc%20Type%20Logo%20Black.png" alt="GSSoC">
+</a>
+<br/><br>
+
+> This project is accepting contributions under [GirlScript Summer of Code 2022](https://gssoc.girlscript.tech/) - three months long Open Source program conducted by [GirlScript Foundation](https://gssoc.girlscript.tech/).
+<br/><br/>
+
+
+## 📌 BigB is a E-learning website , covers all the Knowledgeable material from UNIVERSITY to UNIVERSE.😍😍
 
 
 This is an Open-Source Educational Website, which Cover all the Educational related things whether it's in-syllabus or out-of-syllabus:  
@@ -18,7 +29,7 @@ problems on different topics. We have also added Interview questions for student
    
 It is completely responsive website, to provide smooth experience...😎 
 
-If you have any queries or any suggestions then reach out to us at <a href="bigbeduwebsite@gmail.com">Mail</a>.
+If you have any queries or any suggestions then reach out to us at <a href="mailto:bigbeduwebsite@gmail.com">Mail</a>.
 
 ![Small Preview](https://github.com/The-Shivam-garg/BigB-E-learn-Websit-e/blob/57660e540ad8ee9940b16af080d8630e2c416f88/img/small%20view.png)  
 
@@ -70,7 +81,7 @@ If you have any queries or any suggestions then reach out to us at <a href="bigb
  
 I have started a Community named Sidehustlers Community [Community for ALL] Where we share Resources, Roadmaps to learn different technologies and share opportunities related to different tech & non-tech programs. Also, We organize Events on different technologies and emerging domains to help people to get started with these technologies.
 
-  <span> <h2>Join the Community  ⚡</h2>
+<span> <h2>Join the Community  ⚡</h2>
 <a  href="https://www.youtube.com/channel/UCRkYp3SkqvR5OD8YiTqVEbQ" target="_blank"><img alt="YouTube" src="https://img.shields.io/badge/Youtube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white" /></a>
 <a  href="https://www.linkedin.com/company/side-hustler" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 <a href="https://twitter.com/Sidehustlers" target="_blank"><img src="https://img.shields.io/badge/twitter-%2300acee.svg?&style=for-the-badge&logo=twitter&logoColor=white&alt=twitter" /></a>
@@ -81,13 +92,27 @@ I have started a Community named Sidehustlers Community [Community for ALL] Wher
 <a href="https://linktr.ee/beasidehustler"><img alt="Linktree" src ="https://img.shields.io/badge/Linktree-39E09B.svg?style=for-the-badge&logo=Linktree&logoColor=white"></a>
  </div>
 
-<h1 align=center> OUR VALUABLE CONTRIBUTORS✨ </h1>
- <p align="center">
-  <a href="https://github.com/The-Shivam-garg/BigB-E-learn-Websit-e.git/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=The-Shivam-garg/BigB-E-learn-Websit-e"/>
+<h1 align="center">Project Admin</h1>
+
+<table align="center">
+<tr>
+<td align="center"><a href="https://github.com/The-Shivam-garg"><img src="https://avatars.githubusercontent.com/u/83035995?v=4" width=150px height=150px /></a></br> <h4 style="color:blue;">ShivamGarg11
+</h4><br/>
+<a href="https://www.linkedin.com/in/shivam-garg-15675720a/"><img src="https://mpng.subpng.com/20180324/vhe/kisspng-linkedin-computer-icons-logo-social-networking-ser-facebook-5ab6ebfe5f5397.2333748215219374063905.jpg" width="32px" height="32px"></a></td>
+
+</tr>
+</table>
+
+
+<h1 align="center">Our valuable Contributors ✨</h1>
+
+<a href="https://github.com/The-Shivam-garg/BigB-E-learn-Websit-e/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=The-Shivam-garg/BigB-E-learn-Websit-e"/>
 </a>
+
+ <br>
  
- <h1> Contributing Guidelines </h1>
+ <h1> 📌 Contributing Guidelines </h1>
 
 ## Basics of Git and GitHub
 
