@@ -626,3 +626,93 @@ header .nav h2 a:hover{
    background-color:#192e3a ;
    border-radius: 50px 50px 50px 50px;
 }
+
+
+
+
+/*counter section*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+.counter-up{
+  background:grey;
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 40vh;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 0 20px;
+}
+.counter-up::before{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,0.8);
+}
+/*.counter-up::before{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,0.8);
+}*/
+.counter-up .content{
+  z-index: 1;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+}
+.counter-up .content .box{
+  border: 3px dashed white;
+  width: calc(25% - 30px);
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 5px;
+  flex-direction: column;
+}
+.content .box .icon{
+  font-size: 38px;
+  color: #e6e6e6;
+}
+.content .box .counter{
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: 500;
+  color: #f2f2f2;
+}
+.content .box .text{
+  font-weight: 400;
+  color: #fff;
+}
+@media screen and (max-width: 1036px) {
+  .counter-up{
+    padding: 50px 50px 0 50px;
+  }
+  .counter-up .content .box{
+    width: calc(50% - 30px);
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .counter-up .content .box{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .counter-up{
+    padding: 30px 20px 0 20px;
+  }
+}
+
+/*end of counter section*/

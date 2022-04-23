@@ -32,6 +32,12 @@
     <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
     <!-- Pop-up msg -->
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    
 </head>
 
 <body>
@@ -294,8 +300,10 @@
     </section>
     <!-- end of skill section -->
 
-    <!-- counter section -->
-    <section class="counter">
+
+
+    <!-- old counter section -->
+    <!-- <section class="counter">
         <div class="row container">
             <div class="item">
                 <div class="title title-sm">
@@ -322,8 +330,60 @@
                 <span class="num">470</span>
             </div>
         </div>
-    </section>
+    </section> -->
+    <!-- end of old counter section -->
+
+
+    <!-- counter section -->
+
+  <div class="counter-up">
+    <div class="content">
+
+      <div class="box">
+         <div class="icon" style="color:gold"><i class="fa fa-user"></i></div>
+        <div class="counter">0</div>
+        <div class="text">STUDENTS ENROLLED</div>
+
+      </div>
+      <div class="box">
+
+        <div class="icon" style="color:gold"><i class="fa fa-book"></i></div>
+        <div class="counter">12</div>
+        <div class="text">COURSES</div>
+
+      </div>
+      <div class="box">
+
+        <div class="icon" style="color:gold"><i class="fas fa-history"></i></div>
+        <div class="counter">125</div>
+        <div class="text">PROFESSORS</div>
+
+      </div>
+      <div class="box">
+
+        <div class="icon" style="color:gold"><i class="fas fa-users"></i></div>
+        <div class="counter">470</div>
+        <div class="text">FACULTY MEMBERS</div>
+
+      </div>
+    </div>
+  </div>
+
+  <script>
+  $(document).ready(function(){
+    $('.counter').counterUp({
+      delay: 10,
+      time: 2200
+    });
+  });
+  </script>
+
+
+
+
     <!-- end of counter section -->
+
+
 
     <div class="newsletter">
 
