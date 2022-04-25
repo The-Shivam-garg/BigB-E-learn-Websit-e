@@ -626,3 +626,75 @@ header .nav h2 a:hover{
    background-color:#192e3a ;
    border-radius: 50px 50px 50px 50px;
 }
+
+@media screen and (min-width: 992px){
+    .d-lg{
+        display: flex;
+    }
+    .dropdown-menu{
+        display: none;
+    }
+    .dark_light_btn_desktop{
+        display: block;
+    }
+    .div_on_mobile{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .d-lg{
+        display: none;
+    }
+    .dark_light_btn_desktop{
+        display: block;
+        margin-right: 4.3rem;
+        margin-top: -0.3rem;
+    }
+    .div_on_mobile{
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        align-items: center;
+    }
+    .header-wrapper{
+        justify-content: space-between;
+    }
+    .dropdown-menu{
+        display: flex;
+        width: 50px;
+        height: 80%;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        position: relative;
+        flex-direction: row;
+        margin-right: 25px;
+        transition: 0.2s;
+    }
+    .dropdown-content{
+        display: none;
+        position: absolute;
+        background-color: #64BCF4;
+        min-width: 250px;
+        border-radius: 15px;
+        margin-top: 27rem;
+        margin-right: 10rem;
+        box-shadow: 0 0 7px rgb(1 1 1 / 23%);
+    }
+
+    .dropdown-menu:hover .dropdown-content{
+        display: block;
+    }
+    .dropdown-menu:hover{
+        background-color: #192E3A;
+    }
+    .dropdown-content > h2{
+        border-radius: 15px;
+    }
+    .dropdown-content > h2:hover{
+        background-color: #192E3A;
+        color: #fff;
+        border-radius: 15px;
+    }
+}
