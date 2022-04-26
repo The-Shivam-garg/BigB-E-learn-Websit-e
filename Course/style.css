@@ -1640,3 +1640,8 @@ header .nav h2 a:hover{
  background-color:#192e3a ;
  border-radius: 50px 50px 50px 50px;
 }
+.toggle-btn{
+  position: absolute;
+  right:2.5rem;
+  top:2rem;
+}
