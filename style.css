@@ -627,6 +627,15 @@ header .nav h2 a:hover{
    border-radius: 50px 50px 50px 50px;
 }
 
+/* Footer social links */
+
+.social-links a:hover{
+    color: #64bcf4;
+}
+
+/* Footer social links */
+
+
 @media screen and (min-width: 992px){
     .d-lg{
         display: flex;
