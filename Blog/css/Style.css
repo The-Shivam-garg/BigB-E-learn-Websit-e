@@ -720,6 +720,9 @@ footer.footer .follow div i {
     padding: 0 0.4rem;
 }
 
+footer.footer .follow div i:hover{
+    color: #038cbe;
+}
 footer.footer .rights {
     justify-content: center;
     font-family: var(--Josefin);
