@@ -10,9 +10,11 @@
   <!--
     - custom css link
   -->
+  <link rel="shortcut icon" href="../img/v.png" type="image/x-icon">
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="./assets/css/media_queries.css">
   <link rel="stylesheet" href="./assets/css/animation.css">
+ 
   <!-- <link rel="stylesheet" href="./features.css"> -->
 
   <!--
@@ -27,6 +29,30 @@
 </head>
 
 <body>
+   <!--
+      - #HEADER
+    -->
+  <header>
+    <div class="header-wrapper">
+        <a href="../index.html" class="logo">
+            <img src="../img/v.png" alt="Logo" />
+            <h3>igB</h3>
+        </a>
+
+        <div class="nav">
+            <h2><a href="../index.html">Home</a></h2>
+            <h2><a href="../index.html#welcome">About</a></h2>
+            <h2><a href="../Course/Courses.html">Courses</a></h2>
+            <h2><a href="#">Features</a></h2>
+            <h2><a href="../Blog/blog.html">Blogs</a></h2>
+            <h2><a href="../contact/contact.html">Contact</a></h2>
+        </div>
+
+        <div class="nav">
+            <h2 style="padding-top:0;"><a href="../log in/Login.html" class="btn sign-in">Sign In</a></h2>
+        </div>
+    </div>
+</header>
 
   <!--
     - main container
@@ -34,17 +60,8 @@
 
   <div class="container">
 
-    <!--
-      - #HEADER
-    -->
-
-    <header>
-
-      
-
-    </header>
-
-
+ 
+  
 
 
 
@@ -86,12 +103,16 @@
 
           <div class="home-btn-group">
             <button class="btn btn-primary">
-              <p class="btn-text">Explore Courses</p>
+              <a style="color:white;" href="../Course/Courses.html">
+                <p class="btn-text">Explore Courses</p>
+              </a>               
               <span class="square"></span>
             </button>
 
             <button class="btn btn-secondary">
-              <p class="btn-text">Contact Us</p>
+              <a style="color:white;" href="../contact/contact.html">
+                <p class="btn-text">Contact Us</p>
+              </a>
               <span class="square"></span>
             </button>
           </div>
@@ -310,7 +331,9 @@
           </ul>
 
           <button class="btn btn-primary">
-            <p class="btn-text">Explore More</p>
+            <a style="color:white;" href="../index.html">
+              <p class="btn-text">Explore More</p>
+            </a>
             <span class="square"></span>
           </button>
 
@@ -631,7 +654,9 @@
         </div>
 
         <button class="btn btn-primary">
-          <p class="btn-text">View All Course</p>
+          <a style="color:white;" href="../Course/Courses.html">
+            <p class="btn-text">View All Course</p>
+          </a>
           <span class="square"></span>
         </button>
 
@@ -657,8 +682,9 @@
             <div class="play-icon pulse-anim">
               <ion-icon name="play-circle"></ion-icon>
             </div>
-
-            <p>Watch Us !</p>
+            <a style="color:white;" href="https://www.youtube.com/channel/UCRkYp3SkqvR5OD8YiTqVEbQ">
+              <p>Watch Us !</p>
+            </a>
           </button>
 
         </div>
@@ -1117,7 +1143,9 @@
           <h2>Start Your Best Online Classes With Us</h2>
 
           <button class="btn btn-primary">
-            <p class="btn-text">Contact Us</p>
+            <a style="color:white;" href="../contact/contact.html">
+              <p class="btn-text">Contact Us</p>
+            </a>
             <span class="square"></span>
           </button>
         </div>
