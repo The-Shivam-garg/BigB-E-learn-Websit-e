@@ -288,3 +288,32 @@ html{
         display: none;
     }
 }
+.light .content p{
+    color:hsl(0, 0%, 47%);
+    font-weight:600;
+    font-size:1.2rem;
+    letter-spacing: 0.5px;
+    text-align: justify;
+    text-justify: inter-word;   
+  }
+  .content h2{
+      font-size:1.7rem;
+  }
+  .content{
+    margin:12px;
+    line-height:1.6;
+  }
+  .dark .content p{
+    color:white;
+    font-weight:600;
+    font-size:1.2rem;
+    letter-spacing: 0.5px;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  .bottom-area{
+    padding: 0 3rem;
+  }
+  .toggle-btn{
+      float:right;
+  }
