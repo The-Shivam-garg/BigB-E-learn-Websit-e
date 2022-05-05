@@ -750,3 +750,163 @@ header .nav h2 a:hover {
         border-radius: 15px;
     }
 }
+/*footer*/
+footer {
+    background: black;
+    color: #fff;
+    padding: 4rem 0;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+footer .row>div {
+    /* border: 2px solid red; */
+    padding: 0 1rem;
+}
+
+.bigb {
+    margin-left: 85px;
+}
+
+.bigb>.text {
+    font-size: 0.9rem;
+}
+
+.bigb>img {
+    width: 50px;
+    height: auto;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 0.9rem;
+    line-height: 2;
+}
+
+.details>h3 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    text-align: justify;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-links a {
+    color: #eee;
+    text-transform: none;
+    line-height: 0.5;
+}
+
+.footer-links a:hover {
+    color: cyan;
+}
+
+.footer-social-links {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.footer-social-links li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #fff;
+    width: 40px;
+    height: 40px;
+    margin-right: 0.5rem;
+    border-radius: 50%;
+    list-style: none;
+}
+
+.footer-social-links li:hover {
+    border-color: cyan;
+}
+
+.footer-social-links a {
+    color: #fff;
+    transition: transition;
+}
+
+.footer-social-links li:hover a {
+    color: cyan;
+}
+
+.footer-text {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+        font-family: "Poppins",
+        sans-serif;
+}
+
+.footer-text span {
+    color: cyan;
+}
+
+.footer-contact-info i {
+    margin-right: 1rem;
+}
+
+.map i {
+    color: #FF0000;
+}
+
+.phone i {
+    color: #5CDD5B;
+}
+
+.email i {
+    color: #04A9FF;
+}
+
+.mail i {
+    color: #FFFF00;
+}
+
+@media (max-width: 600px) {
+    .row {
+        display: block;
+        /* grid-template-columns: repeat(4, 1fr); */
+    }
+
+    .bigb {
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        justify-content: center;
+        /* margin-left: 100px; */
+    }
+
+    .details {
+        margin: 2rem 0;
+        /* align-items: center; */
+    }
+
+    .footer-contact-info {
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        margin-left: 80px;
+        justify-content: center;
+    }
+
+    .footer-text {
+        margin-left: 80px;
+        text-align: center;
+    }
+
+    /* .footer-links{
+        margin-right: 70px;
+    } */
+
+}
