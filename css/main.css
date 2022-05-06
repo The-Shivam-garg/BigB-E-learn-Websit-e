@@ -387,30 +387,33 @@ html {
 
 .newsletter h3 {
     color: #fff;
-    font-size: 3rem;
-    text-transform: uppercase;
+    font-size: 3.2rem;
+    /* text-transform: uppercase; */
+    font-family: serif;
 }
 
 .newsletter p {
     color: #fff;
-    font-size: 1.6rem;
-    margin: 2rem auto;
+    font-size: 2rem;
+    margin: 1.3rem auto;
     width: 70rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .newsletter form {
     display: flex;
-    gap: 1rem;
+margin-top: 30px;
+    gap: 2rem;
     max-width: 30rem;
-    border: .2rem solid #fff;
+    /* border: .2rem solid #fff; */
     padding: .5rem;
-    border-radius: 5rem;
+    /* border-radius: 5rem; */
     /* margin:2rem auto 2rem -2rem; */
     height: 4.5rem;
 }
 
 .newsletter form input[type="email"] {
-    padding: 0 2rem;
+    /* padding: 0 2rem; */
     font-size: 1.7rem;
     background: none;
     width: 100%;
@@ -420,7 +423,8 @@ html {
 }
 
 .newsletter form input[type="email"]::placeholder {
-    color: #eee;
+    color: rgb(135, 120, 120);
+    font-family: serif;
     text-transform: capitalize;
 }
 
@@ -431,15 +435,19 @@ html {
 
 .newsletter form input[type="submit"] {
     background: #fff;
-    width: 20rem;
-    font-size: 1.7rem;
-    border-radius: 5rem;
+    width: 13rem;
+    font-size: 1.4rem;
+    font-family: emoji;
+ 
+    border-radius: 2rem;
+    padding: 8px 10px;
     cursor: pointer;
 }
 
 .newsletter form input[type="submit"]:hover {
     color: #f0f0f0;
     border-color: #ffffff;
+    border-radius: 1rem;
     background-color: #192E3A;
     transition: 0.5s ease-in-out;
 }
@@ -714,7 +722,6 @@ footer .footer-col .infor a:hover {
 }
 
 .footer-text {
-    font-family: cursive;
     color: #fff;
 }
 
