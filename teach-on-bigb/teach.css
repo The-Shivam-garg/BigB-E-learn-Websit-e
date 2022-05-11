@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Raleway:wght@400;600&display=swap');
+
 *,
 *::before,
 *::after {
@@ -7,6 +9,9 @@
 }
 html{
   scroll-behavior: smooth;
+}
+body {
+  font-family: 'Raleway', sans-serif;
 }
 :root{
     --mainColor: #64bcf4;
@@ -26,16 +31,24 @@ html{
     --Heebo: 'Heebo', sans-serif;
     --Roboto: 'Robot', sans-serif;
 }
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Poppins', sans-serif;
+}
 
 /* **************** Navbar starts ***************** */
 nav{
-    margin: 1rem;
+    /* margin: 1rem; */
+      background-color: var(--darkOne);
 }
 
 nav .nav-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  padding: 1rem;
+}
+.nav-container .logo h3{
+  color: var(--lightBlack);
 }
 
 .overlay {
@@ -73,6 +86,8 @@ nav .nav-container {
   margin-left: 4.5rem;
   display: inline-block;
   transition: 0.3s;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
 .links a:hover {
@@ -140,23 +155,33 @@ nav .nav-container {
 /* **************** Header starts ***************** */
 
 
-.teacher-bg{
-    width: 100%;
-    height: 90%;
-}
+/* .teacher-bg{
+    width: 100vw;
+    height: 100vh;
+} */
 
 .header-box{
-    position: absolute;
-    top: 40vh;
-    left: 10%;
-    width: 25%;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(images/teacher-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cyan);
+    background-blend-mode: screen;
 }
 
 .header-text{
-    font-size: 20px;
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
 }
 
 .header-box h1{
+  text-align: center;
     font-size: 50px;
 }
 
@@ -179,28 +204,32 @@ nav .nav-container {
 /* ************** Why join us section starts ********** */
 
 .why-section{
-    margin-top: 5vh;
-    height: 70vh;
+  margin: 3rem 2rem;
 }
 
 .why-section-header{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20%;
-    font-size: 40px;
+    /* height: 20%; */
+    font-size: 2rem;
+    margin-bottom: 1rem;
     font-weight: 600;
 }
 .why-section-card-box{
-    height: 80%;
-    display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
 }
 
 .why-section-card{
+    width: 400px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: 2px solid var(--darkOne);
 }
 
 .card-header{
@@ -209,14 +238,12 @@ nav .nav-container {
 }
 
 .card-text{
-    padding-top: 1rem;
-    width: 50%;
-    text-align: center;
-    font-size: 20px;
+    padding: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .card-img{
-    width: 100px;
+    width: 100%;
     height: 100px;
 }
 /* ************** Why join us section ends ********** */
@@ -277,6 +304,8 @@ nav .nav-container {
 }
 
 .slideshow-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
     max-width: 1000px;
     position: relative;
     margin: auto;
@@ -327,22 +356,27 @@ nav .nav-container {
     position: absolute;
     top: 0;
     left: 40vw;
-    width: 33.4vw;
-    height: 70vh;
+    width: 30vw;
+    height: 100vh;
     text-align: center;
   }
 
   .feedback-text{
     padding:1rem 2rem;
     text-align: start;
-    font-size: 26px;
+    font-size: 1.5rem;
 
   }
 
-  .feedback-text img {
+  .feedback-text .left {
     position: absolute;
     top: 2rem;
     left: 0.5rem;
+  }
+  .feedback-text .right{
+    position: absolute;
+    top: 20rem;
+    right: 0.5rem;
   }
 
   .teacher-name-field{
@@ -417,6 +451,7 @@ nav .nav-container {
 .categories-box a {
   display: block;
   font-size: 1.4rem;
+  text-decoration: none;
   padding: 1rem 0;
   color: #666;
 }
@@ -437,7 +472,172 @@ nav .nav-container {
 /* ******************* Course ends ************ */
 
 /* ******************* Footer starts ************ */
-.row-container{
+footer {
+  background: var(--darkOne);
+  color: #fff;
+  padding: 4rem 0;
+}
+
+.footer-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+footer .row>div {
+  /* border: 2px solid red; */
+  padding: 0 1rem;
+}
+
+.bigb-footer{
+  margin-left: 85px;
+}
+
+.bigb-footer >.bigb-text {
+  font-size: 0.95rem;
+  line-height: 2;
+}
+
+.bigb-footer>img {
+  width: 50px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 0.9rem;
+}
+
+.details>h3 {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  text-align: justify;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-links a {
+  color: #eee;
+  text-decoration: none;
+  text-transform: none;
+  line-height: 2;
+  font-size: 1.1rem;
+}
+
+.footer-links a:hover {
+  color: cyan;
+}
+
+.footer-social-links {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.footer-social-links li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #fff;
+  width: 40px;
+  height: 40px;
+  margin-right: 0.5rem;
+  border-radius: 50%;
+  list-style: none;
+}
+
+.footer-social-links li:hover {
+  border-color: cyan;
+}
+
+.footer-social-links a {
+  color: #fff;
+  transition: transition;
+}
+
+.footer-social-links li:hover a {
+  color: cyan;
+}
+
+.footer-text {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  font-family: "Poppins",
+    sans-serif;
+}
+
+.footer-text span {
+  color: cyan;
+}
+.footer-contact-info{
+    font-size: 1.1rem;
+  line-height: 2;
+}
+.footer-contact-info i {
+  margin-right: 1rem;
+}
+
+.map i {
+  color: #FF0000;
+}
+
+.phone i {
+  color: #5CDD5B;
+}
+
+.email i {
+  color: #04A9FF;
+}
+
+.mail i {
+  color: #FFFF00;
+}
+
+@media (max-width: 600px) {
+  .footer-row {
+    display: block;
+    /* grid-template-columns: repeat(4, 1fr); */
+  }
+
+  .bigb-footer {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    /* margin-left: 100px; */
+  }
+
+  .details {
+    margin: 2rem 0;
+    /* align-items: center; */
+  }
+
+  .footer-contact-info {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin-left: 80px;
+    justify-content: center;
+  }
+
+  .footer-text {
+    margin-left: 80px;
+    text-align: center;
+  }
+
+  /* .footer-links{
+        margin-right: 70px;
+    } */
+
+}
+/* .row-container{
   display: flex;
   justify-content: space-evenly;
 }
@@ -518,6 +718,6 @@ footer .row > div{
 a{
   color: var(--black);
   text-decoration: none;
-}
+} */
 
 /* ******************* Footer ends ************ */

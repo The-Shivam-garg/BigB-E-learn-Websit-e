@@ -89,6 +89,7 @@ html {
 
 .welcome .item:hover {
     box-shadow: 0 0 7px rgba(1, 1, 1, 0.23);
+    cursor: pointer;
 }
 
 .welcome .item span {
