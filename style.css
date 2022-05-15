@@ -287,11 +287,11 @@ header {
 .btn {
     display: inline-block;
     padding: 0.9rem 1.9rem;
-    color: #fff !important;
-    background-color: var(--mainColor);
+    color: #000;
     border-radius: 16px;
     text-transform: capitalize;
     transition: 0.3s;
+    background-color: #fff;
 }
 
 .btn:hover {
