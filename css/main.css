@@ -3,6 +3,8 @@
     --magenta: #d9138a;
     --cyan: #12a4d9;
     --black: #0e0d0d;
+    --grey: #252323;
+    --greyish:#7b7676af;
     --lightBlack: #a29a9c;
     --exLight: #f4f3f3;
     --transition: all 0.4s ease-in-out;
@@ -636,7 +638,7 @@ margin-top: 30px;
 /* footer  */
 
 footer {
-    background: var(--black);
+    background: var(--grey);
     color: #fff;
     text-transform: none;
     padding: 4rem 0;
@@ -663,7 +665,7 @@ footer .social-links {
     padding-bottom: 20px;
 }
 
-footer .social-links i {
+footer .social-lin {
     margin: 0px 10px;
     font-size: 20px;
     transition: 0.3s;
@@ -704,7 +706,24 @@ footer .container i {
 footer .container span i:hover {
     color: white;
 }
+footer .row .i{
+    font-size: 1.5rem;
+}
+footer .hr{
+    height: 0;
+    margin-top: 3rem;
+    width: 100%;
+    margin-bottom: 3rem;
+    background-color: var(--lightBlack);
+    opacity: 15%;
+}
+footer hr{
+    height: 0;
+    opacity: 30%;
+    margin-top: -30px;
+    width: 4rem;
 
+}
 footer .footer-col .infor a {
     text-transform: none;
     padding: 5px;
