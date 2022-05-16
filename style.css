@@ -70,6 +70,8 @@ a {
     justify-content: space-between;
 }
 
+
+
 /* changing font awesome color */
 
 .fa .fas {
@@ -776,7 +778,7 @@ footer .row>div {
 }
 
 .bigb>img {
-    width: 50px;
+    width: 60px;
     height: auto;
 }
 
