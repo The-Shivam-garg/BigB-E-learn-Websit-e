@@ -227,6 +227,7 @@ a {
 .big-wrapper {
   position: relative;
   padding: 1.7rem 0 2rem;
+  padding-bottom: 0;
   width: 100%;
   min-height: 100vh;
   overflow: hidden;
@@ -379,8 +380,10 @@ header .container {
 
 .text {
   color: var(--lightOne);
-  font-size: 1.1rem;
-  margin: 1.9rem 0 2.5rem;
+  font-size: 18px;
+  display: flex;
+  align-self: center;
+  margin: 1rem 0 1.9rem;
   max-width: 600px;
   line-height: 2.3;
 }
@@ -1144,6 +1147,13 @@ header .container {
   border-radius: 1rem;
 }
 
+footer{
+  display: flex;
+  flex-direction: column;
+}
+footer .row{
+  grid-template-columns: repeat(3, 1fr);
+}
 .footer {
   background: #f5f5f5;
 }
