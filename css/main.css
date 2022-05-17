@@ -6,7 +6,7 @@
     --grey: #252323;
     --greyish:#7b7676af;
     --lightBlack: #a29a9c;
-    --exLight: #f4f3f3;
+    --exLight: #000000;
     --transition: all 0.4s ease-in-out;
     --Heebo: "Heebo", sans-serif;
     --Roboto: "Robot", sans-serif;
@@ -196,7 +196,7 @@ html {
 /* online course */
 
 .online-course {
-    background-color: #264a5f;
+    background-color: #325e77;
     color: #fff;
     padding: 2rem;
     background-size: cover;
@@ -206,6 +206,7 @@ html {
 .online-course .container {
     display: flex;
     align-items: center;
+    
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     background-color: #192E3A;
     padding: 2rem;

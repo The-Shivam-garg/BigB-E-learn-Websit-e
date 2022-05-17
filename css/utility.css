@@ -58,7 +58,7 @@ button {
 }
 
 .text {
-    color: var(--lightBlack);
+    color: #434e52;
     /* padding: 0.6rem 0; */
 }
 
@@ -92,8 +92,9 @@ section {
 }
 
 .title-sm h3 {
-    font-size: 1.5rem;
-    text-align: left;
+    font-size: 1.9rem;
+    text-align: center;
+    color: aliceblue;
 }
 
 .line {
