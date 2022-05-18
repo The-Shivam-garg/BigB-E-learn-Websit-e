@@ -1,0 +1,10 @@
+{
+    "require": {
+        "google/apiclient": "^2.0"
+    },
+    "autoload": {
+        "classmap": [
+          "vendor/google/apiclient/src/Google"
+        ]
+    }
+}
