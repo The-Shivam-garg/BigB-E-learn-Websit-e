@@ -22,6 +22,7 @@ html{
   align-items: center;
 }
 .testimonial-heading h1{
+  text-align: center;
   font-size: 2.2rem;
   font-weight: 500;
   background-color: #202020;
@@ -36,6 +37,7 @@ html{
   letter-spacing: 2px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-transform: uppercase;
+  text-decoration: underline;
 }
  .team {
    background-color: #ffe53b;
@@ -49,7 +51,7 @@ html{
    position: relative;
    max-width: 800px;
    margin: auto;
-   background: #fff;
+   background: #efefef;
    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
    padding: 25px;
    border-radius: 25px;
@@ -145,6 +147,8 @@ html{
    border-radius: 20px;
    transform: translateX(-80px);
    overflow: hidden;
+   transition-delay: 0s;
+   transition: 0.3s;
 }
  .blog-slider__img:after {
    content: '';
@@ -163,7 +167,11 @@ html{
    display: block;
    opacity: 0;
    border-radius: 20px;
-   transition: all 0.3s;
+   transition-delay: 0s !important;
+   transition: all 0.3s !important;
+}
+.blog-slider__img:hover img{
+  transform: scale(1.05) !important;
 }
  @media screen and (max-width: 768px) {
    .blog-slider__img {
@@ -230,6 +238,11 @@ html{
    justify-content: center;
    text-align: center;
    letter-spacing: 1px;
+   transition-delay: 0s !important;
+   transition: 0.3s;
+}
+.blog-slider__button:hover{
+  transform: scale(1.05) !important;
 }
  @media screen and (max-width: 576px) {
    .blog-slider__button {
