@@ -16,6 +16,7 @@
     />
 
     <link href="./login.css" rel="stylesheet" />
+    <link href="../navbar.css" rel="stylesheet" />
 
     <!-- font awesome cdn link  -->
     <link
@@ -57,86 +58,44 @@
   <body>
     <!-- navbar section starts  -->
 
-    <div class="sidebar">
-      <div class="logo-details">
-        <i class="fab fa-blogger"></i>
-        <div class="logo_name">BigB</div>
-        <i class="bx bx-menu" id="btn"></i>
-      </div>
-      <ul class="nav-list">
-        <li>
-          <i class="bx bx-search"></i>
-          <input type="text" placeholder="Search..." />
-          <span class="tooltip">Search</span>
-        </li>
-        <li>
-          <a href="../index.html">
-            <i class="bx bx-grid-alt"></i>
-            <span class="links_name">Home</span>
+    <header>
+      <div class="header-wrapper">
+          <a href="../index.html" class="logo">
+              <img src="../img/v.png" alt="Logo" />
+              <h3>igB</h3>
           </a>
-          <span class="tooltip">Home</span>
-        </li>
-        <li>
-          <a href="../about/team.html">
-            <i class="bx bx-user"></i>
-            <span class="links_name">Team</span>
-          </a>
-          <span class="tooltip">Team</span>
-        </li>
-        <li>
-          <a href="../contact/contact.html">
-            <i class="bx bx-chat"></i>
-            <span class="links_name">Contact US</span>
-          </a>
-          <span class="tooltip">Contact US</span>
-        </li>
-        <li>
-          <a href="../Course/subjects/quiz.html">
-            <i class="fas fa-brain"></i>
-            <span class="links_name">Quiz</span>
-          </a>
-          <span class="tooltip">Quiz</span>
-        </li>
-        <li>
-          <a href="../Course/Courses.html">
-            <i class="fas fa-book-reader"></i>
-            <span class="links_name">Courses</span>
-          </a>
-          <span class="tooltip">Courses</span>
-        </li>
-        <li>
-          <a href="../Blog/blog.html">
-            <i class="fab fa-blogger"></i>
-            <span class="links_name">Blogs</span>
-          </a>
-          <span class="tooltip">Blogs</span>
-        </li>
-        <li>
-          <a href="#">
-            <i class="bx bx-heart"></i>
-            <span class="links_name">Saved</span>
-          </a>
-          <span class="tooltip">Saved</span>
-        </li>
-        <li>
-          <a href="../log in/Login.html">
-            <i class="fas fa-user-plus"></i>
-            <span class="links_name">Sign In</span>
-          </a>
-          <span class="tooltip">Sign In</span>
-        </li>
-        <li class="profile">
-          <div class="profile-details">
-            <img src="image/v.png" alt="profileImg" />
-            <div class="name_job">
-              <div class="name">TechBenchers</div>
-              <div class="job">Web designer</div>
-            </div>
+
+          <div class="nav d-lg">
+              <h2><a href="../index.html">Home</a></h2>
+              <h2><a href="../index.html#welcome">About</a></h2>
+              <h2><a href="../Course/Courses.html">Courses</a></h2>
+              <h2><a href="../feature-pg/feature.html">Features</a></h2>
+              <h2><a href="../Blog/blog.html">Blogs</a></h2>
+              <h2><a href="../contact/contact.html">Contact</a></h2>
           </div>
-          <i class="bx bx-log-out" id="log_out"></i>
-        </li>
-      </ul>
-    </div>
+
+          <div class="nav d-lg">
+              <h2 style="padding-top:0;"><a href="#" class="btn-n sign-in">Sign In</a></h2>
+          </div>
+
+          <div class="dropdown-menu">
+              <svg xmlns="http://www.w3.org/2000/svg" height="70%" fill="currentColor" class="bi bi-list dropdown-btn"
+                  viewBox="0 0 16 16">
+                  <path fill-rule="evenodd"
+                      d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+              </svg>
+              <div class="dropdown-content">
+                  <h2><a href="../index.html">Home</a></h2>
+                  <h2><a href="../index.html#welcome">About</a></h2>
+                  <h2><a href="../Course/Courses.html">Courses</a></h2>
+                  <h2><a href="../feature-pg/feature.html">Features</a></h2>
+                  <h2><a href="../Blog/blog.html">Blogs</a></h2>
+                  <h2><a href="../contact/contact.html">Contact</a></h2>
+                  <h2><a href="#">Sign In</a></h2>
+              </div>
+          </div>
+      </div>
+  </header>
     <!--nav bar ends here-->
 
     <section class="login">
