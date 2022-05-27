@@ -66,11 +66,12 @@ form {
 form.sign-up-form {
   opacity: 0;
   z-index: 1;
+  
 }
 
 form.sign-in-form {
   z-index: 2;
-  margin-left: 66px;
+  margin-left: 20px;
 }
 
 .title {
@@ -79,16 +80,18 @@ form.sign-in-form {
   margin-bottom: 10px;
 }
 
+
+
 .input-field {
   max-width: 380px;
-  width: 100%;
+  width: 95%;
   background-color: #f0f0f0;
-  margin: 10px 0;
+  margin: 10px 0px 0px 70px;
   height: 55px;
   border-radius: 55px;
   display: grid;
   grid-template-columns: 15% 85%;
-  padding: 0 0.4rem;
+  padding:0rem 0.4rem 0rem 0.4rem;
   position: relative;
 }
 
@@ -116,7 +119,7 @@ form.sign-in-form {
 }
 
 .social-text {
-  padding: 0.7rem 0;
+  padding: 0.2rem 0;
   font-size: 1rem;
 }
 
