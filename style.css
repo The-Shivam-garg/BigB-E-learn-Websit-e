@@ -370,7 +370,7 @@ header {
 
 .text {
     color: var(--lightOne);
-    font-size: 1.1rem;
+    font-size:1.1rem;
     margin: 5px;
     max-width: 600px;
     line-height: 2.3;

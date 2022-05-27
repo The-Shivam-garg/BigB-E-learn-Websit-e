@@ -14,7 +14,7 @@ html{
   left: 0;
   top: 0;
   height: 100%;
-  width: 78px;
+  width: 68px;
   background: #11101D;
   padding: 6px 14px;
   z-index: 99;
@@ -176,7 +176,7 @@ html{
 .sidebar li.profile{
   position: fixed;
   height: 60px;
-  width: 78px;
+  width: 68px;
   left: 0;
   bottom: -8px;
   padding: 10px 14px;
