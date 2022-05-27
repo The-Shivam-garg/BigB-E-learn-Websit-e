@@ -1421,9 +1421,7 @@ footer {
 header {
   width: 100%;
   height: 65px;
-  background-color: #FF531A ;
-  border-bottom-left-radius: 6px;
-  border-bottom-right-radius: 6px;
+  background-color: #64bcf4;
   position: fixed;
   z-index: 70;
 }
@@ -1617,11 +1615,71 @@ header .nav h2 a {
 
 header .nav h2 a:hover {
   transition: all 0.4s ease-in-out;
-  background-color: #192e3a;
-  border-bottom: 2px double white;
-  border-radius: 50px 0px 50px 0px;
+ 
 }
 
+.nav {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.logo {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: italic;
+  font-size: 25px;
+  margin-left: 0.5%;
+}
+.logo>img{
+  margin-right: 2.6px;
+}
+img {
+  width: 20%;
+  margin: 4px 6px
+}
+
+a {
+  margin: 15px;
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a:hover {
+  color: #fff;
+}
+
+header .logo h3 {
+  text-transform: none;
+  color: black;
+  font-family: cursive;
+}
+header .nav .btn-sign-in{
+  background-color: #192e3a;
+  color: white;
+}
+header .nav .btn-sign-in:hover{
+ background-color: white;
+ color: black;
+}
+header .nav h2 a {
+  text-transform: none;
+  padding: 3px 20px;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: normal;
+  font-family: cursive;
+
+}
+.header-wrapper a{
+  margin-top: 12px;
+}
+header .nav h2 a:hover {
+  transition: all 0.4s ease-in-out;
+  background-color: #192e3a;
+  border-radius: 50px;
+}
 
 @keyframes appear {
   0% {
