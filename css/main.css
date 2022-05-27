@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 :root {
     --yellow: #e3d810;
     --magenta: #d9138a;
@@ -25,6 +26,7 @@ html {
     scroll-behavior: smooth;
     text-rendering: optimizeLegibility;
     color: var(--black);
+    overflow-x: hidden;
 }
 
 #scroll {
@@ -466,9 +468,19 @@ margin-top: 30px;
     align-items: center;
     flex-direction: column;
     width: 100%;
+    background-color: #192D3A;
+        color: white;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+}
+.testimonial-row{
+    padding: 2rem 3rem;
 }
 
-.testimonial-heading {
+/* .testimonial-heading {
     letter-spacing: 1px;
     margin: 30px 0px;
     padding: 10px 20px;
@@ -476,42 +488,52 @@ margin-top: 30px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+} */
 
 .testimonial-heading h1 {
-    font-size: 2.2rem;
-    font-weight: 500;
-    background-color: #202020;
-    color: #ffffff;
-    font-family: sans-serif;
-    padding: 10px 20px;
-    border-radius: 55px;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    /* text-transform: uppercase; */
+    font-family: 'Poppins', sans-serif;
+
 }
 
-.testimonial-heading span {
+/* .testimonial-heading span {
     font-size: 4rem;
     color: #252525;
     margin-bottom: 10px;
     letter-spacing: 2px;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     text-transform: uppercase;
-}
+} */
 
 .testimonial-box-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
     width: 100%;
+}
+@media (min-width: 300px) and (max-width: 820px){
+    .testimonial-heading h1{
+        font-size: 2rem;
+    }
+    .testimonial-box-container, .grid-container{
+        display: block;
+        place-items: center;
+        margin: 0 auto;
+
+    }
 }
 
 .testimonial-box {
-    width: 500px;
-    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
-    background-color: #ffffff;
-    padding: 12px;
-    margin: 15px;
+    width: 450px;
+    box-shadow: 2px 2px 10px white;
+    padding: 1rem;
+    margin: 1.2rem;
     cursor: pointer;
+    background-color: #192D3A;
+    color: white;
 }
 
 .profile-img {
@@ -540,13 +562,11 @@ margin-top: 30px;
 }
 
 .name-user strong {
-    color: #3d3d3d;
     font-size: 1.1rem;
     letter-spacing: 0.5px;
 }
 
 .name-user span {
-    color: #979797;
     font-size: 0.8rem;
 }
 
@@ -563,11 +583,10 @@ margin-top: 30px;
 
 .client-comment p {
     font-size: 0.9rem;
-    color: #4b4b4b;
 }
 
 .testimonial-box:hover {
-    transform: translateY(-10px);
+    transform: scale(1.05);
     transition: all ease 0.3s;
 }
 
