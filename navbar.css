@@ -59,7 +59,7 @@ a {
     margin: 15px;
     color: #000;
     text-decoration: none;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 a:hover {

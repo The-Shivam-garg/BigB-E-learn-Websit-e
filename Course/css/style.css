@@ -177,6 +177,7 @@ section {
   width: 100%;
 }
 */
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 .light {
@@ -215,7 +216,9 @@ body {
   height: 100%;
   overflow: hidden;
 }
-
+.header-wrapper a{
+  font-size: 2rem;
+}
 img {
   width: 100%;
 }
@@ -236,7 +239,35 @@ a {
   flex-direction: column;
   justify-content: space-between;
 }
-
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+@media(max-width: 600px){
+  .grid-container{
+    display: block;
+  }
+}
+.intro-row{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.intro h1{
+  font-size: 3.6rem;
+  color: var(--darkOne);
+}
+.intro{
+  color: var(--darkOne);
+  font-size: 1.8rem;
+  line-height: 2;
+  text-transform: none;
+}
+.intro-row img{
+  width: 100%;
+  height: auto;
+}
 .container {
   position: relative;
   max-width: 81rem;
@@ -619,23 +650,58 @@ header .container {
   line-height: 2.5;
 }
 
-.category {
+/* .category {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding: 10px;
+} */
+.category h1{
+  color:white;
+  font-size: 2.5rem;
+  text-align: center;
+}
+.box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.boxes{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 250px;
+  background-color: #f5f5f5;
+  border-radius: 0.75rem;
+  align-items: center;
+  justify-content: center;
+}
+.boxes img{
+  display: block;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+.boxes h3{
+  font-size: 1.7rem;
+  text-align: center;
 }
 
-.category .box {
+/* .category .box {
   border-radius: 1rem;
   background: #f5f5f5;
   padding: 4rem 3rem;
   text-align: center;
   width: 16%;
   margin: 10px;
-}
+} */
 
-.category .box img {
+/* .category .box img {
   height: 13rem;
   margin-bottom: 2rem;
 }
@@ -643,7 +709,7 @@ header .container {
 .category .box h3 {
   font-size: 1.7rem;
   color: #302851;
-}
+} */
 
 .about {
   display: -webkit-box;

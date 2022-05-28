@@ -1550,7 +1550,7 @@ footer .btn:hover {
   color: black;
 }
 
-.intro{
+/* .intro{
 	width: 100%;
 	display: flex;
 	flex-direction: row;
@@ -1565,8 +1565,8 @@ footer .btn:hover {
 .intro > div > *{
 	margin-left: 3rem;
 	text-align: justify;
-}
-.category{
+} */
+/* .category{
 	justify-content: space-evenly !important;
 	margin-top: 12rem;
 }
@@ -1576,4 +1576,4 @@ footer .btn:hover {
 }
 .category > a:hover{
 	transform: scale(1.05);
-}
+} */
