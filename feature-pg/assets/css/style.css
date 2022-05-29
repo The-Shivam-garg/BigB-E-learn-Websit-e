@@ -1280,13 +1280,13 @@ footer {
   font-size: var(--fs-6);
   color: var(--lavender-blue);
   margin-bottom: 35px;
+  margin-left: 10px;
   line-height: 1.6;
 }
 
 .social-link {
   display: flex;
   align-items: center;
-  gap: 20px;
 }
 
 .social-link a {
@@ -1309,15 +1309,26 @@ footer {
   color: var(--white);
 }
 
+.copyright-txt {
+  text-align: center;
+  color: var(--lavender-blue);
+  font-size: var(--fs-6);
+  font-family: "sans-serif";
+  padding: 15px var(--px);
+  line-height: 1.7;
+}
+
+.copyright-txt span {
+  color: #FF531A;
+  font-size: bolder(100);
+}
+
 .grid-item .item-heading {
   font-size: var(--fs-4);
   color: var(--white);
   margin-bottom: 25px;
 }
 
-.grid-item .list-item:not(:last-child) {
-  margin-bottom: 10px;
-}
 
 .grid-item .list-item a {
   display: inline-block;
