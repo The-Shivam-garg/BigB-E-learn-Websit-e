@@ -67,6 +67,7 @@ a:hover {
 }
 
 header .logo h3 {
+    /* margin: 1rem; */
     text-transform: none;
     color: black;
     font-family: serif;
@@ -85,8 +86,7 @@ header .nav h2 a {
 header .nav h2 a:hover {
     transition: all 0.4s ease-in-out;
     background-color: #192e3a;
-    border-bottom: 2px double white;
-    border-radius: 50px 0px 50px 0px;
+    border-radius: 16px;
 }
 .logo {
     display: flex;
@@ -98,7 +98,7 @@ header .nav h2 a:hover {
     height: 60%;
     width: 100%;
     margin-right: 0.6rem;
-
+    /* margin-top: 0.5rem; */
 }
 
 .logo>h3 {
