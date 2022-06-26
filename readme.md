@@ -1,6 +1,8 @@
 <h1 align="center">Open-Source E-learning Website </h1>
 
-### This project is part of the [GirlScript Summer of Code 2022](https://gssoc.girlscript.tech/) Open Source Program
+## OPEN TO ALL CONTRIBUTORS AROUND THE GLOBE TO CONTRIBUTE IN THIS PROJECT
+
+### This project wad part of the [GirlScript Summer of Code 2022](https://gssoc.girlscript.tech/) Open Source Program
 <br/>
 
 <a href="https://gssoc.girlscript.tech/">
