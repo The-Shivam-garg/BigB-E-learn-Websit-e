@@ -2,7 +2,7 @@
 
 ## OPEN TO ALL CONTRIBUTORS AROUND THE GLOBE TO CONTRIBUTE IN THIS PROJECT
 
-### This project wad part of the [GirlScript Summer of Code 2022](https://gssoc.girlscript.tech/) Open Source Program
+### This project was part of the [GirlScript Summer of Code 2022](https://gssoc.girlscript.tech/) Open Source Program
 <br/>
 
 <a href="https://gssoc.girlscript.tech/">
