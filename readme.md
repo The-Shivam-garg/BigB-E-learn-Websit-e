@@ -76,9 +76,9 @@ If you have any queries or any suggestions then reach out to us at <a href="mail
 
 </div>
 
- <div align="center">
+<!---  <div align="center">
       
-   <h1 align="center">Sidehustlers</h1>
+  <h1 align="center">Sidehustlers</h1> 
       <img width="10%" align="center"   src="https://github.com/The-Shivam-garg/CollegeCommunity-Website/blob/main/images/LOGO.jpg" >
  
 I have started a Community named Sidehustlers Community [Community for ALL] Where we share Resources, Roadmaps to learn different technologies and share opportunities related to different tech & non-tech programs. Also, We organize Events on different technologies and emerging domains to help people to get started with these technologies.
@@ -92,7 +92,7 @@ I have started a Community named Sidehustlers Community [Community for ALL] Wher
 <a  href="https://discord.gg/87kR8Ve9yk"><img alt=" Discord" src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"></a>
 <a  href="https://www.instagram.com/beasidehustler/"><img alt="Instagram" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
 <a href="https://linktr.ee/beasidehustler"><img alt="Linktree" src ="https://img.shields.io/badge/Linktree-39E09B.svg?style=for-the-badge&logo=Linktree&logoColor=white"></a>
- </div>
+ </div> --->
 
 <h1 align="center">Project Admin</h1>
 
