@@ -15,4 +15,5 @@ jobs:
           with:
             root: ./
             log_level: INFO
+            css: true
           continue-on-error: true
