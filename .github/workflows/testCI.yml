@@ -17,3 +17,9 @@ jobs:
         uses: pavi2410/html-preview-action@v2
         with:
          html_file: 'index.html'
+         
+      - name: HTML5 Validator
+        uses: Cyb3r-Jak3/html5validator-action@v7.1.1
+        with:
+         root: BigB-E-learn-Websit-e/
+         blacklist: invalid
