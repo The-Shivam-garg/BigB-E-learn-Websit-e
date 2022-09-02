@@ -12,4 +12,4 @@ jobs:
     - name: Checks HTML5
       uses: Cyb3r-Jak3/html5validator-action@v7.1.1
       with:
-        root: index.html
+        root: BigB-E-learn-Websit-e/
