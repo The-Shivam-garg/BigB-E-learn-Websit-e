@@ -3,13 +3,14 @@ name: HTML Check
 on:
   push:
 
-
 jobs:
-  build:
+  Test:
     runs-on: ubuntu-latest
+    env:
+      HTML5_ACTION_DEBUG: true
     steps:
-    - uses: actions/checkout@v2 # Requried will all actions
-    - name: Checks HTML5
-      uses: Cyb3r-Jak3/html5validator-action@v7.1.1
-      with:
-        root: BigB-E-learn-Websit-e/
+        - uses: actions/checkout@v2 # Requried will all actions
+        - name: Checks HTML5
+          uses: Cyb3r-Jak3/html5validator-action@v7.1.1
+          with:
+            root: index.html
