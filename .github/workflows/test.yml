@@ -14,3 +14,5 @@ jobs:
           uses: Cyb3r-Jak3/html5validator-action@v7.1.1
           with:
             root: Blog/
+            log_level: INFO
+          continue-on-error: true
