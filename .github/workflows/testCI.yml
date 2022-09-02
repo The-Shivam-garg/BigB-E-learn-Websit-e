@@ -12,7 +12,8 @@ jobs:
     
     steps:
       - uses: actions/checkout@v2
-      - name: Use Node.js
-        uses: actions/setup-node@v2
-      - run: npm install
-      - run: npm run build --if-present
+      - name: HTML Preview
+        id: html_preview
+        uses: pavi2410/html-preview-action@v2
+        with:
+         html_file: 'index.html'
