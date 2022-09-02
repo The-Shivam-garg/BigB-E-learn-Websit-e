@@ -1,0 +1,15 @@
+name: HTML Check
+
+on:
+  push:
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2 # Requried will all actions
+    - name: Checks HTML5
+      uses: Cyb3r-Jak3/html5validator-action@<latest version>
+      with:
+        root: index.html
