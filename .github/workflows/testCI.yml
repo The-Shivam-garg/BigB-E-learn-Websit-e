@@ -21,4 +21,4 @@ jobs:
       - name: Check HTML
         uses: chabad360/htmlproofer@master
         with:
-          directory: "./index.html"
+          directory: "./"
