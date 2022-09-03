@@ -22,3 +22,20 @@ jobs:
         uses: chabad360/htmlproofer@master
         with:
           directory: "./"
+      - name: Set up Go
+        uses: actions/setup-go@v3
+        with:
+          go-version: '1.18.x'
+
+      - name: Code checkout
+        uses: actions/checkout@v3
+
+      - name: Run tests
+        working-directory: ${{env.SRC_DIR}}
+        run: go test -coverprofile=covprofile ./...
+
+      - name: Check scripts with Shellcheck
+        uses: essentialkaos/htmlcov-action@v1
+        with:
+          path: ${{env.SRC_DIR}}
+          profile: covprofile
