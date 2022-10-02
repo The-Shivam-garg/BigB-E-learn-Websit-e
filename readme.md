@@ -2,19 +2,19 @@
 
 ## OPEN TO ALL CONTRIBUTORS AROUND THE GLOBE TO CONTRIBUTE IN THIS PROJECT
 
-### This project was part of the [GirlScript Summer of Code 2022](https://gssoc.girlscript.tech/) Open Source Program
+### This project is a part of the [Hacktoberfest 2022](https://hacktoberfest.com/) Open Source Program
 <br/>
 
-<a href="https://gssoc.girlscript.tech/">
-<img src="https://raw.githubusercontent.com/GirlScriptSummerOfCode/MentorshipProgram/master/GSsoc%20Type%20Logo%20Black.png" alt="GSSoC">
+<a href="https://hacktoberfest.com/">
+<img src="" alt="Hacktoberfest">
 </a>
 <br/><br>
 
-> This project is accepting contributions under [GirlScript Summer of Code 2022](https://gssoc.girlscript.tech/) - three months long Open Source program conducted by [GirlScript Foundation](https://gssoc.girlscript.tech/).
+> This project is accepting contributions under [Hacktoberfest 2022](https://hacktoberfest.com/) - ONE month long Open Source program conducted by [Open Source Community]().
 <br/><br/>
 
 
-## 📌 BigB is a E-learning website , covers all the Knowledgeable material from UNIVERSITY to UNIVERSE.😍😍
+## 📌ABout.😍😍
 
 
 This is an Open-Source Educational Website, which Cover all the Educational related things whether it's in-syllabus or out-of-syllabus:  
