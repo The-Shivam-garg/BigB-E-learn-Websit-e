@@ -265,3 +265,17 @@ html{
   align-items: flex-end;
   margin-left: 3.8rem;
 }
+
+.alignment{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 10px;
+}
+
+.proper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 60px;
+}
