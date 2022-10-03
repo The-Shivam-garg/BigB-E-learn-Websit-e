@@ -63,7 +63,9 @@ a {
 }
 
 a:hover {
-    color: #fff;
+    color: #444;
+    transition: ease-in-out;
+    transition-duration: 150ms;
 }
 
 header .logo h3 {
@@ -198,8 +200,11 @@ header .nav h2 a:hover {
 
     .dropdown-content>h2:hover {
         background-color: #192E3A;
-        color: #fff;
         border-radius: 15px;
+    }
+    
+    .dropdown-content>h2:hover>a{
+        color: #fff;
     }
 }
 
