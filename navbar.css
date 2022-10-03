@@ -63,7 +63,9 @@ a {
 }
 
 a:hover {
-    color: #fff;
+    color: #444;
+    transition: ease-in-out;
+    transition-duration: 150ms;
 }
 
 header .logo h3 {
