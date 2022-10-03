@@ -198,8 +198,11 @@ header .nav h2 a:hover {
 
     .dropdown-content>h2:hover {
         background-color: #192E3A;
-        color: #fff;
         border-radius: 15px;
+    }
+    
+    .dropdown-content>h2:hover>a{
+        color: #fff;
     }
 }
 
