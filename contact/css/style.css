@@ -23,12 +23,9 @@ html {
 }
 
 section {
-    padding: 3rem 9%;
+    padding: 2rem 9%;
 }
 
-main {
-    margin-left: 78px;
-}
 
 .btn {
     display: inline-block;
