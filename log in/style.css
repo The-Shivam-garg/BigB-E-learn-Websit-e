@@ -10,7 +10,7 @@ body,
 input {
   font-family: "Poppins", sans-serif;
 }
-html{
+html {
   scroll-behavior: smooth;
 }
 .container {
@@ -29,14 +29,13 @@ html{
   left: 0;
 }
 
-.forgot{
+.forgot {
   font-size: smaller;
 }
-form a{
+form a {
   text-decoration: none;
   color: #006e92;
   font-weight: bold;
-  
 }
 
 .signin-signup {
@@ -66,7 +65,6 @@ form {
 form.sign-up-form {
   opacity: 0;
   z-index: 1;
-  
 }
 
 form.sign-in-form {
@@ -80,8 +78,6 @@ form.sign-in-form {
   margin-bottom: 10px;
 }
 
-
-
 .input-field {
   max-width: 380px;
   width: 95%;
@@ -91,7 +87,7 @@ form.sign-in-form {
   border-radius: 55px;
   display: grid;
   grid-template-columns: 15% 85%;
-  padding:0rem 0.4rem 0rem 0.4rem;
+  padding: 0rem 0.4rem 0rem 0.4rem;
   position: relative;
 }
 
