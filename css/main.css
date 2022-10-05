@@ -578,11 +578,11 @@ margin-top: 30px;
     }
 
     .testimonial-row {
-        padding: 2rem 3rem;
+        padding: 2rem 2.2rem;
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
     .testimonial-box-container,
     .grid-container {
         display: grid;
