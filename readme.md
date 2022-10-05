@@ -6,7 +6,7 @@
 <br/>
 
 <a href="https://hacktoberfest.com/">
-<img src="" alt="Hacktoberfest">
+<img src="https://blog.tooljet.com/content/images/2022/09/Screenshot-2022-09-27-at-08.03.21.png" alt="Hacktoberfest">
 </a>
 <br/><br>
 
