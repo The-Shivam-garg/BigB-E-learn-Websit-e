@@ -127,6 +127,12 @@ html {
 }
 
 
+@media screen and (max-width: 768px) {
+    .welcome .item p.lg-text {
+        font-size: 16px;
+    }
+}
+
 /* why section */
 
 .why>.container>.title {
@@ -462,6 +468,7 @@ margin-top: 30px;
     border-radius: 30px;
 }
 
+/* Testimonials section */
 #testimonials {
     display: flex;
     justify-content: center;
@@ -469,71 +476,40 @@ margin-top: 30px;
     flex-direction: column;
     width: 100%;
     background-color: #192D3A;
-        color: white;
+    color: white;
 }
+
 .grid-container{
+    padding: 0 1rem;
+}
+
+.testimonial-box-container{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    place-items: center;
-}
-.testimonial-row{
-    padding: 2rem 3rem;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
 }
 
-/* .testimonial-heading {
-    letter-spacing: 1px;
-    margin: 30px 0px;
-    padding: 10px 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-} */
-
+.testimonial-heading {
+    margin-bottom: 2rem;
+}
 .testimonial-heading h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 700;
     text-align: center;
-    /* text-transform: uppercase; */
     font-family: 'Poppins', sans-serif;
-
-}
-
-/* .testimonial-heading span {
-    font-size: 4rem;
-    color: #252525;
-    margin-bottom: 10px;
-    letter-spacing: 2px;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    text-transform: uppercase;
-} */
-
-.testimonial-box-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    place-items: center;
-    width: 100%;
-}
-@media (min-width: 300px) and (max-width: 820px){
-    .testimonial-heading h1{
-        font-size: 2rem;
-    }
-    .testimonial-box-container, .grid-container{
-        display: block;
-        place-items: center;
-        margin: 0 auto;
-
-    }
 }
 
 .testimonial-box {
-    width: 450px;
     box-shadow: 2px 2px 10px white;
     padding: 1rem;
-    margin: 1.2rem;
     cursor: pointer;
     background-color: #192D3A;
     color: white;
+}
+
+.testimonial-box:hover {
+    transform: scale(1.05);
+    transition: all ease 0.3s;
 }
 
 .profile-img {
@@ -574,6 +550,10 @@ margin-top: 30px;
     color: #f9d71c;
 }
 
+.client-comment p {
+    font-size: 0.9rem;
+}
+
 .box-top {
     display: flex;
     justify-content: space-between;
@@ -581,29 +561,44 @@ margin-top: 30px;
     margin-bottom: 20px;
 }
 
-.client-comment p {
-    font-size: 0.9rem;
+@media screen and (min-width: 768px) {
+    .testimonial-box-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
-.testimonial-box:hover {
-    transform: scale(1.05);
-    transition: all ease 0.3s;
+@media screen and (min-width: 992px) {
+
+    .testimonial-heading {
+        margin-bottom: 0;
+    }
+    .testimonial-heading h1 {
+        font-size: 3rem;
+    }
+
+    .testimonial-row {
+        padding: 2rem 2.2rem;
+    }
 }
 
-@media (max-width: 1060px) and(min-width:795px) {
-    .testimonial-box {
-        width: 45%;
-        padding: 10px;
+@media screen and (min-width: 1400px) {
+    .testimonial-box-container,
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        place-items: center;
+        width: 100%;
+        gap: 0;
+    }
+
+    .testimonial-box{
+        width: 450px;
+        margin: 1.2rem;
     }
 }
 
 @media (max-width: 790px) {
-    .testimonial-box {
-        width: 100%;
-    }
-    .testimonial-heading h1 {
-        font-size: 1.4rem;
-    }
     .online-course .container .onlineTxt {
         padding-top: 0;
     }
