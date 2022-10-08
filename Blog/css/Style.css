@@ -456,6 +456,13 @@ main .blog-content .blog-title {
     padding: 2rem 0;
 }
 
+main .blog-content .blog-title .h3_blogtitle {
+   display: flex;
+   height: 6rem;
+   justify-content: center;
+   align-items: center;
+}
+
 main .blog-content .btn-blog {
     padding: 0.7rem 2rem;
     background: var(--sky);
