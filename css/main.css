@@ -380,10 +380,10 @@ html {
     flex-wrap: nowrap; */
 }
 
-.newsletter img {
+/* .newsletter img {
   /* width: 50%;
-  height: 50%; */
-}
+  height: 50%;
+} */
 
 .newsletterText {
   display: flex;
