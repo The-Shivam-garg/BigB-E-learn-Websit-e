@@ -43,6 +43,10 @@ body {
     /* opacity: 0.5; */
 }
 
+.nav a:hover{
+  color:#fff;
+}
+
 .logo {
     text-transform: uppercase;
     letter-spacing: 1px;
