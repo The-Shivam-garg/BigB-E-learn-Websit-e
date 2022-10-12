@@ -67,7 +67,7 @@ a {
 }
 
 a:hover {
-    color: #444;
+    color: rgb(254, 245, 245);
     transition: ease-in-out;
     transition-duration: 150ms;
 }

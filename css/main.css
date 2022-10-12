@@ -235,7 +235,8 @@ html {
 
 .online-course .container .onlineTxt input {
     border: 2px solid #3e799b;
-    border-radius: 25px;
+    border-radius: 15px;
+    padding: 10px;
     background: transparent;
 }
 
@@ -401,7 +402,7 @@ html {
     color: #fff;
     font-size: 3.2rem;
     /* text-transform: uppercase; */
-    font-family: serif;
+    font-family: var(--Heebo);
 }
 
 .newsletter p {
@@ -409,14 +410,15 @@ html {
     font-size: 2rem;
     margin: 1.3rem auto;
     width: 70rem;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: var(--Heebo);
 }
 
 .newsletter form {
     display: flex;
-margin-top: 30px;
+    margin-top: 30px;
     gap: 2rem;
     max-width: 30rem;
+    font-family: var(--Heebo);
     /* border: .2rem solid #fff; */
     padding: .5rem;
     /* border-radius: 5rem; */
@@ -428,6 +430,7 @@ margin-top: 30px;
     /* padding: 0 2rem; */
     font-size: 1.7rem;
     background: none;
+    font-family: var(--Heebo);
     width: 100%;
     color: #fff;
     text-transform: none;
@@ -436,12 +439,14 @@ margin-top: 30px;
 
 .newsletter form input[type="email"]::placeholder {
     color: rgb(135, 120, 120);
+    font-family: var(--Heebo);
     font-family: serif;
     text-transform: capitalize;
 }
 
 .newsletter form input[type="email"]:focus::placeholder {
     color: transparent;
+    font-family: var(--Heebo);
     transition: 0.2s ease-in-out;
 }
 
