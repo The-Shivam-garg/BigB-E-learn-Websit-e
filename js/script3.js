@@ -1,16 +1,19 @@
 const popup = document.querySelector('.popup');
 const close = document.querySelector('.close');
-const overlayser = document.querySelector('.overlayser')
+const popupBG = document.querySelector(".popupBG");
+
+const hideall = () =>{
+    popup.style.display = "none";
+    popupBG.style.display = "none";
+}
 
 window.onload = function() {
     setTimeout(function() {
         popup.style.display = "block";
-        overlayser.style.display = "block";
+        popupBG.style.display = "grid";
     }, 2000)
 }
 
-close.addEventListener('click', () => {
-    popup.style.display = "none";
-    overlayser.style.display = "none";
+close.addEventListener('click', () => hideall())
 
-})
+popupBG.addEventListener('click',()=> hideall())

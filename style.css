@@ -85,25 +85,33 @@ a {
     display: none;
 }
 
+.popupBG{
+    position: fixed;
+    display: none;
+    height: 100vh;
+    width: 100%;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(5px);
+    z-index: 999;
+}
+
 .contentbox {
     position: relative;
     width: 615px;
-    height: 400px;
+    padding: 1rem;
     background: rgb(255, 253, 253);
-    border-radius: 35px;
+    border-radius: 1rem;
     display: flex;
     flex-direction: column;
-    /* padding: 0 10px; */
 }
 
 .contentbox .imgbx {
     position: relative;
-    width: 600px;
-    height: 400px;
+    /* width: 600px; */
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
 }
 
 .contentbox .imgbx img {
@@ -113,12 +121,9 @@ a {
 
 .contentbox .content {
     position: relative;
-    height: 400px;
     width: 400px;
-    padding: 20px;
     display: flex;
-    /* justify-content: center; */
-    text-align: center;
+    margin: .5rem 2rem;
     align-items: center;
 }
 
@@ -135,12 +140,14 @@ a {
 .contentbox .content p {
     font-weight: 500;
     font-size: 1em;
-    ;
+    padding: 1rem 0;
 }
 
 .contentbox .content a {
     display: inline-block;
+    
     padding: 10px;
+    margin: 0 auto;
     background: hsl(0, 54%, 51%);
     color: white;
     text-decoration: none;
@@ -163,19 +170,6 @@ a {
     text-align: center;
 }
 
-.overlayser {
-    position: fixed;
-    opacity: 1;
-    display: none;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, .5);
-    pointer-events: none;
-    z-index: 999;
-}
-
 .container {
     position: relative;
     max-width: 81rem;
@@ -184,8 +178,6 @@ a {
     padding: 0 3rem;
     z-index: 10;
 }
-
-
 
 
 
