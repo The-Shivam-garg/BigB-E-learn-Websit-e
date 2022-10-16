@@ -1,13 +1,12 @@
 /*------To make the content popup responsive------*/
 @media screen and (min-width: 481px) and (max-width: 800px){
     .contentbox{
-        width: 400px;
-        height: 200px;
+        width: 500px;
       }
       .contentbox .imgbx {
         display: grid;
         grid-template-columns: 30% 70%;
-        text-align: center;
+        text-align: justify;
         width: 100%;
       }
       .img-div{
@@ -28,10 +27,11 @@
       }
       .contentbox .content p{
         font-weight: 500;
-        font-size: 0.7em; ;
+        font-size: 0.7em;
+        text-indent: 28px;
       }
       .contentbox .content a{
-        padding: 5px;
+        padding: 5px 12px;
         margin: 5px;
         border-radius: 5px;
         font-size: 0.8rem;
@@ -41,7 +41,7 @@
         right: 10px;
         width: 20px;
         height: 20px;
-        font-size: 0.75rem;
+        font-size: 1.5rem;
         background-size: 5px;
       }
 }
