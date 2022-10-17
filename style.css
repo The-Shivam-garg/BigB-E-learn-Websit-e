@@ -600,7 +600,10 @@ body {
     flex-direction: row;
     height: 100%;
 }
-
+.nav a{
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+}
 .logo {
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -646,7 +649,7 @@ header .nav h2 a {
     margin-left: 0;
     margin-right: 0;
     font-weight: normal;
-    font-family: cursive;
+    font-family: "Poppins", sans-serif;
   
 }
 .header-wrapper a{
