@@ -6,16 +6,11 @@
  * copyright 2022 @codewithsadee 
  */
 
-
-
-
-
 /*-----------------------------------*\
   #VARIABLE
 \*-----------------------------------*/
 
 @import url(./variable.css);
-
 
 .light {
   --mainColor: #64bcf4;
@@ -26,8 +21,6 @@
   --lightOne: #919191;
   --lightTwo: #aaa;
 }
-
-
 
 /*-----------------------------------*\
   #RESET
@@ -86,10 +79,6 @@ html {
   background: var(--ultramarine-blue);
 }
 
-
-
-
-
 /*-----------------------------------*\
   #COMPONENT
 \*-----------------------------------*/
@@ -138,10 +127,6 @@ html {
   background: var(--oxford-blue);
 }
 
-
-
-
-
 /*-----------------------------------*\
   #REUSED STYLE
 \*-----------------------------------*/
@@ -166,10 +151,6 @@ html {
   line-height: 1.3;
 }
 
-
-
-
-
 /*-----------------------------------*\
   #MAIN
 \*-----------------------------------*/
@@ -181,17 +162,9 @@ html {
   overflow: hidden;
 }
 
-
-
 /*-----------------------------------*\
   #HEADER 
 \*-----------------------------------*/
-
-
-
-
-
-
 
 /*-----------------------------------*\
   #HOME
@@ -205,25 +178,33 @@ html {
 }
 
 .home::before {
-  content: '';
+  content: "";
   position: absolute;
   top: -200px;
   left: -400px;
   width: 800px;
   height: 800px;
   border-radius: 50%;
-  background: radial-gradient(ellipse at center, hsla(217, 100%, 50%, 0.3), transparent 70%);
+  background: radial-gradient(
+    ellipse at center,
+    hsla(217, 100%, 50%, 0.3),
+    transparent 70%
+  );
 }
 
 .home::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 100px;
   right: -400px;
   width: 800px;
   height: 800px;
   border-radius: 50%;
-  background: radial-gradient(ellipse at center, hsla(15, 100%, 55%, 0.3), transparent 70%);
+  background: radial-gradient(
+    ellipse at center,
+    hsla(15, 100%, 55%, 0.3),
+    transparent 70%
+  );
 }
 
 .home .deco-shape {
@@ -349,10 +330,6 @@ html {
   z-index: 5;
 }
 
-
-
-
-
 /*-----------------------------------*\
   #COURSE CATEGORY
 \*-----------------------------------*/
@@ -391,6 +368,8 @@ html {
   background: var(--red-orange-color-wheel);
   border-color: var(--red-orange-color-wheel);
   box-shadow: 0 10px 50px -20px var(--red-orange-color-wheel);
+  transform: scale(1.06);
+  z-index: 2;
 }
 
 .category-icon {
@@ -423,10 +402,6 @@ html {
 .course-category-item:hover .category-subtitle {
   color: var(--white);
 }
-
-
-
-
 
 /*-----------------------------------*\
   #ABOUT
@@ -511,10 +486,6 @@ html {
 .about-ul li:not(:last-child) {
   margin-bottom: 30px;
 }
-
-
-
-
 
 /*-----------------------------------*\
   #COURSE
@@ -688,10 +659,6 @@ html {
   margin: auto;
 }
 
-
-
-
-
 /*-----------------------------------*\
   #EVENT
 \*-----------------------------------*/
@@ -822,10 +789,6 @@ html {
   color: var(--red-orange-color-wheel);
 }
 
-
-
-
-
 /*-----------------------------------*\
   #FEATURES
 \*-----------------------------------*/
@@ -905,10 +868,6 @@ html {
   height: 100%;
   object-fit: cover;
 }
-
-
-
-
 
 /*-----------------------------------*\
   #INSTRUCTOR
@@ -1017,10 +976,6 @@ html {
   font-size: var(--fs-6);
 }
 
-
-
-
-
 /*-----------------------------------*\
   #TESTIMONIAL
 \*-----------------------------------*/
@@ -1095,10 +1050,6 @@ html {
   color: var(--red-orange-color-wheel);
   font-size: var(--fs-6);
 }
-
-
-
-
 
 /*-----------------------------------*\
   #BLOG
@@ -1177,7 +1128,7 @@ html {
 }
 
 .blog-content .wrapper::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1204,10 +1155,6 @@ html {
 :is(.blog-publish-date, .blog-comment) a:hover {
   color: var(--oxford-blue);
 }
-
-
-
-
 
 /*-----------------------------------*\
   #CONTACT
@@ -1251,10 +1198,6 @@ html {
 .contact .btn-primary {
   justify-self: center;
 }
-
-
-
-
 
 /*-----------------------------------*\
   #FOOTER
@@ -1319,7 +1262,7 @@ footer {
 }
 
 .copyright-txt span {
-  color: #FF531A;
+  color: #ff531a;
   font-size: bolder(100);
 }
 
@@ -1328,7 +1271,6 @@ footer {
   color: var(--white);
   margin-bottom: 25px;
 }
-
 
 .grid-item .list-item a {
   display: inline-block;
@@ -1415,7 +1357,6 @@ footer {
 .topbtn:hover {
   cursor: pointer;
   color: black;
-
 }
 
 header {
@@ -1435,7 +1376,7 @@ header {
   align-items: center;
 }
 
-.header-wrapper>a {
+.header-wrapper > a {
   margin: 0;
   margin-left: 15px;
   margin-top: 10px;
@@ -1456,25 +1397,19 @@ header {
   cursor: pointer;
 }
 
-.logo>img {
+.logo > img {
   height: 60%;
   margin-right: 0.6rem;
-
 }
 
-.logo>h3 {
+.logo > h3 {
   color: var(--darkTwo);
   font-size: 1.55rem;
   line-height: 1.2;
   padding: 0.6rem 0;
 }
 
-
-
-
-
 .links ul {
-
   display: flex;
   list-style: none;
   align-items: center;
@@ -1494,7 +1429,6 @@ header {
   /* margin:; */
 }
 
-
 /* a{
   margin-left:40px;
 } */
@@ -1503,8 +1437,6 @@ header {
   color: var(--hoverColor);
   transform: scale(1.05);
 }
-
-
 
 .hamburger-menu {
   position: relative;
@@ -1528,20 +1460,13 @@ header {
   overflow-x: unset;
 }
 
-
-
-
-
-
-
-
 /* Scrollbar */
 ::-webkit-scrollbar {
   width: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(transparent, #FF531A, #ff5500 );
+  background: linear-gradient(transparent, #ff531a, #ff5500);
   border-radius: 6px;
 }
 
@@ -1557,7 +1482,6 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
-  ;
 }
 
 .nav {
@@ -1605,17 +1529,17 @@ header .nav h2 a {
   margin-left: 0;
   margin-right: 0;
   font-weight: normal;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.btn-sign-in{
+.btn-sign-in {
   background-color: #fff;
   border-radius: 50px 50px 50px 50px;
 }
 
 header .nav h2 a:hover {
   transition: all 0.4s ease-in-out;
- 
 }
 
 .nav {
@@ -1631,12 +1555,12 @@ header .nav h2 a:hover {
   font-size: 25px;
   margin-left: 0.5%;
 }
-.logo>img{
+.logo > img {
   margin-right: 2.6px;
 }
 img {
   width: 20%;
-  margin: 4px 6px
+  margin: 4px 6px;
 }
 
 a {
@@ -1655,13 +1579,13 @@ header .logo h3 {
   color: black;
   font-family: cursive;
 }
-header .nav .btn-sign-in{
+header .nav .btn-sign-in {
   background-color: #192e3a;
   color: white;
 }
-header .nav .btn-sign-in:hover{
- background-color: white;
- color: black;
+header .nav .btn-sign-in:hover {
+  background-color: white;
+  color: black;
 }
 header .nav h2 a {
   text-transform: none;
@@ -1670,9 +1594,8 @@ header .nav h2 a {
   margin-right: 0;
   font-weight: normal;
   font-family: cursive;
-
 }
-.header-wrapper a{
+.header-wrapper a {
   margin-top: 12px;
 }
 header .nav h2 a:hover {
