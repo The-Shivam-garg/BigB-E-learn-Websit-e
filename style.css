@@ -707,7 +707,7 @@ header .nav h2 a:hover {
     }
 
     .header-wrapper {
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
 
     .dropdown-menu {
