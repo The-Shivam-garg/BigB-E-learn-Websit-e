@@ -244,11 +244,13 @@ a {
   margin: 0 auto;
   padding: 0 3rem;
   z-index: 10;
+  
 }
 
 header {
-  position: relative;
+  position: absolute;
   z-index: 70;
+  
 }
 
 header .container {
@@ -398,7 +400,8 @@ header .container {
 }
 
 .toggle-btn {
-  display: inline-block;
+  z-index: 80;
+  /* display: inline-block; */
   border: none;
   background: var(--darkTwo);
   color: var(--backgroundColor);
@@ -409,6 +412,9 @@ header .container {
   border-radius: 50%;
   font-size: 1.1rem;
   transition: 0.3s;
+  position: absolute;
+  top: 1rem;
+  right: 4rem;
 }
 
 .toggle-btn i {
@@ -464,7 +470,8 @@ header .container {
 @media screen and (max-width: 870px) {
   .hamburger-menu {
     display: flex;
-  }
+}
+
 
   .links {
     position: fixed;
@@ -1219,10 +1226,17 @@ footer .row{
   }
 }
 
+@media (max-width: 992px){
+  .toggle-btn{
+    right: 10rem;
+  }
+}
+
 @media (max-width: 950px){
   .category .box{
     width: 28%;
   }
+
 }
 
 @media (max-width: 768px) {
@@ -1289,5 +1303,9 @@ footer .row{
   .category .box{
     width: 67%;
   }
+}
+
+.intro{
+  margin-top:  4rem;
 }
 /*# sourceMappingURL=style.css.map */
