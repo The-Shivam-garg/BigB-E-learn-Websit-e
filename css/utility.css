@@ -58,7 +58,11 @@ button {
 }
 
 .text {
-    color: var(--lightBlack);
+    color: #708090;
+    margin-top: 36px;
+    padding-left: 18px;
+    font-size: 18px;
+    border-left: 13px solid skyblue;
     /* padding: 0.6rem 0; */
 }
 

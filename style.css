@@ -280,12 +280,15 @@ header {
     border-radius: 20px;
     text-transform: capitalize;
     transition: 0.3s;
-    background-color: #fff;
+    background-color: skyblue;
+    
+  
 }
 
 .btn:hover {
     background-color: var(--hoverColor);
     transform: scale(1) !important;
+    
 }
 
 .hamburger-menu {
@@ -352,21 +355,25 @@ header {
     font-size: 1.4rem;
     color: var(--darkOne);
     text-transform: capitalize;
-    line-height: 1.4;
+    line-height: 1;
 }
 
 .text {
-    color: var(--lightOne);
+    
     font-size:1.1rem;
     margin: 5px;
     max-width: 600px;
-    line-height: 2.3;
+    line-height: 2.1;
     margin-left: 0;
+
 }
 
 .showcase-area .btn {
     box-shadow: 0 0 40px 2px rgba(0, 0, 0, 0.05);
-    padding: 10px;
+    padding: 14px;
+    border:1px solid black;
+    font-size:17px;
+  
 }
 
 .person {
