@@ -600,7 +600,10 @@ body {
     flex-direction: row;
     height: 100%;
 }
-
+.nav a{
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+}
 .logo {
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -646,8 +649,7 @@ header .nav h2 a {
     margin-left: 0;
     margin-right: 0;
     font-weight: normal;
-    font-family: cursive;
-  
+main
 }
 .header-wrapper a{
     margin-top: 12px;
@@ -657,15 +659,6 @@ header .nav h2 a:hover {
     background-color: #192e3a;
     border-radius: 50px;
 }
-
-/* Footer social links */
-
-.social-links a:hover {
-    color: #64bcf4;
-}
-
-/* Footer social links */
-
 
 @media screen and (min-width: 992px) {
     .d-lg {
@@ -704,7 +697,7 @@ header .nav h2 a:hover {
     }
 
     .header-wrapper {
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
 
     .dropdown-menu {
@@ -749,25 +742,20 @@ header .nav h2 a:hover {
         border-radius: 15px;
     }
 }
-/*footer*/
+/* ********* Footer starts ********** */
 footer {
     background: black;
     color: #fff;
     padding: 4rem 0;
 }
 
-.row {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+.footer-container {
+    display:flex;
+    justify-content:space-between;
+    padding:0 40px;
 }
-
-footer .row>div {
-    /* border: 2px solid red; */
-    padding: 0 1rem;
-}
-
-.bigb {
-    margin-left: 85px;
+.bigb{
+    flex:1;
 }
 
 .bigb>.text {
@@ -786,6 +774,7 @@ footer .row>div {
     justify-content: flex-start;
     font-size: 0.9rem;
     line-height: 2;
+    flex:1;
 }
 
 .details>h3 {
@@ -797,6 +786,7 @@ footer .row>div {
 .footer-links {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .footer-links a {
@@ -818,7 +808,7 @@ footer .row>div {
 .footer-social-links li {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:center;
     border: 2px solid #fff;
     width: 40px;
     height: 40px;
@@ -851,61 +841,77 @@ footer .row>div {
 .footer-text span {
     color: cyan;
 }
-
-.footer-contact-info i {
-    margin-right: 1rem;
+.footer-contact-info> div{
+    margin-top:8px;
 }
 
-.map i {
+.i{
+    vertical-align:middle;
+    margin-right:5px;
+    width:22px;
+    height:22px;
+}
+
+.map .i {
     color: #FF0000;
 }
 
-.phone i {
+.phone .i {
     color: #5CDD5B;
 }
 
-.email i {
+.email .i {
     color: #04A9FF;
 }
 
-.mail i {
+.mail .i {
     color: #FFFF00;
 }
 
-@media (max-width: 600px) {
-    .row {
-        display: block;
-        /* grid-template-columns: repeat(4, 1fr); */
+@media (max-width: 1100px) {
+    .bigb>.text {
+        font-size: 0.65rem;
     }
-
-    .bigb {
-        display: flex;
-        flex-direction: column;
-        /* align-items: center; */
-        justify-content: center;
-        /* margin-left: 100px; */
+    .footer-container{
+        flex-wrap: wrap
     }
-
-    .details {
-        margin: 2rem 0;
-        /* align-items: center; */
-    }
-
-    .footer-contact-info {
-        display: flex;
-        flex-direction: column;
-        text-align: justify;
-        margin-left: 80px;
-        justify-content: center;
-    }
-
-    .footer-text {
-        margin-left: 80px;
-        text-align: center;
-    }
-
-    /* .footer-links{
-        margin-right: 70px;
-    } */
-
+   .details{
+    font-size: 0.65rem;
+   }
+   
 }
+@media (max-width:845px) {
+   .bigb{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        width:100%;
+        flex: none;
+        text-align:center;
+    }
+    .details{
+           flex: none;
+    }
+    .footer-links a {
+        line-height: 0.3;
+    }
+}
+ @media (max-width: 600px) {
+    .details{
+        align-items: center;
+ }
+ .details:last-child{
+    width: 100%;
+ }
+
+ }
+ @media (max-width:360px) {
+ 
+   .details{
+    width: 100%;
+  }
+
+ }
+
+/* ********** Footer ends ********** */
