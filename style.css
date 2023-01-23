@@ -759,9 +759,13 @@ footer {
 }
 
 .bigb>.text {
-    font-size: 0.9rem;
-}
+    font-size: 1.1rem;
+    padding-top: 1.5rem;
 
+}
+.bigb p:hover{
+    color: #189c18;
+}
 .bigb>img {
     width: 60px;
     height: auto;
@@ -786,7 +790,7 @@ footer {
 .footer-links {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
 }
 
 .footer-links a {
