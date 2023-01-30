@@ -1,3 +1,5 @@
+
+
 /* Google Font Link */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 * {
@@ -8,7 +10,19 @@
 }
 html {
   scroll-behavior: smooth;
-}
+  }
+/*loginpage close btn styled*/
+.login-close-btn img{
+    z-index: 22;
+    position: absolute;
+    right:0;
+    width: 24px;
+    cursor: pointer;
+    border-radius: 50%;
+   }
+
+
+
 .sidebar {
   position: fixed;
   left: 0;
