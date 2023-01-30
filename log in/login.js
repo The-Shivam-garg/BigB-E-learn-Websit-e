@@ -2,6 +2,13 @@ const LoginForm = document.querySelector("#login_form");
 const email = document.querySelector("#email");
 const password = document.querySelector("#password");
 const eye = document.getElementById("eye");
+const closeBtnLogin=document.querySelector(".login-close-btn")
+//added btn to close login-page
+closeBtnLogin.addEventListener("click",()=>{
+  window.location.href="../index.html"
+})
+
+
 
 var eyeView = false;
 eye.addEventListener("click", (e) => {
